@@ -16,6 +16,8 @@
 		C3DEA97B28E8498800D1D739 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEA97A28E8498800D1D739 /* ToDoListView.swift */; };
 		C3DEA97D28E8499000D1D739 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEA97C28E8499000D1D739 /* ChatView.swift */; };
 		C3DEA97F28E8499D00D1D739 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEA97E28E8499D00D1D739 /* InfoView.swift */; };
+		C3DEA98128E8541000D1D739 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEA98028E8541000D1D739 /* AboutView.swift */; };
+		C3DEA98328E8542C00D1D739 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEA98228E8542C00D1D739 /* LanguageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		C3DEA97A28E8498800D1D739 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		C3DEA97C28E8499000D1D739 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		C3DEA97E28E8499D00D1D739 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		C3DEA98028E8541000D1D739 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		C3DEA98228E8542C00D1D739 /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				C3DEA97A28E8498800D1D739 /* ToDoListView.swift */,
 				C3DEA97C28E8499000D1D739 /* ChatView.swift */,
 				C3DEA97E28E8499D00D1D739 /* InfoView.swift */,
+				C3DEA98228E8542C00D1D739 /* LanguageView.swift */,
+				C3DEA98028E8541000D1D739 /* AboutView.swift */,
 			);
 			path = "Smart Migration";
 			sourceTree = "<group>";
@@ -152,6 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DEA98128E8541000D1D739 /* AboutView.swift in Sources */,
+				C3DEA98328E8542C00D1D739 /* LanguageView.swift in Sources */,
 				C3DEA96B28E8488800D1D739 /* ContentView.swift in Sources */,
 				C3DEA97728E8497100D1D739 /* IssuesView.swift in Sources */,
 				C3DEA96928E8488800D1D739 /* Smart_MigrationApp.swift in Sources */,

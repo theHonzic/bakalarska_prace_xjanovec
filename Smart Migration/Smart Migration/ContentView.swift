@@ -8,38 +8,50 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var currentTab: Int = 0
     var body: some View {
-        TabView{
-            IssuesView()
+        TabView(selection: $currentTab){
+            NavigationView{
+                IssuesView()
+                    .navigationTitle("Issues")
+            }
                 .tabItem{
                         Label("Issues", systemImage: "graduationcap")
-                    }
+                }.tag(0)
             
-            ContactsView()
+            NavigationView{
+                ContactsView()
+                    .navigationTitle("Contacts")
+                
+            }
                 .tabItem{
                         Label("Contacts", systemImage: "person")
-                    }
+                }.tag(1)
             
-            ToDoListView()
+            NavigationView{
+                ToDoListView()
+                    .navigationTitle("To do list")
+            }
                 .tabItem{
                         Label("To-Do", systemImage: "checklist")
-                    }
+                }.tag(2)
             
-            ChatView()
+            NavigationView{
+                ChatView()
+                    .navigationTitle("Chat")
+            }
                 .tabItem{
                         Label("Chat", systemImage: "message")
-                    }
+                }.tag(3)
             
-            InfoView()
+            NavigationView{
+                InfoView()
+                    .navigationBarHidden(true)
+            }
                 .tabItem{
                         Label("Info", systemImage: "info.circle")
-                    }
+                }.tag(4)
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

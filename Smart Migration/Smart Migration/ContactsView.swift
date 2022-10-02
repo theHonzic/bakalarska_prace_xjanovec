@@ -9,7 +9,53 @@ import SwiftUI
 
 struct ContactsView: View {
     var body: some View {
-        Text("Contacts")
+        VStack{
+            List{
+                Text("Contact")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                
+                
+                
+            }
+            List{
+                Text("Contact")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                
+                
+                
+            }
+            List{
+                Text("Contact")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                
+                
+                
+            }
+        }
     }
 }
 
