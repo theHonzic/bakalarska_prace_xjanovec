@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C32F69A2290AC0EF000CA06A /* ContactListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F69A1290AC0EF000CA06A /* ContactListRow.swift */; };
+		C32F69A8290AC2CB000CA06A /* ContactModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F69A7290AC2CB000CA06A /* ContactModelExample.swift */; };
+		C32F69AA290AC876000CA06A /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F69A9290AC876000CA06A /* ContactDetailView.swift */; };
+		C3531EDA2912CEE600307CA9 /* ContactsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3531ED92912CEE600307CA9 /* ContactsListView.swift */; };
+		C3531EDC2912CF3900307CA9 /* ContactsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3531EDB2912CF3900307CA9 /* ContactsMapView.swift */; };
+		C3531EDE2912DCB900307CA9 /* MapSnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3531EDD2912DCB900307CA9 /* MapSnapshotView.swift */; };
 		C3DEA96928E8488800D1D739 /* Smart_MigrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEA96828E8488800D1D739 /* Smart_MigrationApp.swift */; };
 		C3DEA96B28E8488800D1D739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEA96A28E8488800D1D739 /* ContentView.swift */; };
 		C3DEA96D28E8488900D1D739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DEA96C28E8488900D1D739 /* Assets.xcassets */; };
@@ -21,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C32F69A1290AC0EF000CA06A /* ContactListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListRow.swift; sourceTree = "<group>"; };
+		C32F69A7290AC2CB000CA06A /* ContactModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModelExample.swift; sourceTree = "<group>"; };
+		C32F69A9290AC876000CA06A /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		C3531ED92912CEE600307CA9 /* ContactsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListView.swift; sourceTree = "<group>"; };
+		C3531EDB2912CF3900307CA9 /* ContactsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsMapView.swift; sourceTree = "<group>"; };
+		C3531EDD2912DCB900307CA9 /* MapSnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSnapshotView.swift; sourceTree = "<group>"; };
+		C3531EDF2912E15500307CA9 /* Smart-Migration-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Smart-Migration-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C3DEA96528E8488800D1D739 /* Smart Migration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Migration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DEA96828E8488800D1D739 /* Smart_MigrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_MigrationApp.swift; sourceTree = "<group>"; };
 		C3DEA96A28E8488800D1D739 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +59,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C32F69A0290AC0D9000CA06A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C32F69A1290AC0EF000CA06A /* ContactListRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C32F69A5290AC2A3000CA06A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C32F69A7290AC2CB000CA06A /* ContactModelExample.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C3DEA95C28E8488800D1D739 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +94,9 @@
 		C3DEA96728E8488800D1D739 /* Smart Migration */ = {
 			isa = PBXGroup;
 			children = (
+				C3531EDF2912E15500307CA9 /* Smart-Migration-Info.plist */,
+				C32F69A5290AC2A3000CA06A /* Model */,
+				C32F69A0290AC0D9000CA06A /* Components */,
 				C3DEA96828E8488800D1D739 /* Smart_MigrationApp.swift */,
 				C3DEA96A28E8488800D1D739 /* ContentView.swift */,
 				C3DEA96C28E8488900D1D739 /* Assets.xcassets */,
@@ -76,6 +108,10 @@
 				C3DEA97E28E8499D00D1D739 /* InfoView.swift */,
 				C3DEA98228E8542C00D1D739 /* LanguageView.swift */,
 				C3DEA98028E8541000D1D739 /* AboutView.swift */,
+				C32F69A9290AC876000CA06A /* ContactDetailView.swift */,
+				C3531ED92912CEE600307CA9 /* ContactsListView.swift */,
+				C3531EDB2912CF3900307CA9 /* ContactsMapView.swift */,
+				C3531EDD2912DCB900307CA9 /* MapSnapshotView.swift */,
 			);
 			path = "Smart Migration";
 			sourceTree = "<group>";
@@ -158,7 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32F69AA290AC876000CA06A /* ContactDetailView.swift in Sources */,
 				C3DEA98128E8541000D1D739 /* AboutView.swift in Sources */,
+				C32F69A8290AC2CB000CA06A /* ContactModelExample.swift in Sources */,
+				C3531EDA2912CEE600307CA9 /* ContactsListView.swift in Sources */,
+				C3531EDC2912CF3900307CA9 /* ContactsMapView.swift in Sources */,
 				C3DEA98328E8542C00D1D739 /* LanguageView.swift in Sources */,
 				C3DEA96B28E8488800D1D739 /* ContentView.swift in Sources */,
 				C3DEA97728E8497100D1D739 /* IssuesView.swift in Sources */,
@@ -167,6 +207,8 @@
 				C3DEA97D28E8499000D1D739 /* ChatView.swift in Sources */,
 				C3DEA97B28E8498800D1D739 /* ToDoListView.swift in Sources */,
 				C3DEA97F28E8499D00D1D739 /* InfoView.swift in Sources */,
+				C3531EDE2912DCB900307CA9 /* MapSnapshotView.swift in Sources */,
+				C32F69A2290AC0EF000CA06A /* ContactListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +340,7 @@
 				DEVELOPMENT_TEAM = F7XRTMXQP3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Migration-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -327,6 +370,7 @@
 				DEVELOPMENT_TEAM = F7XRTMXQP3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Migration-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

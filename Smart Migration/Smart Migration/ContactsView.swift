@@ -8,55 +8,16 @@
 import SwiftUI
 
 struct ContactsView: View {
+    @State var showingMap: Bool = false
     var body: some View {
-        VStack{
-            List{
-                Text("Contact")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                
-                
-                
-            }
-            List{
-                Text("Contact")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                
-                
-                
-            }
-            List{
-                Text("Contact")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                Text("")
-                
-                
-                
-            }
+        if showingMap{
+            ContactsMapView(showingMap: self.$showingMap)
+        } else {
+            ContactsListView(showingMap: self.$showingMap)
         }
+        
     }
+    
 }
 
 struct ContactsView_Previews: PreviewProvider {

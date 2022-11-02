@@ -7,50 +7,53 @@
 
 import SwiftUI
 
+enum TabTitle{
+    case Issues, Contacts, ToDo, Chat, Info
+}
+
 struct ContentView: View {
-    @State private var currentTab: Int = 0
+    @State private var currentTab: TabTitle = .Issues
+
     var body: some View {
-        TabView(selection: $currentTab){
-            NavigationView{
+        NavigationView{
+            TabView(selection: $currentTab){
                 IssuesView()
-                    .navigationTitle("Issues")
-            }
-                .tabItem{
+                    .tabItem{
                         Label("Issues", systemImage: "graduationcap")
-                }.tag(0)
-            
-            NavigationView{
-                ContactsView()
-                    .navigationTitle("Contacts")
+                    }.tag(TabTitle.Issues)
                 
-            }
-                .tabItem{
+                ContactsView()
+                    .tabItem{
                         Label("Contacts", systemImage: "person")
-                }.tag(1)
-            
-            NavigationView{
+                    }.tag(TabTitle.Contacts)
+                
                 ToDoListView()
-                    .navigationTitle("To do list")
-            }
-                .tabItem{
+                    .tabItem{
                         Label("To-Do", systemImage: "checklist")
-                }.tag(2)
-            
-            NavigationView{
+                    }.tag(TabTitle.ToDo)
+                
                 ChatView()
-                    .navigationTitle("Chat")
-            }
-                .tabItem{
+                    .tabItem{
                         Label("Chat", systemImage: "message")
-                }.tag(3)
-            
-            NavigationView{
+                    }.tag(TabTitle.Chat)
+                
                 InfoView()
-                    .navigationBarHidden(true)
-            }
-                .tabItem{
+                    .tabItem{
                         Label("Info", systemImage: "info.circle")
-                }.tag(4)
+                    }.tag(TabTitle.Info)
+            }
+            .navigationBarTitle(returnNavBarTitle(tabSelection: self.currentTab))
+            
+        }
+    }
+    
+    func returnNavBarTitle(tabSelection: TabTitle) -> String{
+        switch tabSelection{
+        case .Issues: return "Issues"
+        case .Contacts: return "Contacts"
+        case .ToDo: return "To-Do List"
+        case .Chat: return "Chat"
+        case .Info: return "Info"
         }
     }
 }
