@@ -1,0 +1,279 @@
+%
+\usemodule[ctx-thesis-v0.971]
+\usemodule[bib.sty-v2.73]
+
+\setupthesis[cs,mendelu,pef,none][ % jazyk,univerzita,fakulta,ústav/katedra/pracoviště ; language,university,faculty,department
+  type={bp},                 % bp,dp,pp,zp,sp,pr,pt aj./etc.
+  authorname={Jan},	     % jméno
+  authorsurname={Janovec},        % příjmení
+  authordegree={},	     % titul před jménem
+  authorgender={M},          % pohlaví (holky mají F)
+  supervisor={Ing. David Procházka, Ph.D.},        % vedoucí práce
+  title={Mobilní aplikace pro pomoc imigrantům},                           % název práce
+  titleen={This is in English}, 	           % název práce anglicky
+  keywords={swift, ios, swiftui, vývoj mobilních aplikací, mobilní aplikace},    %
+  keywordsen={swift, ios, swiftui, mobile app development, mobile app}, %
+  acknowledgement={Děkuji},	           % poděkování
+  abstract={},		                           % český abstrakt
+  abstracten={},		                   % anglický abstrakt
+  location={Brno,Brně},	   % místo vydání (za čárkou 6. pád) ; location (second parameter is not necessary for English)
+%  year={2021},		   % rok odevzdání práce (automaticky aktuální rok) ; year, the default is the current year
+%  thesisassignmentform={img/file001.png,img/file002.png},  % seznam souborů se skenem zadání práce; file is thesis assignment
+]
+
+\startthesis
+\startbodymatter
+%Úvod
+\kap{Úvod}
+%Úvod do problematiky
+\pkap{Úvod do problematiky}
+Migrace je v lidské historii hluboce zakořeněná, už od dávných let lidé této planety migrovaly, ať už kvůli nevhodnému podnebí, jídlu anebo nebezpečí styku se znepřáteleným kmenem. V dnešní době je migrace ve společnosti velice důležité téma. Lidé prchají před environmentálními změnami, hladem nebo válkou. Pro migranty může být často složité přizpůsobit se novému státu, kvůli jazyku, společenským standardům nebo náboženství. Na toto je často pohlíženo z mnoha úhlů, spousta lidí vidí v imigraci pouze negativní dopady, jsou tu však i pozitivní dopady, jako dopad na ekonomiku. Migranti často přichází z mnohem chudších států, a tak jsou ochotni pracovat za nižší mzdy.
+
+\par
+
+Mnoho států, stejně jako Česká republika, mají řadu zákonů a vyhlášek, ve kterých není jednoduché se zorientovat. Podmínky je nutno dodržet do posledního bodu a právě to může být pro nově příchozí často problém. Kvůli tomuto také vznikl projekt Smart Migration, který si dává za cíl pomoci migrantům s integrací do našeho státu a případnou úpravu legislativy. Pro zmíněný projektem již byla vytvořena aplikace pro tvorbu Android, které se zatím těší více než padesáti tisícům stažení a bezpochyby již pomohla velkému počtu cizinců. Mně byla nabídnuta práce na aplikaci Smart Migration na platformu iOS, která pomůže dalším lidem se začleněním do našeho státu.
+
+\par
+
+Tato práce se bude zabývat aktuálními trendy vývoje pro operační systém firmy Apple, tedy iOS a vývojem aplikace Smart Migration.
+%Konec Úvod do problematiky
+
+\TODO{Názvy jako technologie, nebo smart migration předělat na kurzívu}
+
+%Cíl práce
+\pagebreak
+\pkap{Cíl práce}
+
+Cílem této práce je návrh řešení a následná implementace aplikace na podporu migrantů pro platformu iOS, která bude kopírovat funkcionality aplikace pro Android. Aplikace bude pokrývat tyto funkce a požadavky:
+\startitemize
+\item Aplikace bude stahovat ze serveru seznamy témat a kontaktních míst
+\item Seznamy kontaktních míst a témat budou ukládány do databáze, díky čemuž budou dostupné i offline
+\item Dojde-li k aktualizace dat na serveru, aplikace uložené data nahradí daty novými
+\item Aplikace bude podporovat 3 jazyky, tj. angličtina, ruština, ukrajinština
+\item Aplikace bude podporovat tmavý mód
+\item V aplikaci bude seznam úkolů, kam si uživatel může přidat vlastní úkoly nebo je importovat z řešených témat
+\item Aplikace bude obsahovat chatbota
+\stopitemize
+
+Dále bude práce obsahovat literární rešerši, která bude pokrývat aktuální trendy vývoje na iOS a průzkum aplikací, které pomáhají migrantům.
+
+\TODO{rozepsat}
+
+
+%Konec Cíl práce
+%Konec Úvod
+
+
+
+
+
+
+\kap{Literární rešerše}
+
+\pkap{Porovnání technologií pro vývoj iOS}
+
+V této podkapitole se podíváme na srovnání technologií využívaných ve vývoji iOS aplikací. Dále na konkrétní technologie, které budou vhodné pro implementace tohoto projektu, např. technologie pro práci s HTTP požadavky přes REST API, práci s mapou, persistenci dat nebo chatbota.
+
+
+\pkapx{Xcode a Swift}
+
+Xcode je bezplatné vývoje prostředí vyvinuté společností Apple, které podporuje sady nástrojů pro vývoj aplikací a her pro platformy iOS, MacOS, TvOS, iPadOS nebo WatchOS. Xcode dokáže přeložit kód napsaný ve více programovacích jazycích, např. Objective-C, C, C++ nebo Swift. Vývoj mobilních aplikací pro iOS nativním způsobem je dosahováno právě pomocí IDE Xcode a jazyku Swift, jejichž kombinací vzniká velice výkonný nástroj. Live preview je jednou z oblíbených funkcí, kdy vývojář může vidět živé změny v kódu na virtuálním zařízení, který Xcode podporuje.
+
+\par
+
+Swift je relativně mladým programovacím jazykem, který byl představen v roce 2014 jako nástupce Objective-C, který byl vyvinut v 80. letech 20. století. Díky tomu, že jazyk vznikl později, může využít ponaučení z chyb, které byly nedostatkem jeho předchůdců. Swift se těší veliké popularitě díky jednodušší syntaxi a přímočarosti jazyka.
+
+\pkapx{Frameworky pro tvorbu uživatelského prostředí}
+
+\ppkapx{UIKit}
+
+\ppkapx{SnapKit}
+
+\ppkapx{SwiftUI}
+
+\ppkapx{Srovnání UIkit a SwiftUI}
+
+
+\pkapx{Síťová komunikace}
+
+\pkapx{Persistence dat}
+
+\ppkapx{CoreData}
+
+\ppkapx{Realm}
+
+\ppkapx{Firebase}
+
+
+\pkapx{Práce s mapou}
+
+\ppkapx{MapKit}
+
+\ppkapx{ArcGIS}
+
+\ppkapx{Google Maps SDK}
+
+\ppkapx{MapBox}
+
+\pkapx{Testování}
+
+\ppkapx{Unit testy}
+
+
+\ppkapx{UI testy}
+
+
+\pkapx{Chatbot}
+
+
+\pkap{Aplikace pro podporu migrantů}
+
+Před vývojem jakékoli aplikace je důležité prozkoumat trh se zástupci podobných aplikací. Průzkum se provádí především z důvodu vyvarování chyb, které udělali předchozí vývojáři. Vybral jsem si celkem sedm aplikací z celého světa, mezi nimi i jednu českou a právě průzkumu trhu s aplikacemi pro podporu imigrantů se bude věnovat tato podkapitola.
+
+\TODO{check the number}
+
+\pkapx{Praguer}
+
+
+Aplikace Praguer je aplikace vyvinutá Integračním centrem Prahy,  která pomáhá cizincům v Praze. V aplikaci nalezneme důležité informace o životě v Praze, rozdělené do různých kategorií, jako je např.: sociální zabezpečení, pobyt, vzdělávání, zdravotnictví anebo informace o tom, jak si najít ve městě práci. K těmto tématům jsou navázány kontakty a jiné důležité informace, které mohou pomoct cizincům se zorientovat po Praze.
+\par
+V aplikaci je možné se pohybovat pomocí seznamu kategorií nebo po mapě, kde jsou označená kontaktní místa. Místa je možno filtrovat podle zmíněných kategorií. Aplikace je dostupná nejen v angličtině, ale podporuje rovnou 7 světových jazyků, mezi ně patří: čeština, angličtina, ruština, vietnamština, ukrajinština, čínština, arabština nebo angličtina. Aplikace má pro mě veliký nedostatek a to, že neukládá data přímo v zařízení, ale při každém spuštění aplikace si je musí stáhnout z online databáze.
+
+\obrazek{praguer}{Mobilní aplikace Praguer pro iOS}{img/praguer.png}{width=32cc}
+
+
+
+
+
+
+
+
+\pkapx{Findhello}
+
+Aplikace FindHello cílí na nové, nebo budoucí rezidenty Spojených států Amerických. Obsah aplikace se nijak neliší od Praguer, jediným rozdílem je skupina cílových uživatelů. Findhello umožňuje uživateli vyhledávat místa, kde mu mohou pomoci vyřešit problém se zabydlením v USA. Aplikace nenabízí pouze čtení informací, uživatel může informovat o místě, které v aplikaci není a může tak pomoci lidem, kteří hledají pomoc v neprozkoumané oblasti. Navrhnutí vložení místa probíhá vyplněním jednoduchého formuláře, který jde poté ke zpracování a ověření pověřeným lidem.
+\par
+Hlavní část uživatelského prostředí zabírá mapa s vyznačenými místy. Místa je možné hledat pomocí vyhledání města, nebo pomocí kategorií, jako jsou např. práce, pohotovost, zdravotnictví, ?přesidlovací služby? nebo vzdělávání. Uživatelé si při hledání míst mohou vybrat, zda hledají pomoc online, nebo fyzicky. Aplikace je dostupná ve více světových jazycích, konkrétně v šesti. Aplikace bohužel nepodporuje offline interakce.
+
+
+\pkapx{RefAid}
+
+Aplikace RefAid se nezaměřuje pouze na jednu zemi, nebo region, ale pomáhá uprchlíkům po celé Evropě a USA. RefAid také obsahuje seznam problémových témat, s kterými se uprchlíci mohou potýkat a mapu, kde jsou místa vyznačena. Aplikace ukazuje pouze místa, která jsou vzdálená v okruhu 150 km od aktuální pozice. (Podle dat dostupných k 3. 12. 2022 to vypadá, že jedinou zemí ze střední Evropy, která se do projektu nezapojila je ČR a Slovensko) Ke všem místům jsou k dispozici i data o otevírací době a jiných detailech. Aplikace má ke kategoriím předešlých aplikací i kategorie jako: náboženství, útulky pro bezdomovce, nepotravinová pomoc nebo hygiena.
+\par
+Nevýhodou aplikace je nutná registrace, proces je však velice rychlý. Uživatel může opět přispět místem, o kterém provozovatelé aplikace zatím nevědí, pomocí jednoduchého formuláře. Aplikace funguje i v režimu offline, což je obrovskou výhodou oproti předešlým aplikacím. Funkcionalita offline verze je však omezená, přesto poslouží svým účelům.
+
+\pkapx{Ankommen}
+
+Aplikace je, jak již název napovídá, určena pro imigranty v Německu. Aplikace provede uživatele, krok za krokem imigračními procesy, kurzy němčiny nebo procesem hledání práce. Uživatel se může také naučit o historii Německa a jeho kultuře, což urychlí proces integrace mezi místní občany. Použitelnost aplikace se díky bezplatným kurzům němčiny může rozrůst i do jiných německy mluvících zemí, jako je např. Rakousko nebo Švýcarsko.
+\par
+Navigace po spuštění aplikace je velice nepřehledná. Po prvním spuštění se zdá, že se aplikace načítá velice dlouho, děje se však to, že obrazovka čeká na dotek. I hlavní menu aplikace je poměrně nepřehledné. Menu je složeno ze tří obrázků, který vede k jiné sekci. Aplikace také bohužel nefunguje bez internetového připojení
+
+\pkapx{Welcome App (Welcome to Germany)}
+
+Tato aplikace je určená pro integraci lidí do Německa. I tato aplikace obsahuje seznam témat, která se nově příchozím budou hodit, jako např. nouze, poradenství, práce nebo azyl. Tato aplikace, stejně jako Ankommen obsahuje část, která se stará o výuku jazyka. Výuka je však oproti předchozí aplikaci omezená pouze na pár frází. Aplikace se odlišuje seznamem konkrétních měst, u kterých je krátký popis a seznam kontaktních míst. Welcome app také nabízí desítky videí, ve kterých je popsána historie a spousta dalších užitečných věcí o Německu. Ve videích se může uživatel dozvědět např. o alkoholu a drogách, práce, klima, oblečení, daně nebo životní prostředí.
+\par
+Welcome App mě zaujala špatným designem, aplikace vypadá velice staře a neprofesionálně. V aplikaci jsou zobrazeny na různých místech tlačítka s výchozím textem "Button", které však nic nedělá. Dalším nedostatkem, který jsem objevil je, že po stažení informací o městě a jejich zobrazení po restartování aplikace se aplikace nečekaně ukončí.
+
+\pkapx{Salaam}
+
+\TODO{Tady jsem našel toto: https://apps.apple.com/cz/app/salams-where-muslims-meet/id965359176, nejsem si však 100\% jistý jestli to je to, co myslíte. (Vypadá to jako arabský tinder :D) Dál jsem pod tím názvem našel online korán, nebo další muslimské sociální sítě.}
+
+
+
+
+
+
+\pkapx{Lawfully}
+
+Aplikace Lawfully umožňuje sledování imigračních i neimigračních víz živě. Aplikace umožňuje sledování jednoho či více víz a informuje o průběžných krocích a jejího stavu pomocí notifikací. Právě notifikace jsou důležitou součástí aplikace, které předešlé zmíněné aplikace nenabízí. Uživatel si mimo sledování víz může domluvit konzultaci s právníkem přímo v aplikaci, nebo komunikovat s komunitou přímo v aplikaci. Právní pomoc je k dispozici pomocí chatu, nebo videohovoru za sazbu 20-100 \$/h. V komunitě je možné vyhledávat již zodpovězené otázky pomocí kategorií, jako např. finance, zelená karta nebo studentská víza. Již zodpovězené dotazy mohou pomoci migrantům urychlit proces žádosti a schválení víz. Aplikace dále nabízí různé tipy k vyřizování víz anebo denní testy, které jsou vázány na historii a celkové fungování USA.
+\par
+Aplikace mě zaujala svým designem i funkcionalitami. Oproti předešlým aplikacím upozorňuje uživatele o stavu jejich požadavku a má zabudované videohovory.
+
+
+
+
+
+
+
+
+
+
+
+
+\TODO{Tabullka pro srovnání}
+
+
+
+
+
+
+
+
+
+
+\kap{Metodika}
+
+\pkap{Obsah a funkcionalita aplikace}
+
+Tady je text.
+
+\pkap{Architektura a použité nástroje}
+
+Tady je text.
+
+\kap{Výsledky}
+
+Tady je text, který obsahuje odkazy na obrázky~\in{}[o1] a \in{}[o2].
+
+\obrazek{o1}{Toto je první obrázek.}{img/pomocnyobrazek.jpg}{scale=500}
+
+\obrazek{o2}{Toto je druhý obrázek.}{img/pomocnyobrazek.jpg}{width=4cm}
+
+\kap{Diskuse}
+
+Tady je text.
+
+\kap{Závěr}
+
+Tady je text.
+
+%%%%%%%%%%%%%%%%%%%%%%%%% \def\refname{}
+
+\bbib
+Tady budou citace, nastuduj si styl bib.sty v příslušné verzi.
+\ebib
+
+\stopbodymatter
+
+%%%%%%%%%%%%%%%%%%%%%%%% Varianta, kdy seznamy jsou součástí práce a nejsou uvedeny v přílohách
+
+\setupsectionblock[backmatter][before={\setuplist[kap][before={}]}]
+
+\startbackmatter
+
+\THESIScompletelistof{tables}
+\THESIScompletelistof{figures}
+\THESIScompletelistof{abbreviations}
+\THESIScompletelistof{codes}
+
+\stopbackmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%% Varianta, kdy seznamy nejsou součástí práce, ale jsou zařazeny do příloh.
+%%%%%%%%%%%%%%%%%%%%%%%% Níže uvedeným čtyřem příkazům postačí odstranit znak procenta.
+%%%%%%%%%%%%%%%%%%%%%%%% Naopak před výše uvedené čtyři příkazy je potřeba znak procenta vložit.
+
+\startappendices
+
+\cast{Přílohy}
+%\THESIScompletelistof{tables}
+%\THESIScompletelistof{figures}
+%\THESIScompletelistof{abbreviations}
+%\THESIScompletelistof{codes}
+
+\stopappendices
+
+\stopthesis
+
+\endinput		
+
+%%%% TODO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Tady si můžeš psát poznámky, které se neobjeví ve výstupu.

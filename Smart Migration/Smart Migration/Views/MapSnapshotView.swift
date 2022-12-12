@@ -33,7 +33,7 @@ struct MapSnapshotView: View {
             } else {
                 ProgressView()
                     .progressViewStyle(CircularProgressViewStyle())
-                    .background(Color(UIColor.secondarySystemBackground))
+                    .frame(width: 300, height: 300)
             }
         }
         .onAppear {

@@ -13,7 +13,7 @@ struct InfoView: View {
         
         ZStack{
             VStack{
-                Image("SMLogoTransparent")
+                Image(Assets.Logos.smartMigrationTransparent)
                     .resizable()
                     .frame(width: 200, height: 200, alignment: .center)
                 

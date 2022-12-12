@@ -14,7 +14,7 @@ struct AboutView: View {
                 Text("The Smart Migration app is operated by the Ministry of Labour and Social Affairs. The app is intended for all foreign nationals living in the Czech Republic and provides them with an overview of the most important information for their life in the territory of the Czech Republic. It is oriented on the labour market, social security, and other services. The app is exclusively indicative and should only provide general guidance for foreign nationals in the Czech environment. The Ministry of Labour and Social Affairs waives any liability regarding the use of any details or information available in this app.")
                     .padding()
                 
-                Image("MPSVLogoTransparent")
+                Image(Assets.Logos.MPSVTransparent)
                     .resizable()
                     .frame(width: 120, height: 120)
                 
@@ -23,11 +23,11 @@ struct AboutView: View {
                 
                 HStack{
                     Spacer()
-                    Image("TACRLogoTransparent")
+                    Image(Assets.Logos.TACRTransparent)
                         .resizable()
                         .frame(width: 120, height: 120)
                     Spacer()
-                    Image("MendeluLogoTransparent")
+                    Image(Assets.Logos.mendeluTransparent)
                         .resizable()
                         .frame(width: 120, height: 120)
                     Spacer()

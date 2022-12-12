@@ -17,12 +17,12 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             TabView(selection: $currentTab){
-                IssuesView()
+                IssuesListView()
                     .tabItem{
                         Label("Issues", systemImage: "graduationcap")
                     }.tag(TabTitle.Issues)
                 
-                ContactsView()
+                ContactsTabView(currentTab: self.$currentTab)
                     .tabItem{
                         Label("Contacts", systemImage: "person")
                     }.tag(TabTitle.Contacts)
@@ -32,7 +32,7 @@ struct ContentView: View {
                         Label("To-Do", systemImage: "checklist")
                     }.tag(TabTitle.ToDo)
                 
-                ChatView()
+                ChatBotView()
                     .tabItem{
                         Label("Chat", systemImage: "message")
                     }.tag(TabTitle.Chat)
