@@ -1,0 +1,6 @@
+\SYNBOL{}\SYN[Identifier]{custom_rules}\SYN[Special]{:}\SYNEOL{}
+\SYNBOL{}   \SYN[Identifier]{comments_space}\SYN[Special]{:}\SYNEOL{}
+\SYNBOL{}      \SYN[Identifier]{name}\SYN[Special]{:} \SYN[String]{"}\SYN[String]{Space After Comment}\SYN[String]{"}\SYNEOL{}
+\SYNBOL{}      \SYN[Identifier]{regex}\SYN[Special]{:} \SYN[String]{"}\SYN[String]{(^ *//\\w+)}\SYN[String]{"}\SYNEOL{}
+\SYNBOL{}      \SYN[Identifier]{message}\SYN[Special]{:} \SYN[String]{"}\SYN[String]{There should be a space after //}\SYN[String]{"}\SYNEOL{}
+\SYNBOL{}      \SYN[Identifier]{severity}\SYN[Special]{:} \SYN[yamlPlainScalar]{error}\SYNEOL{}

@@ -1,0 +1,9 @@
+\SYNBOL{}\SYN[Define]{protocol} \SYN[Function]{Endpoint} \{\SYNEOL{}
+\SYNBOL{}    \SYN[Define]{var} \SYN[Identifier]{path}\SYN[Delimiter]{:} \SYN[Type]{String} \{ \SYN[Operator]{get} \}\SYNEOL{}
+\SYNBOL{}    \SYN[Define]{var} \SYN[Identifier]{method}\SYN[Delimiter]{:} \SYN[Type]{HTTPMethod} \{ \SYN[Operator]{get} \}\SYNEOL{}
+\SYNBOL{}    \SYN[Define]{var} \SYN[Identifier]{urlParameters}\SYN[Delimiter]{:} \SYN[Delimiter]{[}\SYN[Type]{String}\SYN[Delimiter]{:}\SYN[Type]{ Any}\SYN[Delimiter]{]}? \{ \SYN[Operator]{get} \}\SYNEOL{}
+\SYNBOL{}    \SYN[Define]{var} \SYN[Identifier]{headers}\SYN[Delimiter]{:} \SYN[Delimiter]{[}\SYN[Type]{String}\SYN[Delimiter]{:}\SYN[Type]{ String}\SYN[Delimiter]{]}? \{ \SYN[Operator]{get} \}\SYNEOL{}
+\SYNBOL{}    \SYN[Define]{var} \SYN[Identifier]{postBodyParameters}\SYN[Delimiter]{:} \SYN[Type]{Data?} \{ \SYN[Operator]{get} \}\SYNEOL{}
+\SYNBOL{}\SYNEOL{}
+\SYNBOL{}    \SYN[Define]{func} \SYN[Function]{asRequest}\SYN[swiftParenthesisRegion]{(chatting}\SYN[Delimiter]{:}\SYN[swiftParenthesisRegion]{ }\SYN[Type]{Bool}\SYN[swiftParenthesisRegion]{)} \SYN[Operator]{throws} \SYN[Delimiter]{->} \SYN[Type]{URLRequest}\SYNEOL{}
+\SYNBOL{}\}\SYNEOL{}

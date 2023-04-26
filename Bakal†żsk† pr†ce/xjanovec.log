@@ -1,6 +1,6 @@
 open source     > level 1, order 1, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
 system          > 
-system          > ConTeXt  ver: 2021.03.05 19:11 MKIV  fmt: 2022.12.5  int: english/english
+system          > ConTeXt  ver: 2021.03.05 19:11 MKIV  fmt: 2023.4.24  int: english/english
 system          > 
 system          > 'cont-new.mkiv' loaded
 open source     > level 2, order 2, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-new.mkiv'
@@ -28,7 +28,29 @@ modules         > using user prefixed file 'bib.sty-v2.73'
 modules         > 'bib.sty-v2.73' is loaded
 open source     > level 3, order 7, name 'bib.sty-v2.73.tex'
 close source    > level 3, order 7, name 'bib.sty-v2.73.tex'
-check           > missing or ungrouped '=' after ''' in line '22 (THESIS)'
+modules         > 'vim' is loaded
+open source     > level 3, order 8, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-vim.tex'
+loading         > Vim syntax highlighting (ver: 2022.02.17)
+modules         > 'filter' is loaded
+open source     > level 4, order 9, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-filter.mkiv'
+loading         > Filter (ver: 2021.10.15)
+modules         > 'module-catcodes' is loaded
+open source     > level 5, order 10, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-module-catcodes.mkiv'
+loading         > Module Catcodes (ver: 2018.04.16)
+close source    > level 5, order 10, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-module-catcodes.mkiv'
+close source    > level 4, order 10, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-filter.mkiv'
+modules         > 'syntax-highlight' is loaded
+open source     > level 4, order 11, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-highlight.mkiv'
+loading         > Code syntax highlighting (ver: 2021.12.13)
+modules         > 'syntax-groups' is loaded
+open source     > level 5, order 12, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-groups.mkiv'
+loading         > Syntax highlighting groups (ver: 2021.09.05)
+modules         > 'module-catcodes' is already loaded
+close source    > level 5, order 12, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-groups.mkiv'
+modules         > 'filter' is already loaded
+close source    > level 4, order 12, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-highlight.mkiv'
+close source    > level 3, order 12, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-vim.tex'
+check           > missing or ungrouped '=' after ''' in line '29 (THESIS)'
 backend         > profiles > error, format 'pdf/a-2a:2005' is not supported
 fonts           > bodyfont '12dd' is defined (can better be done global)
 fonts           > bodyfont '15.41pt' is defined (can better be done global)
@@ -36,10 +58,10 @@ fonts           > bodyfont '10.27pt' is defined (can better be done global)
 fonts           > bodyfont '12.84pt' is defined (can better be done global)
 structures      > begin of sectionblock 'frontpart'
 structures      > begin of sectionblock 'frontpart'
-open source     > level 3, order 8, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv'
+open source     > level 3, order 13, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv'
 loading         > ConTeXt Page Macros / Runtime Macros
 resolvers       > lua > loading file '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.lua' succeeded
-close source    > level 3, order 8, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv'
+close source    > level 3, order 13, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv'
 interface       > initialization > loading interface definitions from 'mult-def.lua'
 interface       > initialization > loading interface messages from 'mult-mes.lua'
 layout          > paperheight                  845.0468pt      29.7000cm
@@ -81,57 +103,141 @@ pages           > flushing realpage 2, userpage 2, subpage 2
 pages           > flushing realpage 3, userpage 3, subpage 3
 pages           > flushing realpage 4, userpage 4, subpage 4
 pages           > flushing realpage 5, userpage 5, subpage 5
-structure       > sectioning > title @ level 2 : 0.0 -> \headtext {obsah}
 pages           > flushing realpage 6, userpage 6, subpage 6
-structures      > end of sectionblock 'frontpart'
+structure       > sectioning > title @ level 2 : 0.0 -> \headtext {obsah}
 pages           > flushing realpage 7, userpage 7, subpage 7
+structures      > end of sectionblock 'frontpart'
+pages           > flushing realpage 8, userpage 8, subpage 8
 structures      > end of sectionblock 'frontpart'
 structures      > begin of sectionblock 'bodypart'
 structure       > sectioning > kap @ level 2 : 0.1 -> Úvod
 structure       > sectioning > pkap @ level 3 : 0.1.1 -> Úvod do problematiky
-pages           > flushing realpage 8, userpage 8, subpage 8
-structure       > sectioning > pkap @ level 3 : 0.1.2 -> Cíl práce
+
+Overfull \hbox (2.0027pt too wide) in paragraph at lines 383--384
+<5: libertinusserif-regular @ 12.84pt> pla-nety mi-gro-vali, ať už kvůli ne-vhod-nému pod-nebí, jídlu anebo ne-bez-pečí styku
+
+\hbox(8.95718+3.05417)x410.88332, glue set - 1.0, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> p
+.<5: libertinusserif-regular @ 12.84pt> l
+.<5: libertinusserif-regular @ 12.84pt> a
+.\discretionary (penalty 50) []
+.<5: libertinusserif-regular @ 12.84pt> n
+.etc.
+
 pages           > flushing realpage 9, userpage 9, subpage 9
-structure       > sectioning > kap @ level 2 : 0.2 -> Literární rešerše
-structure       > sectioning > pkap @ level 3 : 0.2.1 -> Porovnání technologií pro vývoj iOS
-structure       > sectioning > pkapx @ level 3 : 0.2.1 -> Xcode a Swift
-structure       > sectioning > pkapx @ level 3 : 0.2.1 -> Frameworky pro tvorbu uživatelského prostředí
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> UIKit
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> SnapKit
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> SwiftUI
+structure       > sectioning > pkap @ level 3 : 0.1.2 -> Cíl práce
+
+Overfull \hbox (1.3354pt too wide) in paragraph at lines 411--412
+<5: libertinusserif-regular @ 12.84pt> chat-bota. Sezná-míme se také s me-to-dami tes-to-vání apli-kace, které za-jistí správné
+
+\hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> c
+.<5: libertinusserif-regular @ 12.84pt> h
+.<5: libertinusserif-regular @ 12.84pt> a
+.<5: libertinusserif-regular @ 12.84pt> t
+.\discretionary (penalty 50) []
+.etc.
+
 pages           > flushing realpage 10, userpage 10, subpage 10
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> Srovnání UIkit a SwiftUI
-structure       > sectioning > pkapx @ level 3 : 0.2.1 -> Síťová komunikace
-structure       > sectioning > pkapx @ level 3 : 0.2.1 -> Persistence dat
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> CoreData
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> Realm
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> Firebase
-structure       > sectioning > pkapx @ level 3 : 0.2.1 -> Práce s mapou
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> MapKit
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> ArcGIS
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> Google Maps SDK
+structure       > sectioning > kap @ level 2 : 0.2 -> Literární rešerše
+structure       > sectioning > pkap @ level 3 : 0.2.1 -> Architektura aplikace
+structure       > sectioning > pkapx @ level 3 : 0.2.1 -> MVC
+floatblocks     > 1 saved
+structure       > sectioning > pkapx @ level 3 : 0.2.1 -> MVVM
 pages           > flushing realpage 11, userpage 11, subpage 11
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> MapBox
-structure       > sectioning > pkapx @ level 3 : 0.2.1 -> Testování
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> Unit testy
-structure       > sectioning > ppkapx @ level 4 : 0.2.1.0 -> UI testy
-structure       > sectioning > pkapx @ level 3 : 0.2.1 -> Chatbot
+floatblocks     > 1 moved
+floatblocks     > '1' moved
+floatblocks     > 2 saved
+structure       > sectioning > pkapx @ level 3 : 0.2.1 -> VIPER
+pages           > flushing realpage 12, userpage 12, subpage 12
+floatblocks     > 2 moved
+floatblocks     > '2' moved
+floatblocks     > 3 saved
 structure       > sectioning > pkap @ level 3 : 0.2.2 -> Aplikace pro podporu migrantů
 structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Praguer
-pages           > flushing realpage 12, userpage 12, subpage 12
-floatblocks     > '1' placed (top)
-structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Findhello
 pages           > flushing realpage 13, userpage 13, subpage 13
-structure       > sectioning > pkapx @ level 3 : 0.2.2 -> RefAid
-structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Ankommen
+floatblocks     > 3 moved
+floatblocks     > '3' moved
+floatblocks     > 4 saved
+structure       > sectioning > pkapx @ level 3 : 0.2.2 -> FindHello
 pages           > flushing realpage 14, userpage 14, subpage 14
-structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Welcome App (Welcome to Germany)
-structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Salaam
+floatblocks     > 4 moved
+floatblocks     > '4' moved
+floatblocks     > 5 saved
+structure       > sectioning > pkapx @ level 3 : 0.2.2 -> RefAid
+pages           > flushing realpage 15, userpage 15, subpage 15
+floatblocks     > 5 moved
+floatblocks     > '5' moved
+structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Ankommen
+pages           > flushing realpage 16, userpage 16, subpage 16
+structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Welcome app Germany
+structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Lawfully
+pages           > flushing realpage 17, userpage 17, subpage 17
+floatblocks     > '6' placed (top)
+floatblocks     > 6 saved
+floatblocks     > 6 moved
+pages           > flushing realpage 18, userpage 18, subpage 18
+pages           > flushing realpage 19, userpage 19, subpage 19
+structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Srovnání aplikací
+floatblocks     > '8' placed (here)
+structure       > sectioning > pkap @ level 3 : 0.2.3 -> Technologie pro vývoj iOS
+structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Xcode a Swift
+pages           > flushing realpage 20, userpage 20, subpage 20
+structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Frameworky pro tvorbu uživatelského prostředí
+pages           > flushing realpage 21, userpage 21, subpage 21
+open source     > level 3, order 14, name 'xjanovec-temp-SWIFT-0.vimout'
+close source    > level 3, order 14, name 'xjanovec-temp-SWIFT-0.vimout'
+floatblocks     > '9' placed (here)
+open source     > level 3, order 15, name 'xjanovec-temp-SWIFT-1.vimout'
+close source    > level 3, order 15, name 'xjanovec-temp-SWIFT-1.vimout'
+pages           > flushing realpage 22, userpage 22, subpage 22
+floatblocks     > '10' placed (here)
+structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Síťová komunikace
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Apple Foundation URL Loading System
+open source     > level 3, order 16, name 'xjanovec-temp-SWIFT-2.vimout'
+close source    > level 3, order 16, name 'xjanovec-temp-SWIFT-2.vimout'
+floatblocks     > 7 saved
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Alamofire
+fonts           > checking > char ✅ (U+02705) in font 'Libertinus Serif Regular' with id 5: missing
+pages           > flushing realpage 23, userpage 23, subpage 23
+floatblocks     > 7 moved
+floatblocks     > '11' moved
+setup           > error in line 636, namespace 'floatcaption', instance 'code', key 'inspirováno repozitářem Alamofire na GitHub.'
+open source     > level 3, order 17, name 'xjanovec-temp-SWIFT-3.vimout'
+close source    > level 3, order 17, name 'xjanovec-temp-SWIFT-3.vimout'
+floatblocks     > '12' placed (here)
+structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Perzistence dat
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> UserDefaults
+open source     > level 3, order 18, name '/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
+close source    > level 3, order 18, name '/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
+pages           > flushing realpage 24, userpage 24, subpage 24
+open source     > level 3, order 19, name 'xjanovec-temp-SWIFT-4.vimout'
+close source    > level 3, order 19, name 'xjanovec-temp-SWIFT-4.vimout'
+floatblocks     > '13' placed (here)
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Ukládání souborů na disk
 
-Overfull \hbox (8.04047pt too wide) in paragraph at lines 179--179
-[][]<5: libertinusserif-regular @ 12.84pt> Tady jsem na-šel toto: https://apps.ap-ple.com/cz/app/sa-lams--where--mus-lims-
+Overfull \hbox (5.89954pt too wide) in paragraph at lines 658--659
+[]<5: libertinusserif-regular @ 12.84pt> Ně-které tech-no-lo-gie ne-pod-po-rují uklá-dání sou-borů v růz-ných for-má-tech nebo
 
-\hbox(11.09851+4.31607)x384.40312, glue set - 1.0, direction TLT
+\hbox(8.95718+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x16.0408, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> N
+.<5: libertinusserif-regular @ 12.84pt> ě
+.\discretionary (penalty 50) []
+.etc.
+
+pages           > flushing realpage 25, userpage 25, subpage 25
+open source     > level 3, order 20, name 'xjanovec-temp-SWIFT-5.vimout'
+
+Overfull \hbox (0.38542pt too wide) in paragraph at lines 3--3
+[]<27: libertinusmono-regular @ 9.03764pt>         if let path = FileManager.default.urls(for: .documentDirectory,[]  
+
+\hbox(9.01442+3.5056)x410.08333, direction TLT
 .\localpar
 ..\localinterlinepenalty=0
 ..\localbrokenpenalty=0
@@ -139,45 +245,592 @@ Overfull \hbox (8.04047pt too wide) in paragraph at lines 179--179
 ..\localrightbox=null
 .\begindir TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
-.\hbox(11.09851+4.31607)x0.0, direction TLT
-.<5: libertinusserif-regular @ 12.84pt> T
+.<27: libertinusmono-regular @ 9.03764pt>  
+.<27: libertinusmono-regular @ 9.03764pt>  
 .etc.
 
-structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Lawfully
-pages           > flushing realpage 15, userpage 15, subpage 15
-pages           > flushing realpage 16, userpage 16, subpage 16
+close source    > level 3, order 20, name 'xjanovec-temp-SWIFT-5.vimout'
+floatblocks     > '14' placed (here)
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Core Data a CloudKit
+pages           > flushing realpage 26, userpage 26, subpage 26
+open source     > level 3, order 21, name 'xjanovec-temp-SWIFT-6.vimout'
+close source    > level 3, order 21, name 'xjanovec-temp-SWIFT-6.vimout'
+floatblocks     > '15' placed (here)
+open source     > level 3, order 22, name 'xjanovec-temp-SWIFT-7.vimout'
+close source    > level 3, order 22, name 'xjanovec-temp-SWIFT-7.vimout'
+floatblocks     > '16' placed (here)
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Realm
+pages           > flushing realpage 27, userpage 27, subpage 27
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Firestore
+structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Práce s mapou
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> MapKit
+pages           > flushing realpage 28, userpage 28, subpage 28
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> ArcGIS SDK
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Google Maps SDK
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Mapbox Maps SDK
+pages           > flushing realpage 29, userpage 29, subpage 29
+floatblocks     > '17' placed (top)
+structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Testování
+pages           > flushing realpage 30, userpage 30, subpage 30
+
+Overfull \hbox (7.48544pt too wide) in paragraph at lines 749--750
+<5: libertinusserif-regular @ 12.84pt> notku“ kódu. V ná-sle-du-jící ukázce si uká-žeme tes-to-vání me-tody up-per-ca-sedFirst(),
+
+\hbox(9.44482+3.00284)x410.88332, glue set - 1.0, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> n
+.<5: libertinusserif-regular @ 12.84pt> o
+.<5: libertinusserif-regular @ 12.84pt> t
+.<5: libertinusserif-regular @ 12.84pt> k
+.<5: libertinusserif-regular @ 12.84pt> u
+.etc.
+
+open source     > level 3, order 23, name 'xjanovec-temp-SWIFT-8.vimout'
+close source    > level 3, order 23, name 'xjanovec-temp-SWIFT-8.vimout'
+floatblocks     > '18' placed (here)
+open source     > level 3, order 24, name 'xjanovec-temp-SWIFT-9.vimout'
+close source    > level 3, order 24, name 'xjanovec-temp-SWIFT-9.vimout'
+floatblocks     > 8 saved
+structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Chatbot
+pages           > flushing realpage 31, userpage 31, subpage 31
+floatblocks     > 8 moved
+floatblocks     > '19' moved
+
+Overfull \hbox (3.10095pt too wide) in paragraph at lines 767--769
+[]<5: libertinusserif-regular @ 12.84pt> V ná-sle-du-jí-cím ci-tátu se na-chází, jed-no-ver-šová bá-seň o Pro-vozně--eko-no-mické
+
+\hbox(8.95718+2.86168)x410.88332, glue set - 1.0, direction TLT
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x16.0408, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> V
+.\glue(\spaceskip) 3.20816 plus 1.60246 minus 1.07045
+.<5: libertinusserif-regular @ 12.84pt> n
+.etc.
+
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Backend
+
+Overfull \hbox (16.19559pt too wide) in paragraph at lines 770--771
+<5: libertinusserif-regular @ 12.84pt> nout in-for-maci o for-mátu emai-lové ad-resy jako: „<some_text>@<some_text>.com“,
+
+\hbox(9.44482+2.97717)x410.88332, glue set - 1.0, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> n
+.<5: libertinusserif-regular @ 12.84pt> o
+.<5: libertinusserif-regular @ 12.84pt> u
+.<5: libertinusserif-regular @ 12.84pt> t
+.\glue(\spaceskip) 3.20816 plus 1.60408 minus 1.06938
+.etc.
+
+pages           > flushing realpage 32, userpage 32, subpage 32
+open source     > level 3, order 25, name 'xjanovec-temp-YAMLNUM-0.vimout'
+close source    > level 3, order 25, name 'xjanovec-temp-YAMLNUM-0.vimout'
+floatblocks     > '20' placed (here)
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Frontend
+
+Overfull \hbox (2.0027pt too wide) in paragraph at lines 774--775
+[]<5: libertinusserif-regular @ 12.84pt> Co se týče fron-tendu chat-bota, mu-síme zob-ra-zit ko-mu-ni-kaci ve vhodné formě.
+
+\hbox(8.95718+2.97717)x410.88332, glue set - 1.0, direction TLT
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x16.0408, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> C
+.<5: libertinusserif-regular @ 12.84pt> o
+.\glue(\spaceskip) 3.20816 plus 1.60408 minus 1.06938
+.etc.
+
+pages           > flushing realpage 33, userpage 33, subpage 33
+structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Ostatní nástroje
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> SDWebImageSwiftUI a SDWebImageSVGCoder
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> R.Swift
+open source     > level 3, order 26, name 'xjanovec-temp-SWIFT-10.vimout'
+close source    > level 3, order 26, name 'xjanovec-temp-SWIFT-10.vimout'
+pages           > flushing realpage 34, userpage 34, subpage 34
+floatblocks     > '21' placed (here)
+structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> SwiftLint
+open source     > level 3, order 27, name 'xjanovec-temp-YAMLNUM-1.vimout'
+close source    > level 3, order 27, name 'xjanovec-temp-YAMLNUM-1.vimout'
+floatblocks     > '22' placed (here)
+pages           > flushing realpage 35, userpage 35, subpage 35
 structure       > sectioning > kap @ level 2 : 0.3 -> Metodika
 structure       > sectioning > pkap @ level 3 : 0.3.1 -> Obsah a funkcionalita aplikace
 structure       > sectioning > pkap @ level 3 : 0.3.2 -> Architektura a použité nástroje
-pages           > flushing realpage 17, userpage 17, subpage 17
-structure       > sectioning > kap @ level 2 : 0.4 -> Výsledky
-floatblocks     > '2' placed (top)
-floatblocks     > '3' placed (top)
-pages           > flushing realpage 18, userpage 18, subpage 18
-structure       > sectioning > kap @ level 2 : 0.5 -> Diskuse
-pages           > flushing realpage 19, userpage 19, subpage 19
-structure       > sectioning > kap @ level 2 : 0.6 -> Závěr
-pages           > flushing realpage 20, userpage 20, subpage 20
-structure       > sectioning > BIBSTYchapter @ level 2 : 0.7 -> \refname 
+pages           > flushing realpage 36, userpage 36, subpage 36
+pages           > flushing realpage 37, userpage 37, subpage 37
+structure       > sectioning > kap @ level 2 : 0.4 -> Implementace
+structure       > sectioning > pkap @ level 3 : 0.4.1 -> Struktura aplikace
+floatblocks     > '23' placed (top)
+pages           > flushing realpage 38, userpage 38, subpage 38
+structure       > sectioning > pkap @ level 3 : 0.4.2 -> Architektura
+pages           > flushing realpage 39, userpage 39, subpage 39
+open source     > level 3, order 28, name 'xjanovec-temp-SWIFT-11.vimout'
+close source    > level 3, order 28, name 'xjanovec-temp-SWIFT-11.vimout'
+floatblocks     > '24' placed (here)
+structure       > sectioning > pkap @ level 3 : 0.4.3 -> Perzistence dat
+pages           > flushing realpage 40, userpage 40, subpage 40
+floatblocks     > '25' placed (top)
+floatblocks     > 9 saved
+structure       > sectioning > pkap @ level 3 : 0.4.4 -> Síťová komunikace
+open source     > level 3, order 29, name 'xjanovec-temp-SWIFT-12.vimout'
+close source    > level 3, order 29, name 'xjanovec-temp-SWIFT-12.vimout'
+floatblocks     > 10 saved
+pages           > flushing realpage 41, userpage 41, subpage 41
+floatblocks     > 9 moved
+floatblocks     > '26' moved
+floatblocks     > 10 moved
+floatblocks     > '27' moved
+open source     > level 3, order 30, name 'xjanovec-temp-SWIFT-13.vimout'
+close source    > level 3, order 30, name 'xjanovec-temp-SWIFT-13.vimout'
+floatblocks     > '28' placed (here)
+structure       > sectioning > pkap @ level 3 : 0.4.5 -> Backend
+pages           > flushing realpage 42, userpage 42, subpage 42
+
+Overfull \hbox (26.2906pt too wide) in paragraph at lines 906--906
+  []<5: libertinusserif-regular @ 12.84pt>  [] -- Zde apli-kace zís-kává tu-to-ri-ály. Chceme,
+
+\hbox(11.09851+4.31607)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 16.0408
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\glue -16.0408
+.\latelua0 <function reference 966>
+.\boundary=1
+.etc.
+
+
+Overfull \hbox (1.94281pt too wide) in paragraph at lines 906--906
+ <5: libertinusserif-regular @ 12.84pt> aby od-po-věď vra-cela plo-chou formu dat, proto spe-ci-fi-ku-jeme pa-ra-metr nested
+
+\hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 16.0408
+.<5: libertinusserif-regular @ 12.84pt> a
+.<5: libertinusserif-regular @ 12.84pt> b
+.<5: libertinusserif-regular @ 12.84pt> y
+.\glue(\spaceskip) 3.20816 plus 1.60408 minus 1.06938
+.etc.
+
+
+Overfull \hbox (0.90764pt too wide) in paragraph at lines 908--908
+ <5: libertinusserif-regular @ 12.84pt> spe-ci-fi-ku-jeme tělo po-ža-davku. Tento en-d-point po-u-ží-váme pro na-hlá-šení chyb
+
+\hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 16.0408
+.<5: libertinusserif-regular @ 12.84pt> s
+.<5: libertinusserif-regular @ 12.84pt> p
+.\kern0.08983 (font)
+.<5: libertinusserif-regular @ 12.84pt> e
+.etc.
+
+open source     > level 3, order 31, name 'xjanovec-temp-YAMLNUM-2.vimout'
+close source    > level 3, order 31, name 'xjanovec-temp-YAMLNUM-2.vimout'
+floatblocks     > 11 saved
+structure       > sectioning > pkap @ level 3 : 0.4.6 -> Lokalizace
+pages           > flushing realpage 43, userpage 43, subpage 43
+floatblocks     > 11 moved
+floatblocks     > '29' moved
+open source     > level 3, order 32, name 'xjanovec-temp-SWIFT-14.vimout'
+close source    > level 3, order 32, name 'xjanovec-temp-SWIFT-14.vimout'
+floatblocks     > '30' placed (here)
+structure       > sectioning > pkap @ level 3 : 0.4.7 -> Tutoriály
+structure       > sectioning > ppkap @ level 4 : 0.4.7.1 -> Seznam tutoriálů
+fonts           > checking > char і (U+00456) in font 'Libertinus Mono Regular' with id 27: missing
+pages           > flushing realpage 44, userpage 44, subpage 44
+floatblocks     > 12 saved
+structure       > sectioning > ppkap @ level 4 : 0.4.7.2 -> Detail tutoriálu
+open source     > level 3, order 33, name 'xjanovec-temp-SWIFT-15.vimout'
+close source    > level 3, order 33, name 'xjanovec-temp-SWIFT-15.vimout'
+floatblocks     > 13 saved
+pages           > flushing realpage 45, userpage 45, subpage 45
+floatblocks     > 12 moved
+floatblocks     > '31' moved
+floatblocks     > 13 moved
+floatblocks     > '32' moved
+pages           > flushing realpage 46, userpage 46, subpage 46
+floatblocks     > '33' placed (top)
+structure       > sectioning > pkap @ level 3 : 0.4.8 -> Kontakty
+structure       > sectioning > ppkap @ level 4 : 0.4.8.1 -> Seznam kontaktů
+pages           > flushing realpage 47, userpage 47, subpage 47
+floatblocks     > '34' placed (top)
+structure       > sectioning > ppkap @ level 4 : 0.4.8.2 -> Detail kontaktu
+pages           > flushing realpage 48, userpage 48, subpage 48
+floatblocks     > '35' placed (top)
+structure       > sectioning > pkap @ level 3 : 0.4.9 -> Úkolníček
+pages           > flushing realpage 49, userpage 49, subpage 49
+floatblocks     > '36' placed (top)
+structure       > sectioning > pkap @ level 3 : 0.4.10 -> Chatbot
+pages           > flushing realpage 50, userpage 50, subpage 50
+open source     > level 3, order 34, name 'xjanovec-temp-YAMLNUM-3.vimout'
+close source    > level 3, order 34, name 'xjanovec-temp-YAMLNUM-3.vimout'
+floatblocks     > '37' placed (here)
+floatblocks     > 14 saved
+floatblocks     > 14 moved
+pages           > flushing realpage 51, userpage 51, subpage 51
+pages           > flushing realpage 52, userpage 52, subpage 52
+structure       > sectioning > kap @ level 2 : 0.5 -> Testování
+
+Overfull \hbox (1.81877pt too wide) in paragraph at lines 973--974
+<5: libertinusserif-regular @ 12.84pt> nosti a také z hle-diska uži-va-tel-ské pří-vě-ti-vosti. Dále zhod-no-tíme vý-stup ve formě
+
+\hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> n
+.<5: libertinusserif-regular @ 12.84pt> o
+.<5: libertinusserif-regular @ 12.84pt> s
+.<5: libertinusserif-regular @ 12.84pt> t
+.<5: libertinusserif-regular @ 12.84pt> i
+.etc.
+
+structure       > sectioning > pkap @ level 3 : 0.5.1 -> Jednotkové testy a testy uživatelského rozhraní
+open source     > level 3, order 35, name 'xjanovec-temp-SWIFT-16.vimout'
+close source    > level 3, order 35, name 'xjanovec-temp-SWIFT-16.vimout'
+floatblocks     > '39' placed (here)
+pages           > flushing realpage 53, userpage 53, subpage 53
+floatblocks     > '40' placed (here)
+structure       > sectioning > pkap @ level 3 : 0.5.2 -> Uživatelské testy
+pages           > flushing realpage 54, userpage 54, subpage 54
+structure       > sectioning > pkapx @ level 3 : 0.5.2 -> Úkol č. 1
+structure       > sectioning > pkapx @ level 3 : 0.5.2 -> Úkol č. 2
+pages           > flushing realpage 55, userpage 55, subpage 55
+structure       > sectioning > pkapx @ level 3 : 0.5.2 -> Úkol č. 3
+structure       > sectioning > pkapx @ level 3 : 0.5.2 -> Úkol č. 4
+structure       > sectioning > pkapx @ level 3 : 0.5.2 -> Úkol č. 5
+pages           > flushing realpage 56, userpage 56, subpage 56
+structure       > sectioning > pkapx @ level 3 : 0.5.2 -> Úkol č. 6
+structure       > sectioning > pkapx @ level 3 : 0.5.2 -> Shrnutí výsledků
+pages           > flushing realpage 57, userpage 57, subpage 57
+pages           > flushing realpage 58, userpage 58, subpage 58
+structure       > sectioning > kap @ level 2 : 0.6 -> Diskuze
+pages           > flushing realpage 59, userpage 59, subpage 59
+structure       > sectioning > kap @ level 2 : 0.7 -> Závěr
+
+Overfull \hbox (163.89136pt too wide) in paragraph at lines 1112--1114
+<5: libertinusserif-regular @ 12.84pt> změny pro tento pro-jekt a za-hr-nul je v dis-kuzní části této práce.                                                                                                                       
+
+\hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> z
+.<5: libertinusserif-regular @ 12.84pt> m
+.<5: libertinusserif-regular @ 12.84pt> ě
+.<5: libertinusserif-regular @ 12.84pt> n
+.<5: libertinusserif-regular @ 12.84pt> y
+.etc.
+
+pages           > flushing realpage 60, userpage 60, subpage 60
+structure       > sectioning > BIBSTYchapter @ level 2 : 0.8 -> \refname 
+
+Overfull \hbox (35.4701pt too wide) in paragraph at lines 1132--1133
+ <18: libertinusserif-italic @ 12.84pt> Best Fits My Pro-ject?. <5: libertinusserif-regular @ 12.84pt> 2021 [cit. 2022-01-28]. Do-stupné na:  h t t p s : / / b e t t e r p r o g r a m m i n g 
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.<18: libertinusserif-italic @ 12.84pt> B
+.<18: libertinusserif-italic @ 12.84pt> e
+.<18: libertinusserif-italic @ 12.84pt> s
+.<18: libertinusserif-italic @ 12.84pt> t
+.etc.
+
+
+Overfull \hbox (11.64427pt too wide) in paragraph at lines 1141--1142
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation []. In <18: libertinusserif-italic @ 12.84pt> Mo-del--View--Con-t-roller. <5: libertinusserif-regular @ 12.84pt> 2018
+
+\hbox(9.03418+3.00284)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+
+Overfull \hbox (0.1195pt too wide) in paragraph at lines 1177--1178
+ []<20: libertinusserif-regular @ 12.84pt> K󰀴󰁆󰁌, M󰀼󰁯󰀶󰀻󰀴󰀸󰀾. <5: libertinusserif-regular @ 12.84pt> Ko-deco []. In <18: libertinusserif-italic @ 12.84pt> Get-ting Star-ted with the VIPER Ar-chi-tecture
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> K
+.<20: libertinusserif-regular @ 12.84pt> 󰀴
+.etc.
+
+
+Overfull \hbox (1.39955pt too wide) in paragraph at lines 1195--1196
+ []<20: libertinusserif-regular @ 12.84pt> W󰀼󰁯󰀳󰀼󰁯󰁂󰀸󰁯󰀷󰀼󰀴 󰀶󰁁󰁀󰁯󰁆󰁄󰀼󰁯󰀵󰁇󰁯󰁆󰁁󰁄󰁅. <5: libertinusserif-regular @ 12.84pt> Wi-ki-pe-dia []. In <18: libertinusserif-italic @ 12.84pt> Xcode. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2022-01-12].
+
+\hbox(9.03418+3.00284)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> W
+.\kern-0.25665 (font)
+.etc.
+
+
+Overfull \hbox (10.48079pt too wide) in paragraph at lines 1213--1214
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation []. In <18: libertinusserif-italic @ 12.84pt> UI-Kit. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-01-20].
+
+\hbox(9.03418+3.00284)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+pages           > flushing realpage 61, userpage 61, subpage 61
+
+Overfull \hbox (20.8624pt too wide) in paragraph at lines 1258--1259
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation []. In <18: libertinusserif-italic @ 12.84pt> SwiftUI. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-01-20].
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+
+Overfull \hbox (0.14944pt too wide) in paragraph at lines 1267--1268
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation []. In <18: libertinusserif-italic @ 12.84pt> URL Lo-a-ding Sys-tem. <5: libertinusserif-regular @ 12.84pt> 2023
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+
+Overfull \hbox (13.0857pt too wide) in paragraph at lines 1285--1286
+ <18: libertinusserif-italic @ 12.84pt> Per-si-s-tence in Swift. <5: libertinusserif-regular @ 12.84pt> 2021 [cit. 2023-01-28]. Do-stupné na:  h t t p s : / / i o s a p p t e m p l a t e s 
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.<18: libertinusserif-italic @ 12.84pt> P
+.<18: libertinusserif-italic @ 12.84pt> e
+.<18: libertinusserif-italic @ 12.84pt> r
+.\discretionary (penalty 50) []
+.etc.
+
+
+Overfull \hbox (33.47261pt too wide) in paragraph at lines 1294--1295
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation []. In <18: libertinusserif-italic @ 12.84pt> Core Data. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-01-28].
+
+\hbox(9.03418+3.00284)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+
+Overfull \hbox (1.29262pt too wide) in paragraph at lines 1303--1304
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation []. In <18: libertinusserif-italic @ 12.84pt> Cloud-Kit Quick Start. <5: libertinusserif-regular @ 12.84pt> 2017
+
+\hbox(9.03418+3.00284)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+
+Overfull \hbox (21.58102pt too wide) in paragraph at lines 1348--1349
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation []. In <18: libertinusserif-italic @ 12.84pt> Map-Kit. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-02-03].
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+pages           > flushing realpage 62, userpage 62, subpage 62
+
+Overfull \hbox (3.44423pt too wide) in paragraph at lines 1375--1376
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂C󰁁󰀷󰀴 E󰀷󰀼󰁯󰁆󰁁󰁯󰁄󰀼󰀴󰀾 T󰀸󰀴󰀿. <5: libertinusserif-regular @ 12.84pt> Ap-pCoda []. In <18: libertinusserif-italic @ 12.84pt> How to In-te-grate Go-o-gle Street
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+
+Overfull \hbox (16.849pt too wide) in paragraph at lines 1420--1421
+ []<20: libertinusserif-regular @ 12.84pt> R󰁇󰀷󰁄󰀴󰁀󰀳, R󰀼󰁋󰀴󰀿. <5: libertinusserif-regular @ 12.84pt> Se-ma-phore []. In <18: libertinusserif-italic @ 12.84pt> UI Tes-ting in Swift. <5: libertinusserif-regular @ 12.84pt> 2021 [cit. 2023-02-10].
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> R
+.<20: libertinusserif-regular @ 12.84pt> 󰁇
+.etc.
+
+
+Overfull \hbox (12.16614pt too wide) in paragraph at lines 1456--1457
+ []<20: libertinusserif-regular @ 12.84pt> W󰀼󰁯󰀳󰀼󰁯󰁂󰀸󰁯󰀷󰀼󰀴 󰀶󰁁󰁀󰁯󰁆󰁄󰀼󰁯󰀵󰁇󰁯󰁆󰁁󰁄󰁅. <5: libertinusserif-regular @ 12.84pt> Wi-ki-pe-dia []. In <18: libertinusserif-italic @ 12.84pt> Chat-bot. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-02-20].
+
+\hbox(9.03418+3.00284)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> W
+.\kern-0.25665 (font)
+.etc.
+
+
+Overfull \hbox (24.80629pt too wide) in paragraph at lines 1465--1466
+ []<20: libertinusserif-regular @ 12.84pt> M󰀸󰁅󰁅󰀴󰀺󰀸K󰀼󰁆 C󰁁󰁀󰁯󰁆󰁄󰀼󰁯󰀵󰁇󰁯󰁆󰁁󰁄󰁅. <5: libertinusserif-regular @ 12.84pt> Gi-tHub []. In <18: libertinusserif-italic @ 12.84pt> MessageKit. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-02-20].
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> M
+.<20: libertinusserif-regular @ 12.84pt> 󰀸
+.etc.
+
+pages           > flushing realpage 63, userpage 63, subpage 63
+
+Overfull \hbox (27.80363pt too wide) in paragraph at lines 1528--1529
+ <18: libertinusserif-italic @ 12.84pt> SwiftUI pro-ject. <5: libertinusserif-regular @ 12.84pt> 2022 [cit. 2023-03-16]. Do-stupné na:  h t t p s : / / w w w . h a c k i n g w i t h s w i f t 
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.<18: libertinusserif-italic @ 12.84pt> S
+.<18: libertinusserif-italic @ 12.84pt> w
+.<18: libertinusserif-italic @ 12.84pt> i
+.<18: libertinusserif-italic @ 12.84pt> 󰀬 (ligature ft)
+.etc.
+
+
+Overfull \hbox (1.55356pt too wide) in paragraph at lines 1555--1556
+ []<20: libertinusserif-regular @ 12.84pt> 󰁆󰁄󰀸󰀾󰀾󰁋󰁌 L󰀼󰁯󰀿󰀼󰁯󰁆󰀸󰀷.. <18: libertinusserif-italic @ 12.84pt> Re-fAid - Re-fu-gee Aid App []<5: libertinusserif-regular @ 12.84pt> . Ver. 4.3.0.  2022. Do-stupné
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> 󰁆
+.<20: libertinusserif-regular @ 12.84pt> 󰁄
+.etc.
+
+
+Overfull \hbox (18.13759pt too wide) in paragraph at lines 1564--1565
+ []<20: libertinusserif-regular @ 12.84pt> B󰁇󰁀󰁯󰀷󰀸󰁯󰁅󰀴󰀿󰁆 󰀹󰁇󰀸󰁄 M󰀼󰁯󰀺󰁄󰀴󰁆󰀼󰁁󰁀 󰁇󰁀󰀷 F󰀾󰁇󰁯󰀸󰀶󰀻󰁆󰁯󰀾󰀼󰁀󰀺󰀸.. <18: libertinusserif-italic @ 12.84pt> An-ko-m-men []<5: libertinusserif-regular @ 12.84pt> . Ver. 1.7.5.
+
+\hbox(9.03418+2.4767)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> B
+.<20: libertinusserif-regular @ 12.84pt> 󰁇
+.etc.
+
+
+Overfull \hbox (18.61668pt too wide) in paragraph at lines 1573--1574
+ []<20: libertinusserif-regular @ 12.84pt> H󰀸󰁯󰀼󰁀󰁯󰁄󰀼󰀶󰀻 & R󰀸󰁯󰁇󰁯󰁆󰀸󰁄 S󰁁󰁯󰀾󰁇󰁯󰁆󰀼󰁯󰁁󰁀󰁅 G󰀿󰀵H.. <18: libertinusserif-italic @ 12.84pt> Wel-come app Ger-many []<5: libertinusserif-regular @ 12.84pt> . Ver. 2.1.0.
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> H
+.<20: libertinusserif-regular @ 12.84pt> 󰀸
+.etc.
+
 structures      > end of sectionblock 'bodypart'
-pages           > flushing realpage 21, userpage 21, subpage 21
+pages           > flushing realpage 64, userpage 64, subpage 64
 structures      > begin of sectionblock 'backpart'
 structure       > sectioning > kap @ level 2 : 0.1 -> \headtext {tables}
-pages           > flushing realpage 22, userpage 22, subpage 22
+pages           > flushing realpage 65, userpage 65, subpage 65
 structure       > sectioning > kap @ level 2 : 0.2 -> \headtext {figures}
-pages           > flushing realpage 23, userpage 23, subpage 23
-structure       > sectioning > kap @ level 2 : 0.3 -> \headtext {abbreviations}
-pages           > flushing realpage 24, userpage 24, subpage 24
-structure       > sectioning > kap @ level 2 : 0.4 -> \headtext {codes}
+pages           > flushing realpage 66, userpage 66, subpage 66
+structure       > sectioning > kap @ level 2 : 0.3 -> \headtext {codes}
 structures      > end of sectionblock 'backpart'
-pages           > flushing realpage 25, userpage 25, subpage 25
-structures      > begin of sectionblock 'appendix'
-structure       > sectioning > partpage @ level 2 : 0.0 -> \uppercase {Přílohy}
-pages           > flushing realpage 26, userpage 26, subpage 26
-structures      > end of sectionblock 'appendix'
-close source    > level 2, order 8, name '/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec.tex'
+pages           > flushing realpage 67, userpage 67, subpage 67
+close source    > level 2, order 35, name '/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec.tex'
 system          > invalid \starttext ... \stoptext structure
-close source    > level 1, order 8, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
+close source    > level 1, order 35, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
 
 system          > start used files
 
@@ -190,31 +843,78 @@ system          > start used files
 
 system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/char-prv.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/char-prv.lua usedmethod=database
 system          >    2: filename=cont-yes.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
-system          >    3: filename=publ-imp-default.lua filetype=lua foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
 system          >    4: filename=cont-new.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-new.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
-system          >    5: filename=lang-exc.lua filetype=lua foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lang-exc.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lang-exc.lua usedmethod=database
-system          >    6: filename=lang-us.lua filetype=lua foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lang-exc.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
 system          >    7: filename=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec.tex foundname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec.tex fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec.tex usedmethod=direct
 system          >    8: filename=ctx-thesis-v0.971 filetype=tex foundname=ctx-thesis-v0.971.tex fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/ctx-thesis-v0.971.tex usedmethod=filesystem
 system          >    9: filename=m-database.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/modules/mkiv/m-database.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/modules/mkiv/m-database.mkiv usedmethod=database
 system          >   10: filename=m-database.lua filetype=tex format=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/modules/mkiv/m-database.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/modules/mkiv/m-database.lua usedmethod=database
-system          >   11: filename=lang-cs.lua filetype=lua foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-cs.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-cs.lua usedmethod=database
-system          >   12: filename=lang-sk.lua filetype=lua foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-sk.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-sk.lua usedmethod=database
-system          >   13: filename=lang-gb.lua filetype=lua foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-gb.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-gb.lua usedmethod=database
+system          >   11: filename=lang-cs.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-cs.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-cs.lua usedmethod=database
+system          >   12: filename=lang-sk.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-sk.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-sk.lua usedmethod=database
+system          >   13: filename=lang-gb.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-gb.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-gb.lua usedmethod=database
 system          >   14: filename=type-imp-libertinus.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-libertinus.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-libertinus.mkiv usedmethod=database
 system          >   15: filename=libertinusserif-regular filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf usedmethod=database
 system          >   16: filename=libertinusmath-regular.otf filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMath-Regular.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMath-Regular.otf usedmethod=database
 system          >   17: filename=bib.sty-v2.73 filetype=tex foundname=bib.sty-v2.73.tex fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/bib.sty-v2.73.tex usedmethod=filesystem
-system          >   18: filename=page-run.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv usedmethod=database
-system          >   19: filename=page-run.lua filetype=tex format=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.lua usedmethod=database
-system          >   20: filename=mult-def.lua filetype=lua foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-def.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-def.lua usedmethod=database
-system          >   21: filename=mult-mes.lua filetype=lua foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-mes.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-mes.lua usedmethod=database
-system          >   22: filename=libertinusserif-bold filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf usedmethod=database
-system          >   23: filename=pdftex.map filetype=map format=map foundname=/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map fullname=/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map usedmethod=database
-system          >   24: filename=lpdf-pdx.xml filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
-system          >   25: filename=libertinusserif-italic filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Italic.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Italic.otf usedmethod=database
-system          >   26: filename=img/praguer.png format=tex foundname=img/praguer.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/praguer.png usedmethod=direct
-system          >   27: filename=libertinusmono-regular filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMono-Regular.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMono-Regular.otf usedmethod=database
+system          >   18: filename=t-vim.tex filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-vim.tex fullname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-vim.tex usedmethod=database
+system          >   19: filename=t-filter.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-filter.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-filter.mkiv usedmethod=database
+system          >   20: filename=t-module-catcodes.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-module-catcodes.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-module-catcodes.mkiv usedmethod=database
+system          >   21: filename=t-syntax-highlight.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-highlight.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-highlight.mkiv usedmethod=database
+system          >   22: filename=t-syntax-groups.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-groups.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-groups.mkiv usedmethod=database
+system          >   23: filename=page-run.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv usedmethod=database
+system          >   24: filename=page-run.lua filetype=tex format=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.lua usedmethod=database
+system          >   25: filename=mult-def.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-def.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-def.lua usedmethod=database
+system          >   26: filename=mult-mes.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-mes.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-mes.lua usedmethod=database
+system          >   27: filename=libertinusserif-bold filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf usedmethod=database
+system          >   28: filename=pdftex.map filetype=map format=map foundname=/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map fullname=/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map usedmethod=database
+system          >   29: filename=lpdf-pdx.xml filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+system          >   30: filename=img/zadani.png format=tex foundname=img/zadani.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/zadani.png usedmethod=direct
+system          >   31: filename=libertinusserif-italic filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Italic.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Italic.otf usedmethod=database
+system          >   32: filename=img/architecture/MVC.png format=tex foundname=img/architecture/MVC.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/architecture/MVC.png usedmethod=direct
+system          >   33: filename=img/architecture/MVVM.png format=tex foundname=img/architecture/MVVM.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/architecture/MVVM.png usedmethod=direct
+system          >   34: filename=img/architecture/VIPER.png foundname=img/architecture/VIPER.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/architecture/VIPER.png usedmethod=direct
+system          >   35: filename=img/apps/praguer.png format=tex foundname=img/apps/praguer.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/apps/praguer.png usedmethod=direct
+system          >   36: filename=img/apps/findhello.png format=tex foundname=img/apps/findhello.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/apps/findhello.png usedmethod=direct
+system          >   37: filename=img/apps/lawfully.png format=tex foundname=img/apps/lawfully.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/apps/lawfully.png usedmethod=direct
+system          >   38: filename=img/apps/others.png foundname=img/apps/others.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/apps/others.png usedmethod=direct
+system          >   39: filename=xjanovec-temp-SWIFT-0.vimout foundname=xjanovec-temp-SWIFT-0.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-0.vimout usedmethod=direct
+system          >   40: filename=libertinusmono-regular filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMono-Regular.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMono-Regular.otf usedmethod=database
+system          >   41: filename=xjanovec-temp-SWIFT-1.vimout foundname=xjanovec-temp-SWIFT-1.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-1.vimout usedmethod=direct
+system          >   42: filename=xjanovec-temp-SWIFT-2.vimout foundname=xjanovec-temp-SWIFT-2.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-2.vimout usedmethod=direct
+system          >   43: filename=xjanovec-temp-SWIFT-3.vimout foundname=xjanovec-temp-SWIFT-3.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-3.vimout usedmethod=direct
+system          >   44: filename=type-imp-texgyre.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv usedmethod=database
+system          >   45: filename=lm.lfg filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/lm.lfg fullname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/lm.lfg usedmethod=database
+system          >   46: filename=latinmodern-math.otf filetype=opentypefonts foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+system          >   47: filename=xjanovec-temp-SWIFT-4.vimout foundname=xjanovec-temp-SWIFT-4.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-4.vimout usedmethod=direct
+system          >   48: filename=xjanovec-temp-SWIFT-5.vimout foundname=xjanovec-temp-SWIFT-5.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-5.vimout usedmethod=direct
+system          >   49: filename=xjanovec-temp-SWIFT-6.vimout foundname=xjanovec-temp-SWIFT-6.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-6.vimout usedmethod=direct
+system          >   50: filename=xjanovec-temp-SWIFT-7.vimout foundname=xjanovec-temp-SWIFT-7.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-7.vimout usedmethod=direct
+system          >   51: filename=img/apps/maps.png format=tex foundname=img/apps/maps.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/apps/maps.png usedmethod=direct
+system          >   52: filename=xjanovec-temp-SWIFT-8.vimout foundname=xjanovec-temp-SWIFT-8.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-8.vimout usedmethod=direct
+system          >   53: filename=xjanovec-temp-SWIFT-9.vimout foundname=xjanovec-temp-SWIFT-9.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-9.vimout usedmethod=direct
+system          >   54: filename=chatgpt.txt foundname=chatgpt.txt fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/chatgpt.txt usedmethod=direct
+system          >   55: filename=xjanovec-temp-YAMLNUM-0.vimout foundname=xjanovec-temp-YAMLNUM-0.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-YAMLNUM-0.vimout usedmethod=direct
+system          >   56: filename=xjanovec-temp-SWIFT-10.vimout foundname=xjanovec-temp-SWIFT-10.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-10.vimout usedmethod=direct
+system          >   57: filename=xjanovec-temp-YAMLNUM-1.vimout foundname=xjanovec-temp-YAMLNUM-1.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-YAMLNUM-1.vimout usedmethod=direct
+system          >   58: filename=img/implementace/app_scheme.png format=tex foundname=img/implementace/app_scheme.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/implementace/app_scheme.png usedmethod=direct
+system          >   59: filename=xjanovec-temp-SWIFT-11.vimout foundname=xjanovec-temp-SWIFT-11.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-11.vimout usedmethod=direct
+system          >   60: filename=img/implementace/core_data_scheme.png format=tex foundname=img/implementace/core_data_scheme.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/implementace/core_data_scheme.png usedmethod=direct
+system          >   61: filename=img/implementace/detail_desc.png format=tex foundname=img/implementace/detail_desc.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/implementace/detail_desc.png usedmethod=direct
+system          >   62: filename=xjanovec-temp-SWIFT-12.vimout foundname=xjanovec-temp-SWIFT-12.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-12.vimout usedmethod=direct
+system          >   63: filename=xjanovec-temp-SWIFT-13.vimout foundname=xjanovec-temp-SWIFT-13.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-13.vimout usedmethod=direct
+system          >   64: filename=xjanovec-temp-YAMLNUM-2.vimout foundname=xjanovec-temp-YAMLNUM-2.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-YAMLNUM-2.vimout usedmethod=direct
+system          >   65: filename=xjanovec-temp-SWIFT-14.vimout foundname=xjanovec-temp-SWIFT-14.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-14.vimout usedmethod=direct
+system          >   66: filename=img/implementace/TutorialListComp.png format=tex foundname=img/implementace/TutorialListComp.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/implementace/TutorialListComp.png usedmethod=direct
+system          >   67: filename=xjanovec-temp-SWIFT-15.vimout foundname=xjanovec-temp-SWIFT-15.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-15.vimout usedmethod=direct
+system          >   68: filename=img/implementace/tutorial_detail.png format=tex foundname=img/implementace/tutorial_detail.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/implementace/tutorial_detail.png usedmethod=direct
+system          >   69: filename=img/implementace/contact_list.png format=tex foundname=img/implementace/contact_list.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/implementace/contact_list.png usedmethod=direct
+system          >   70: filename=img/implementace/contact_detail.png format=tex foundname=img/implementace/contact_detail.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/implementace/contact_detail.png usedmethod=direct
+system          >   71: filename=img/implementace/todo_list_new.png format=tex foundname=img/implementace/todo_list_new.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/implementace/todo_list_new.png usedmethod=direct
+system          >   72: filename=xjanovec-temp-YAMLNUM-3.vimout foundname=xjanovec-temp-YAMLNUM-3.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-YAMLNUM-3.vimout usedmethod=direct
+system          >   73: filename=img/implementace/chat.png format=tex foundname=img/implementace/chat.png fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/img/implementace/chat.png usedmethod=direct
+system          >   74: filename=xjanovec-temp-SWIFT-16.vimout foundname=xjanovec-temp-SWIFT-16.vimout fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/xjanovec-temp-SWIFT-16.vimout usedmethod=direct
 
 system          > stop used files
 
@@ -245,36 +945,59 @@ modules         > start used modules
 modules         > loaded : *-bib.sty-v2.73
 modules         > loaded : *-ctx-thesis-v0.971
 modules         > loaded : *-database
+modules         > loaded : *-filter
+modules         > loaded : *-module-catcodes
+modules         > loaded : *-syntax-groups
+modules         > loaded : *-syntax-highlight
+modules         > loaded : *-vim
 
 modules         > stop used modules
 
 
+fonts           > start missing characters: /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMono-Regular.otf
+
+fonts           >    6  U+00456  і  CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I
+
+fonts           > stop missing characters
+
+
+fonts           > start missing characters: /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf
+
+fonts           >   42  U+02705  ✅  WHITE HEAVY CHECK MARK
+
+fonts           > stop missing characters
+
+
 mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable+writable: '/var/folders/2n/jy6t5__d7j38sn65frm74jlw0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9'
-mkiv lua stats  > resource resolver: loadtime 0.046 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 27 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 454 modules (0.125 sec), 96 tables (0.005 sec), 550 chunks (0.130 sec)
+mkiv lua stats  > resource resolver: loadtime 0.062 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 74 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 454 modules (0.138 sec), 96 tables (0.006 sec), 550 chunks (0.144 sec)
 mkiv lua stats  > traced context: maxstack: 1424, freed: 0, unreachable: 1424
-mkiv lua stats  > cleaned up reserved nodes: 61 nodes, 10 lists of 442
-mkiv lua stats  > node memory usage: 160 attribute, 29 attribute_list, 10 dir, 6 glue, 55 glue_spec, 3 kern, 5 penalty, 2 shape, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 8 instances (re)created, 2463 calls
-mkiv lua stats  > h-node processing time: 0.021 seconds including kernel
-mkiv lua stats  > synctex tracing: 4 referenced files, 7 files ignored, 567 objects flushed, logfile: xjanovec.synctex
-mkiv lua stats  > driver time: 0.074 seconds 
+mkiv lua stats  > cleaned up reserved nodes: 85 nodes, 10 lists of 444
+mkiv lua stats  > node memory usage: 316 attribute, 57 attribute_list, 26 dir, 22 glue, 55 glue_spec, 3 kern, 3 penalty, 2 shape, 2 temp, 2 user_defined
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 61 instances (re)created, 11361 calls
+mkiv lua stats  > h-node processing time: 0.191 seconds including kernel
+mkiv lua stats  > inserted spaces in output: 7761
+mkiv lua stats  > synctex tracing: 25 referenced files, 17 files ignored, 4008 objects flushed, logfile: xjanovec.synctex
+mkiv lua stats  > attribute processing time: 0.026 seconds front- and backend
+mkiv lua stats  > driver time: 0.898 seconds 
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: internal: 5551, file: 3376, direct: 93, late: 569, function 2549, total: 12138 (467 per page)
+mkiv lua stats  > jobdata time: 0.005 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: internal: 21838, file: 6954, direct: 251, late: 4075, function 10138, total: 43256 (646 per page)
 mkiv lua stats  > randomizer: resumed with value 0.36685180664062
-mkiv lua stats  > loaded tex modules: 3 requested, all found (*-bib.sty-v2.73 *-ctx-thesis-v0.971 *-database)
+mkiv lua stats  > v-node processing time: 0.012 seconds 
+mkiv lua stats  > loaded tex modules: 8 requested, all found (*-bib.sty-v2.73 *-ctx-thesis-v0.971 *-database *-filter *-module-catcodes *-syntax-groups *-syntax-highlight *-vim)
 mkiv lua stats  > result saved in file: xjanovec.pdf, compresslevel 3, objectcompresslevel 1
 mkiv lua stats  > loaded patterns: cs::16 en::1 en-gb:en:13 sk::17, load time: 0.000
-mkiv lua stats  > interactive elements: 0 references, 1 destinations
-mkiv lua stats  > loaded fonts: 5 files: libertinusmath-regular.otf, libertinusmono-regular.otf, libertinusserif-bold.otf, libertinusserif-italic.otf, libertinusserif-regular.otf
-mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 24 instances, 18 shared in backend, 2 common vectors, 16 common hashes, load time 0.102 seconds 
+mkiv lua stats  > structure elements: 418 element chains identified
+mkiv lua stats  > interactive elements: 0 references, 27 destinations
+mkiv lua stats  > loaded fonts: 6 files: libertinusmath-regular.otf, libertinusmono-regular.otf, libertinusserif-bold.otf, libertinusserif-italic.otf, libertinusserif-regular.otf, latinmodern-math.otf
+mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 32 instances, 23 shared in backend, 2 common vectors, 21 common hashes, load time 0.146 seconds 
 mkiv lua stats  > body font sizes: defined: 10pt 11pt 12pt 14.4pt 17.3pt 18.19pt 20.7pt 4pt 5pt 6pt 7pt 8pt 9pt, undefined: 10.27pt 12.84pt 12dd 15.41pt 20.54pt 25.68pt 2cc 30.82pt
-mkiv lua stats  > graphics processing time: 0.006 seconds including tex, 3 processed images, 2 unique asked, 0 bad names
+mkiv lua stats  > graphics processing time: 0.015 seconds including tex, 18 processed images, 18 unique asked, 4 bad names
 mkiv lua stats  > used platform: osx-ppc, type: unix, binary subtree: bin
 mkiv lua stats  > used engine: luatex version: 1.15, functionality level: 7509, banner: this is luatex, version 1.15.0 (tex live 2022)
-mkiv lua stats  > used hash slots: 49789 of 65536 + 200000
-mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 169 MB, ctx: 169 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.517 seconds, 26 processed pages, 26 shipped pages, 50.290 pages/second
+mkiv lua stats  > used hash slots: 53035 of 65536 + 200000
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 204 MB, ctx: 205 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 2.549 seconds, 67 processed pages, 67 shipped pages, 26.285 pages/second
 
