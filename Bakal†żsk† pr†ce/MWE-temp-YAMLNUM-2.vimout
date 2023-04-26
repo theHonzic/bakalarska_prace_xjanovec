@@ -1,0 +1,21 @@
+\SYNBOL{}\SYN[Special]{\{}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}}\SYN[String]{"}\SYN[String]{items}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[Special]{[}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowCollection]{\tab{4}\tab{4}}\SYN[Special]{\{}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}}\SYN[String]{"}\SYN[String]{id}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[Number]{138503}\SYN[yamlFlowMapping]{,}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}}\SYN[String]{"}\SYN[String]{name}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[String]{"}\SYN[String]{Centre for Foreigners}\SYN[String]{"}\SYN[yamlFlowMapping]{,}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}}\SYN[String]{"}\SYN[String]{color}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[String]{"}\SYN[String]{#E91E63}\SYN[String]{"}\SYN[yamlFlowMapping]{,}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}}\SYN[String]{"}\SYN[String]{order}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[Number]{8}\SYN[yamlFlowMapping]{,}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}}\SYN[String]{"}\SYN[String]{localizedAttributes}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[Special]{\{}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}\tab{4}}\SYN[String]{"}\SYN[String]{ru}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[Special]{\{}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}\tab{4}\tab{4}}\SYN[String]{"}\SYN[String]{name}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[String]{"}\SYN[String]{Centr dlja inostrancev}\SYN[String]{"}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}\tab{4}}\SYN[Special]{\}}\SYN[yamlFlowMapping]{,}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}\tab{4}}\SYN[String]{"}\SYN[String]{uk}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[Special]{\{}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}\tab{4}\tab{4}}\SYN[String]{"}\SYN[String]{name}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[String]{"}\SYN[String]{Centr dlja іnozemcіv}\SYN[String]{"}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}\tab{4}}\SYN[Special]{\}}\SYN[yamlFlowMapping]{,}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}\tab{4}}\SYN[String]{"}\SYN[String]{en}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[Special]{\{}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}\tab{4}\tab{4}}\SYN[String]{"}\SYN[String]{name}\SYN[String]{"}\SYN[Special]{:}\SYN[yamlFlowMapping]{ }\SYN[String]{"}\SYN[String]{Centre for Foreigners}\SYN[String]{"}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}\tab{4}}\SYN[Special]{\}}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}\tab{4}}\SYN[Special]{\}}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowMapping]{\tab{4}\tab{4}}\SYN[Special]{\}}\SYN[yamlFlowCollection]{, }\SYN[yamlPlainScalar]{...}\SYNEOL{}
+\SYNBOL{}\SYN[yamlFlowCollection]{\tab{4}}\SYN[Special]{]}\SYNEOL{}
+\SYNBOL{}\SYN[Special]{\}}\SYNEOL{}

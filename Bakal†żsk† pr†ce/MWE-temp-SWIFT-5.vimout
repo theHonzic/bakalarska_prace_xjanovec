@@ -1,0 +1,12 @@
+\SYNBOL{}\SYN[Define]{func} \SYN[Function]{save}\SYN[swiftParenthesisRegion]{(_ object}\SYN[Delimiter]{:}\SYN[swiftParenthesisRegion]{ }\SYN[Type]{Model}\SYN[swiftParenthesisRegion]{)} \{\SYNEOL{}
+\SYNBOL{}    \SYN[Statement]{do} \{\SYNEOL{}
+\SYNBOL{}        \SYN[Statement]{if} \SYN[Define]{let} \SYN[Identifier]{path} \SYN[Function]{=} FileManager.\SYN[Statement]{default}.urls\SYN[swiftParenthesisRegion]{(}\SYN[Statement]{for}\SYN[Delimiter]{:}\SYN[swiftParenthesisRegion]{ .documentDirectory,}\SYNEOL{}
+\SYNBOL{}\SYN[swiftParenthesisRegion]{        }\SYN[Statement]{in}\SYN[Delimiter]{:}\SYN[swiftParenthesisRegion]{ .userDomainMask)}.first \{\SYNEOL{}
+\SYNBOL{}            \SYN[Define]{let} \SYN[Identifier]{data} \SYN[Function]{=} \SYN[Statement]{try} JSONEncoder\SYN[swiftParenthesisRegion]{()}.encode\SYN[swiftParenthesisRegion]{(object)}\SYNEOL{}
+\SYNBOL{}            \SYN[Define]{let} \SYN[Identifier]{url} \SYN[Function]{=} path.appendingPathComponent\SYN[swiftParenthesisRegion]{(}\SYN[String]{"file"}\SYN[swiftParenthesisRegion]{)}\SYNEOL{}
+\SYNBOL{}            \SYN[Statement]{try} data.write\SYN[swiftParenthesisRegion]{(to}\SYN[Delimiter]{:}\SYN[swiftParenthesisRegion]{ }\SYN[Type]{url}\SYN[swiftParenthesisRegion]{)}\SYNEOL{}
+\SYNBOL{}        \}\SYNEOL{}
+\SYNBOL{}    \} \SYN[Statement]{catch} \{\SYNEOL{}
+\SYNBOL{}        print\SYN[swiftParenthesisRegion]{(error)}\SYNEOL{}
+\SYNBOL{}    \}\SYNEOL{}
+\SYNBOL{}\}\SYNEOL{}

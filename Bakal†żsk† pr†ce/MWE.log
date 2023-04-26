@@ -1,0 +1,424 @@
+open source     > level 1, order 1, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
+system          > 
+system          > ConTeXt  ver: 2021.03.05 19:11 MKIV  fmt: 2023.4.24  int: english/english
+system          > 
+system          > 'cont-new.mkiv' loaded
+open source     > level 2, order 2, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-new.mkiv'
+system          > beware: some patches loaded from cont-new.mkiv
+close source    > level 2, order 2, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-new.mkiv'
+system          > files > jobname 'MWE', input './MWE', result 'MWE'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+system          > synctex functionality is enabled, expect 5-10 pct runtime overhead!
+open source     > level 2, order 3, name '/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/MWE.tex'
+modules         > using user prefixed file 'ctx-thesis-v0.971'
+modules         > 'ctx-thesis-v0.971' is loaded
+interface       > macros > processed mkvi file 'ctx-thesis-v0.971.tex', delta 742
+interface       > macros > processed mkvi file 'ctx-thesis-v0.971.tex', delta 0
+open source     > level 3, order 4, name 'ctx-thesis-v0.971.tex'
+modules         > 'database' is loaded
+open source     > level 4, order 5, name '/usr/local/texlive/2022/texmf-dist/tex/context/modules/mkiv/m-database.mkiv'
+resolvers       > lua > loading file '/usr/local/texlive/2022/texmf-dist/tex/context/modules/mkiv/m-database.lua' succeeded
+close source    > level 4, order 5, name '/usr/local/texlive/2022/texmf-dist/tex/context/modules/mkiv/m-database.mkiv'
+colors          > 'cmyk' color space is supported
+open source     > level 4, order 6, name '/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-libertinus.mkiv'
+close source    > level 4, order 6, name '/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-libertinus.mkiv'
+close source    > level 3, order 6, name 'ctx-thesis-v0.971.tex'
+modules         > using user prefixed file 'bib.sty-v2.73'
+modules         > 'bib.sty-v2.73' is loaded
+open source     > level 3, order 7, name 'bib.sty-v2.73.tex'
+close source    > level 3, order 7, name 'bib.sty-v2.73.tex'
+modules         > 'vim' is loaded
+open source     > level 3, order 8, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-vim.tex'
+loading         > Vim syntax highlighting (ver: 2022.02.17)
+modules         > 'filter' is loaded
+open source     > level 4, order 9, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-filter.mkiv'
+loading         > Filter (ver: 2021.10.15)
+modules         > 'module-catcodes' is loaded
+open source     > level 5, order 10, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-module-catcodes.mkiv'
+loading         > Module Catcodes (ver: 2018.04.16)
+close source    > level 5, order 10, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-module-catcodes.mkiv'
+close source    > level 4, order 10, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-filter.mkiv'
+modules         > 'syntax-highlight' is loaded
+open source     > level 4, order 11, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-highlight.mkiv'
+loading         > Code syntax highlighting (ver: 2021.12.13)
+modules         > 'syntax-groups' is loaded
+open source     > level 5, order 12, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-groups.mkiv'
+loading         > Syntax highlighting groups (ver: 2021.09.05)
+modules         > 'module-catcodes' is already loaded
+close source    > level 5, order 12, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-groups.mkiv'
+modules         > 'filter' is already loaded
+close source    > level 4, order 12, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-highlight.mkiv'
+close source    > level 3, order 12, name '/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-vim.tex'
+check           > missing or ungrouped '=' after ''' in line '29 (THESIS)'
+backend         > profiles > error, format 'pdf/a-2a:2005' is not supported
+fonts           > bodyfont '12dd' is defined (can better be done global)
+fonts           > bodyfont '15.41pt' is defined (can better be done global)
+fonts           > bodyfont '10.27pt' is defined (can better be done global)
+fonts           > bodyfont '12.84pt' is defined (can better be done global)
+structures      > begin of sectionblock 'frontpart'
+structures      > begin of sectionblock 'frontpart'
+open source     > level 3, order 13, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv'
+loading         > ConTeXt Page Macros / Runtime Macros
+resolvers       > lua > loading file '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.lua' succeeded
+close source    > level 3, order 13, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv'
+interface       > initialization > loading interface definitions from 'mult-def.lua'
+interface       > initialization > loading interface messages from 'mult-mes.lua'
+layout          > paperheight                  845.0468pt      29.7000cm
+layout          > paperwidth                   597.5079pt      21.0000cm
+layout          > printpaperheight             845.0468pt      29.7000cm
+layout          > printpaperwidth              597.5079pt      21.0000cm
+layout          > topspace                      71.1255pt       2.4998cm
+layout          > backspace                     71.1328pt       2.5000cm
+layout          > makeupheight                 711.3191pt      25.0000cm
+layout          > makeupwidth                  426.7874pt      14.9999cm
+layout          > topheight                      0.0000pt       0.0000cm
+layout          > topdistance                    0.0000pt       0.0000cm
+layout          > headerheight                  56.9029pt       1.9999cm
+layout          > headerdistance                 0.0000pt       0.0000cm
+layout          > textheight                   597.5132pt      21.0002cm
+layout          > footerdistance                 0.0000pt       0.0000cm
+layout          > footerheight                  56.9029pt       1.9999cm
+layout          > bottomdistance                 0.0000pt       0.0000cm
+layout          > bottomheight                   0.0000pt       0.0000cm
+layout          > leftedgewidth                  0.0000pt       0.0000cm
+layout          > leftedgedistance               0.0000pt       0.0000cm
+layout          > leftmarginwidth               75.5820pt       2.6564cm
+layout          > leftmargindistance            11.9983pt       0.4217cm
+layout          > textwidth                    426.7874pt      14.9999cm
+layout          > rightmargindistance           11.9983pt       0.4217cm
+layout          > rightmarginwidth              75.5820pt       2.6564cm
+layout          > rightedgedistance              0.0000pt       0.0000cm
+layout          > rightedgewidth                 0.0000pt       0.0000cm
+layout          > bodyfontsize                  12.8400pt       0.4513cm
+layout          > lineheight                    15.4146pt       0.5418cm
+fonts           > bodyfont '2cc' is defined (can better be done global)
+fonts           > bodyfont '30.82pt' is defined (can better be done global)
+fonts           > bodyfont '20.54pt' is defined (can better be done global)
+fonts           > bodyfont '25.68pt' is defined (can better be done global)
+layouts         > gridmode, noflines: 39, textheight: 597.51323pt, textovershoot: 3.65544pt (maybe set number of lines instead)
+backend         > xmp > using file '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1, subpage 1
+pages           > flushing realpage 2, userpage 2, subpage 2
+pages           > flushing realpage 3, userpage 3, subpage 3
+pages           > flushing realpage 4, userpage 4, subpage 4
+pages           > flushing realpage 5, userpage 5, subpage 5
+structure       > sectioning > title @ level 2 : 0.0 -> \headtext {obsah}
+structures      > end of sectionblock 'frontpart'
+pages           > flushing realpage 6, userpage 6, subpage 6
+structures      > end of sectionblock 'frontpart'
+structures      > begin of sectionblock 'bodypart'
+structure       > sectioning > kap @ level 2 : 0.1 -> Ještě jsem měl problém tady
+fonts           > bodyfont '12.1dd' is defined (can better be done global)
+fonts           > bodyfont '15.54pt' is defined (can better be done global)
+fonts           > bodyfont '10.36pt' is defined (can better be done global)
+open source     > level 3, order 14, name '/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
+close source    > level 3, order 14, name '/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
+fonts           > bodyfont '12.95pt' is defined (can better be done global)
+pages           > flushing realpage 7, userpage 7, subpage 7
+structure       > sectioning > BIBSTYchapter @ level 2 : 0.2 -> \refname 
+
+Overfull \hbox (35.4701pt too wide) in paragraph at lines 45--46
+ <18: libertinusserif-italic @ 12.84pt> Best Fits My Pro-ject?. <5: libertinusserif-regular @ 12.84pt> 2021 [cit. 2022-01-28]. Do-stupné na:  h t t p s : / / b e t t e r p r o g r a m m i n g 
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.<18: libertinusserif-italic @ 12.84pt> B
+.<18: libertinusserif-italic @ 12.84pt> e
+.<18: libertinusserif-italic @ 12.84pt> s
+.<18: libertinusserif-italic @ 12.84pt> t
+.etc.
+
+
+Overfull \hbox (10.48079pt too wide) in paragraph at lines 63--64
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation []. In <18: libertinusserif-italic @ 12.84pt> UI-Kit. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-01-20].
+
+\hbox(9.03418+3.00284)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+
+Overfull \hbox (20.8624pt too wide) in paragraph at lines 81--82
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation []. In <18: libertinusserif-italic @ 12.84pt> SwiftUI. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-01-20].
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+
+Overfull \hbox (13.0857pt too wide) in paragraph at lines 99--100
+ <18: libertinusserif-italic @ 12.84pt> Per-si-s-tence in Swift. <5: libertinusserif-regular @ 12.84pt> 2021 [cit. 2023-01-28]. Do-stupné na:  h t t p s : / / i o s a p p t e m p l a t e s 
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.<18: libertinusserif-italic @ 12.84pt> P
+.<18: libertinusserif-italic @ 12.84pt> e
+.<18: libertinusserif-italic @ 12.84pt> r
+.\discretionary (penalty 50) []
+.etc.
+
+
+Overfull \hbox (33.47261pt too wide) in paragraph at lines 108--109
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation []. In <18: libertinusserif-italic @ 12.84pt> Core Data. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-01-28].
+
+\hbox(9.03418+3.00284)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+
+Overfull \hbox (21.58102pt too wide) in paragraph at lines 117--118
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation []. In <18: libertinusserif-italic @ 12.84pt> Map-Kit. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-02-03].
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+
+Overfull \hbox (16.849pt too wide) in paragraph at lines 126--127
+ []<20: libertinusserif-regular @ 12.84pt> R󰁇󰀷󰁄󰀴󰁀󰀳, R󰀼󰁋󰀴󰀿. <5: libertinusserif-regular @ 12.84pt> Se-ma-phore []. In <18: libertinusserif-italic @ 12.84pt> UI Tes-ting in Swift. <5: libertinusserif-regular @ 12.84pt> 2021 [cit. 2023-02-10].
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> R
+.<20: libertinusserif-regular @ 12.84pt> 󰁇
+.etc.
+
+
+Overfull \hbox (12.16614pt too wide) in paragraph at lines 144--145
+ []<20: libertinusserif-regular @ 12.84pt> W󰀼󰁯󰀳󰀼󰁯󰁂󰀸󰁯󰀷󰀼󰀴 󰀶󰁁󰁀󰁯󰁆󰁄󰀼󰁯󰀵󰁇󰁯󰁆󰁁󰁄󰁅. <5: libertinusserif-regular @ 12.84pt> Wi-ki-pe-dia []. In <18: libertinusserif-italic @ 12.84pt> Chat-bot. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-02-20].
+
+\hbox(9.03418+3.00284)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> W
+.\kern-0.25665 (font)
+.etc.
+
+
+Overfull \hbox (24.80629pt too wide) in paragraph at lines 153--154
+ []<20: libertinusserif-regular @ 12.84pt> M󰀸󰁅󰁅󰀴󰀺󰀸K󰀼󰁆 C󰁁󰁀󰁯󰁆󰁄󰀼󰁯󰀵󰁇󰁯󰁆󰁁󰁄󰁅. <5: libertinusserif-regular @ 12.84pt> Gi-tHub []. In <18: libertinusserif-italic @ 12.84pt> MessageKit. <5: libertinusserif-regular @ 12.84pt> 2023 [cit. 2023-02-20].
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> M
+.<20: libertinusserif-regular @ 12.84pt> 󰀸
+.etc.
+
+
+Overfull \hbox (27.80363pt too wide) in paragraph at lines 162--163
+ <18: libertinusserif-italic @ 12.84pt> SwiftUI pro-ject. <5: libertinusserif-regular @ 12.84pt> 2022 [cit. 2023-03-16]. Do-stupné na:  h t t p s : / / w w w . h a c k i n g w i t h s w i f t 
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.<18: libertinusserif-italic @ 12.84pt> S
+.<18: libertinusserif-italic @ 12.84pt> w
+.<18: libertinusserif-italic @ 12.84pt> i
+.<18: libertinusserif-italic @ 12.84pt> 󰀬 (ligature ft)
+.etc.
+
+
+Overfull \hbox (18.13759pt too wide) in paragraph at lines 171--172
+ []<20: libertinusserif-regular @ 12.84pt> B󰁇󰁀󰁯󰀷󰀸󰁯󰁅󰀴󰀿󰁆 󰀹󰁇󰀸󰁄 M󰀼󰁯󰀺󰁄󰀴󰁆󰀼󰁁󰁀 󰁇󰁀󰀷 F󰀾󰁇󰁯󰀸󰀶󰀻󰁆󰁯󰀾󰀼󰁀󰀺󰀸.. <18: libertinusserif-italic @ 12.84pt> An-ko-m-men []<5: libertinusserif-regular @ 12.84pt> . Ver. 1.7.5.
+
+\hbox(9.03418+2.4767)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> B
+.<20: libertinusserif-regular @ 12.84pt> 󰁇
+.etc.
+
+
+Overfull \hbox (18.61668pt too wide) in paragraph at lines 180--181
+ []<20: libertinusserif-regular @ 12.84pt> H󰀸󰁯󰀼󰁀󰁯󰁄󰀼󰀶󰀻 & R󰀸󰁯󰁇󰁯󰁆󰀸󰁄 S󰁁󰁯󰀾󰁇󰁯󰁆󰀼󰁯󰁁󰁀󰁅 G󰀿󰀵H.. <18: libertinusserif-italic @ 12.84pt> Wel-come app Ger-many []<5: libertinusserif-regular @ 12.84pt> . Ver. 2.1.0.
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 28.87344
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-28.87344, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> H
+.<20: libertinusserif-regular @ 12.84pt> 󰀸
+.etc.
+
+structures      > end of sectionblock 'bodypart'
+pages           > flushing realpage 8, userpage 8, subpage 8
+pages           > flushing realpage 9, userpage 9, subpage 9
+structures      > begin of sectionblock 'backpart'
+structure       > sectioning > kap @ level 2 : 0.1 -> \headtext {tables}
+pages           > flushing realpage 10, userpage 10, subpage 10
+structure       > sectioning > kap @ level 2 : 0.2 -> \headtext {figures}
+pages           > flushing realpage 11, userpage 11, subpage 11
+structure       > sectioning > kap @ level 2 : 0.3 -> \headtext {codes}
+structures      > end of sectionblock 'backpart'
+pages           > flushing realpage 12, userpage 12, subpage 12
+close source    > level 2, order 14, name '/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/MWE.tex'
+system          > invalid \starttext ... \stoptext structure
+close source    > level 1, order 14, name '/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
+
+system          > start used files
+
+system          > text: MWE
+
+system          > stop used files
+
+
+system          > start used files
+
+system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/char-prv.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/char-prv.lua usedmethod=database
+system          >    2: filename=cont-yes.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    4: filename=cont-new.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-new.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lang-exc.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    7: filename=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/MWE.tex foundname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/MWE.tex fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/MWE.tex usedmethod=direct
+system          >    8: filename=ctx-thesis-v0.971 filetype=tex foundname=ctx-thesis-v0.971.tex fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/ctx-thesis-v0.971.tex usedmethod=filesystem
+system          >    9: filename=m-database.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/modules/mkiv/m-database.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/modules/mkiv/m-database.mkiv usedmethod=database
+system          >   10: filename=m-database.lua filetype=tex format=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/modules/mkiv/m-database.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/modules/mkiv/m-database.lua usedmethod=database
+system          >   11: filename=lang-cs.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-cs.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-cs.lua usedmethod=database
+system          >   12: filename=lang-sk.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-sk.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-sk.lua usedmethod=database
+system          >   13: filename=lang-gb.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-gb.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/patterns/mkiv/lang-gb.lua usedmethod=database
+system          >   14: filename=type-imp-libertinus.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-libertinus.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-libertinus.mkiv usedmethod=database
+system          >   15: filename=libertinusserif-regular filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf usedmethod=database
+system          >   16: filename=libertinusmath-regular.otf filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMath-Regular.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMath-Regular.otf usedmethod=database
+system          >   17: filename=bib.sty-v2.73 filetype=tex foundname=bib.sty-v2.73.tex fullname=/Users/the_honzic/Desktop/bakalarska_prace_xjanovec/Bakal†żsk† pr†ce/bib.sty-v2.73.tex usedmethod=filesystem
+system          >   18: filename=t-vim.tex filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-vim.tex fullname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-vim.tex usedmethod=database
+system          >   19: filename=t-filter.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-filter.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-filter.mkiv usedmethod=database
+system          >   20: filename=t-module-catcodes.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-module-catcodes.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/third/filter/t-module-catcodes.mkiv usedmethod=database
+system          >   21: filename=t-syntax-highlight.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-highlight.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-highlight.mkiv usedmethod=database
+system          >   22: filename=t-syntax-groups.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-groups.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/third/vim/t-syntax-groups.mkiv usedmethod=database
+system          >   23: filename=page-run.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.mkiv usedmethod=database
+system          >   24: filename=page-run.lua filetype=tex format=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/page-run.lua usedmethod=database
+system          >   25: filename=mult-def.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-def.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-def.lua usedmethod=database
+system          >   26: filename=mult-mes.lua filetype=scripts foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-mes.lua fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/mult-mes.lua usedmethod=database
+system          >   27: filename=libertinusserif-bold filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.otf usedmethod=database
+system          >   28: filename=pdftex.map filetype=map format=map foundname=/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map fullname=/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map usedmethod=database
+system          >   29: filename=lpdf-pdx.xml filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml fullname=/usr/local/texlive/2022/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+system          >   30: filename=libertinusserif-italic filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Italic.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Italic.otf usedmethod=database
+system          >   31: filename=type-imp-texgyre.mkiv filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv fullname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv usedmethod=database
+system          >   32: filename=lm.lfg filetype=tex foundname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/lm.lfg fullname=/usr/local/texlive/2022/texmf-dist/tex/context/fonts/mkiv/lm.lfg usedmethod=database
+system          >   33: filename=texgyrecursor-regular filetype=otf format=otf foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/tex-gyre/texgyrecursor-regular.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/tex-gyre/texgyrecursor-regular.otf usedmethod=database
+system          >   34: filename=latinmodern-math.otf filetype=opentypefonts foundname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf fullname=/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+
+system          > stop used files
+
+
+system          > start commandline options
+
+system          > autogenerate="true"
+system          > currentrun="1"
+system          > fulljobname="./MWE.tex"
+system          > input="./MWE.tex"
+system          > kindofrun="1"
+system          > maxnofruns="9"
+system          > synctex="1"
+system          > texmfbinpath="/usr/local/texlive/2022/bin/universal-darwin"
+
+system          > stop commandline options
+
+
+system          > start commandline files
+
+system          >    1: ./MWE.tex
+
+system          > stop commandline files
+
+
+modules         > start used modules
+
+modules         > loaded : *-bib.sty-v2.73
+modules         > loaded : *-ctx-thesis-v0.971
+modules         > loaded : *-database
+modules         > loaded : *-filter
+modules         > loaded : *-module-catcodes
+modules         > loaded : *-syntax-groups
+modules         > loaded : *-syntax-highlight
+modules         > loaded : *-vim
+
+modules         > stop used modules
+
+
+mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: readable+writable: '/var/folders/2n/jy6t5__d7j38sn65frm74jlw0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9'
+mkiv lua stats  > resource resolver: loadtime 0.052 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 34 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 454 modules (0.133 sec), 96 tables (0.006 sec), 550 chunks (0.139 sec)
+mkiv lua stats  > traced context: maxstack: 1424, freed: 0, unreachable: 1424
+mkiv lua stats  > cleaned up reserved nodes: 57 nodes, 10 lists of 442
+mkiv lua stats  > node memory usage: 76 attribute, 15 attribute_list, 5 dir, 2 glue, 54 glue_spec, 3 kern, 4 penalty, 2 shape, 2 temp, 2 user_defined
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 24 instances (re)created, 872 calls
+mkiv lua stats  > h-node processing time: 0.016 seconds including kernel
+mkiv lua stats  > synctex tracing: 4 referenced files, 17 files ignored, 279 objects flushed, logfile: MWE.synctex
+mkiv lua stats  > driver time: 0.041 seconds 
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.000 seconds loading
+mkiv lua stats  > callbacks: internal: 2455, file: 5001, direct: 82, late: 262, function 2519, total: 10319 (860 per page)
+mkiv lua stats  > randomizer: resumed with value 0.74315019091591
+mkiv lua stats  > loaded tex modules: 8 requested, all found (*-bib.sty-v2.73 *-ctx-thesis-v0.971 *-database *-filter *-module-catcodes *-syntax-groups *-syntax-highlight *-vim)
+mkiv lua stats  > result saved in file: MWE.pdf, compresslevel 3, objectcompresslevel 1
+mkiv lua stats  > loaded patterns: cs::16 en::1 en-gb:en:13 sk::17, load time: 0.000
+mkiv lua stats  > interactive elements: 0 references, 1 destinations
+mkiv lua stats  > loaded fonts: 6 files: libertinusmath-regular.otf, libertinusserif-bold.otf, libertinusserif-italic.otf, libertinusserif-regular.otf, latinmodern-math.otf, texgyrecursor-regular.otf
+mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 29 instances, 20 shared in backend, 5 common vectors, 15 common hashes, load time 0.165 seconds 
+mkiv lua stats  > body font sizes: defined: 10pt 11pt 12pt 14.4pt 17.3pt 18.19pt 20.7pt 4pt 5pt 6pt 7pt 8pt 9pt, undefined: 10.27pt 10.36pt 12.1dd 12.84pt 12.95pt 12dd 15.41pt 15.54pt 20.54pt 25.68pt 2cc 30.82pt
+mkiv lua stats  > used platform: osx-ppc, type: unix, binary subtree: bin
+mkiv lua stats  > used engine: luatex version: 1.15, functionality level: 7509, banner: this is luatex, version 1.15.0 (tex live 2022)
+mkiv lua stats  > used hash slots: 52967 of 65536 + 200000
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 197 MB, ctx: 197 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.520 seconds, 12 processed pages, 12 shipped pages, 23.077 pages/second
+

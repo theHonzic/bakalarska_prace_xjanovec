@@ -1,0 +1,206 @@
+%
+\usemodule[ctx-thesis-v0.971]
+\usemodule[bib.sty-v2.73]
+\usemodule[vim]
+
+\def\courierfont{\setupbodyfont[courier,12.1dd]}  % font definice
+\definecolor[codesnippetbackground][x=ffffff]
+\definevimtyping[SWIFT][syntax=swift, before={\startframedtext[width=\makeupwidth, background=color, backgroundcolor=codesnippetbackground, frame=off, style={\switchtobodyfont[small]\setupinterlinespace}]}, after={\stopframedtext}, numbering=yes]
+\definevimtyping[YAMLNUM][syntax=yaml, before={\startframedtext[width=\makeupwidth, background=color, backgroundcolor=codesnippetbackground, frame=off, style={\switchtobodyfont[small]\setupinterlinespace}]}, after={\stopframedtext}, numbering=yes]
+\definevimtyping[YAML][syntax=yaml, before={\startframedtext[width=\makeupwidth, background=color, backgroundcolor=codesnippetbackground, frame=off, style={\switchtobodyfont[small]\setupinterlinespace}]}, after={\stopframedtext}, numbering=no]
+
+\setupthesis[cs,mendelu,pef,none][ % jazyk,univerzita,fakulta,ústav/katedra/pracoviště ; language,university,faculty,department
+  type={bp},                 % bp,dp,pp,zp,sp,pr,pt aj./etc.
+  authorname={Jan},	     % jméno
+  authorsurname={Janovec},        % příjmení
+  authordegree={},	     % titul před jménem
+  authorgender={M},          % pohlaví (holky mají F)
+  supervisor={Ing. David Procházka, Ph.D.},        % vedoucí práce
+  title={Mobilní aplikace pro pomoc imigrantům},                           % název práce
+  titleen={Mobile application to help the immigrants}, 	           % název práce anglicky
+  keywords={},    %
+  keywordsen={}, %
+  acknowledgement={},	           % poděkování
+  abstract={},		                           % český abstrakt
+  abstracten={},		                   % anglický abstrakt
+  location={Brno,Brně},	   % místo vydání (za čárkou 6. pád) ; location (second parameter is not necessary for English)
+%  year={2021},		   % rok odevzdání práce (automaticky aktuální rok) ; year, the default is the current year
+% thesisassignmentform={img/zadani.png},  % seznam souborů se skenem zadání práce; file is thesis assignment
+]
+\startthesis
+\startbodymatter
+\kap{Ještě jsem měl problém tady}
+{\courierfont UserDefaults} a UserDefaults
+\par
+Nejedná se o nic vážného, jenom mi přijde zvláštní, že když nastavím velikost na 12dd, tak mi font nefunguje. Jinak se používá v celém dokumentu velikost 12, že?
+\bbib
+
+\publW{
+	\autor{Alvarez, Pedro.}
+	\nazev{Medium}
+	\nazevdok{iOS Architectures Explained: Which One Best Fits My Project?}
+	\www{https://betterprogramming.pub/ios-architectures-explained-which-one-best-fits-my-project-94b4ffaad16}
+	\online{2022-01-28}
+	\rok{2021}
+}
+
+\publW{
+	\autor{Wikipedia contributors.}
+	\nazev{Wikipedia}
+	\nazevdok{Swift (programming language)}
+	\www{https://en.wikipedia.org/wiki/Swift_(programming_language)}
+	\online{2022-01-12}
+	\rok{2023}
+}
+
+\publW{
+	\autor{Apple.}
+	\nazev{Apple Developer Documentation}
+	\nazevdok{UIKit}
+	\www{https://developer.apple.com/documentation/uikit}
+	\online{2023-01-20}
+	\rok{2023}
+}
+
+\publW{
+	\autor{Jeroen, L.}
+	\nazev{Stream}
+	\nazevdok{UIKit vs. SwiftUI: How to Choose the Right Framework for Your App}
+	\www{https://getstream.io/blog/uikit-vs-swiftui/}
+	\online{2023-01-20}
+	\rok{2022}
+}
+
+\publW{
+	\autor{Apple.}
+	\nazev{Apple Developer Documentation}
+	\nazevdok{SwiftUI}
+	\www{https://developer.apple.com/documentation/swiftui}
+	\online{2023-01-20}
+	\rok{2023}
+}
+
+\publW{
+	\autor{Hudson, Paul.}
+	\nazev{Hacking with Swift}
+	\nazevdok{Storing user settings with UserDefaults}
+	\www{https://www.hackingwithswift.com/books/ios-swiftui/storing-user-settings-with-userdefaults}
+	\online{2023-01-28}
+	\rok{2022}
+}
+
+\publW{
+	\autor{iOS App Templates Contributors.}
+	\nazev{iOS App Templates}
+	\nazevdok{iOS Data Persistence in Swift}
+	\www{https://iosapptemplates.com/blog/ios-development/data-persistence-ios-swift}
+	\online{2023-01-28}
+	\rok{2021}
+}
+
+\publW{
+	\autor{Apple.}
+	\nazev{Apple Developer Documentation}
+	\nazevdok{Core Data}
+	\www{https://developer.apple.com/documentation/coredata}
+	\online{2023-01-28}
+	\rok{2023}
+}
+
+\publW{
+	\autor{Apple.}
+	\nazev{Apple Developer Documentation}
+	\nazevdok{MapKit}
+	\www{https://developer.apple.com/documentation/mapkit/}
+	\online{2023-02-03}
+	\rok{2023}
+}
+
+\publW{
+	\autor{Rudrank, Riyam.}
+	\nazev{Semaphore}
+	\nazevdok{UI Testing in Swift}
+	\www{https://semaphoreci.com/blog/ui-testing-swift}
+	\online{2023-02-10}
+	\rok{2021}
+}
+
+\publW{
+	\autor{Code with Chris.}
+	\nazev{Code with Chris}
+	\nazevdok{Xcode UI Testing in Swift – Code Examples}
+	\www{https://codewithchris.com/xcode-ui-testing-swift/}
+	\online{2023-02-10}
+	\rok{2021}
+}
+
+\publW{
+	\autor{Wikipedia contributors.}
+	\nazev{Wikipedia}
+	\nazevdok{Chatbot}
+	\www{https://en.wikipedia.org/wiki/Chatbot}
+	\online{2023-02-20}
+	\rok{2023}
+}
+
+\publW{
+	\autor{MessageKit Contributors.}
+	\nazev{GitHub}
+	\nazevdok{MessageKit}
+	\www{https://github.com/MessageKit/MessageKit}
+	\online{2023-02-20}
+	\rok{2023}
+}
+
+\publW{
+	\autor{Hudson, Paul.}
+	\nazev{Hacking with Swift}
+	\nazevdok{Introducing MVVM into your SwiftUI project}
+	\www{https://www.hackingwithswift.com/books/ios-swiftui/introducing-mvvm-into-your-swiftui-project}
+	\online{2023-03-16}
+	\rok{2022}
+}
+
+\publS{
+	\autorkorp{Bundesamt fuer Migration und Fluechtlinge.}
+	\nazev{Ankommen}
+	\verze{1.7.5}
+	\rok{2022}
+	\www{https://apps.apple.com/cz/app/ankommen/id1066804488}
+	\online{}
+}
+
+\publS{
+	\autorkorp{Heinrich & Reuter Solutions GmbH.}
+	\nazev{Welcome app Germany}
+	\verze{2.1.0}
+	\rok{2020}
+	\www{https://apps.apple.com/cz/app/welcome-app-germany/id1047174574}
+	\online{}
+}
+
+
+%CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚
+\ebib
+
+
+\stopbodymatter
+
+%%%%%%%%%%%%%%%%%%%%%%%% Varianta, kdy seznamy jsou součástí práce a nejsou uvedeny v přílohách
+
+\setupsectionblock[backmatter][before={\setuplist[kap][before={}]}]
+
+\startbackmatter
+
+\THESIScompletelistof{tables}
+\THESIScompletelistof{figures}
+%\THESIScompletelistof{abbreviations}
+\THESIScompletelistof{codes}
+
+\stopbackmatter
+\stopthesis
+
+\endinput		
+
+%%%% TODO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Tady si můžeš psát poznámky, které se neobjeví ve výstupu.

@@ -1,6 +1,6 @@
 %
 \usemodule[ctx-thesis-v0.971]
-\usemodule[bib.sty-v2.73]
+\usemodule[bib.sty-v2.77]
 \usemodule[vim]
 
 \def\courierfont{\setupbodyfont[courier,12dd]} 
@@ -644,7 +644,7 @@ Tato technologie patří mezi jednodušší, co se týče uchovávání dat. Tec
 %📚https://www.hackingwithswift.com/books/ios-swiftui/storing-user-settings-with-userdefaults✅
 \par
 
-{\courierfont UserDefaults} je jednoduchá na používání, jako většina technologií má však i své nedostatky, mezi které patří např. snadné přepsání hodnot nebo nezašifrovaná data. (iOS App Templates Contributors, 2021)
+{\courierfont UserDefaults} je jednoduchá na používání, jako většina technologií má však i své nedostatky, mezi které patří např. snadné přepsání hodnot nebo nezašifrovaná data. (florian, 2021)
 
 %📚https://iosapptemplates.com/blog/ios-development/data-persistence-ios-swift✅
 
@@ -659,7 +659,7 @@ Některé technologie nepodporují ukládání souborů v různých formátech n
 
 \par
 
-S tímto přístupem přichází jisté výhody jako možnost ukládání objemných souborů, jednoduchost používání nebo možnost sdílení souborů mezi aplikacemi. Jednou z nevýhod ukládání souborů přímo na disk je rychlost čtení a zápisů. Adresa, na které je aplikace uložená se může kdykoli změnit a absolutní cesta k souboru již nebude použitelná. (iOS App Templates Contributors, 2021)
+S tímto přístupem přichází jisté výhody jako možnost ukládání objemných souborů, jednoduchost používání nebo možnost sdílení souborů mezi aplikacemi. Jednou z nevýhod ukládání souborů přímo na disk je rychlost čtení a zápisů. Adresa, na které je aplikace uložená se může kdykoli změnit a absolutní cesta k souboru již nebude použitelná. (florian 2021)
 %📚https://iosapptemplates.com/blog/ios-development/data-persistence-ios-swift✅
 
 \sourcecode{Ukázka uložení souboru na disk. Zdroj: Autor práce.}{}{src:savefile}{}✅
@@ -677,7 +677,7 @@ S tímto přístupem přichází jisté výhody jako možnost ukládání objemn
 
 \par
 
-Mezi výhody \italic{Core Data} patří jejich jednoduchost nastavení a používání, výkon, rychlost, možnost synchronizace mezi zařízeními pomocí služby \italic{CloudKit} nebo škála nástrojů pro práci s frameworkem přímo od firmy \italic{Apple}. Nevýhodou \italic{CloudKitu} je nepřístupnost dat ze zařízení, která nejsou od značky \italic{Apple}. (Apple, 2023) (iOS App Templates Contributors, 2021)
+Mezi výhody \italic{Core Data} patří jejich jednoduchost nastavení a používání, výkon, rychlost, možnost synchronizace mezi zařízeními pomocí služby \italic{CloudKit} nebo škála nástrojů pro práci s frameworkem přímo od firmy \italic{Apple}. Nevýhodou \italic{CloudKitu} je nepřístupnost dat ze zařízení, která nejsou od značky \italic{Apple}. (Apple, 2023) (florian, 2021)
 %📚https://developer.apple.com/documentation/coredata✅
 %📚https://iosapptemplates.com/blog/ios-development/data-persistence-ios-swift✅
 
@@ -753,7 +753,7 @@ Jednotkové testy jsou způsob testování, při kterém testujeme konkrétní �
 K testování uživatelského rozhraní se používají tzv. UI testy. UI testy slouží k testování jednotlivých elementů uživatelského rozhraní a jejich vzájemnou interakci s uživatelem. V tomto přístupu lokalizujeme konkrétní element uživatelského rozhraní a na tomto prvku simulujeme řadu interakcí. Je-li výsledek interakce stejný jako očekávaný, pak je test splněn. (Riyam Rudrank, 2021) (David Piper, 2021)
 %📚https://semaphoreci.com/blog/ui-testing-swiftℹ️✅
 %📚https://www.kodeco.com/21020457-ios-unit-testing-and-ui-testing-tutorialℹ️✅
-\sourcecode{Ukázka testování uživatelského rozhraní. Zdroj: Code with Chris.}{}{src:uitest}{}
+\sourcecode{Ukázka testování uživatelského rozhraní. Zdroj: Chris Ching.}{}{src:uitest}{}
 Zajímavým přístupem k testování je tzv. \italic{Monkey testing}. \italic{Monkey testing} spočívá v náhodných dotecích, dlouhých stiscích nebo posouvání po obrazovce. K testování je možné vymezit část obrazovky, ve které budou náhodné interakce prováděny nebo vymezit čas, v kterém budou testy prováděny. Tímto přístupem může vývojář simulovat naprosto náhodné chování uživatele a zkoumat responsivitu aplikace na tyto akce. (Alexey Alter-Pesotskiy, 2023)
 %📚https://testableapple.com/stress-testing-on-ios-with-xcmonkey/✅
 
@@ -1113,445 +1113,156 @@ Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského r
 %CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚
 \bbib
 \publW{
-	\autor{Radu, Dan.}
-	\nazev{Medium}
-	\autordok{}
-	\nazevdok{Battle of the iOS Architecture Patterns: Model View Controller (MVC)}
-	\www{https://betterprogramming.pub/battle-of-the-ios-architecture-patterns-model-view-controller-mvc-442241b447f6}
-	\rok{2021}
-	\online{2022-01-28}
-}
-
-\publW{
-	\autor{Alvarez, Pedro.}
-	\nazev{Medium}
-	\nazevdok{iOS Architectures Explained: Which One Best Fits My Project?}
-	\www{https://betterprogramming.pub/ios-architectures-explained-which-one-best-fits-my-project-94b4ffaad16}
-	\online{2022-01-28}
-	\rok{2021}
-}
-
-\publW{
-	\autor{Apple.}
-	\nazev{Apple Developer Documentation}
-	\nazevdok{Model-View-Controller}
-	\www{https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html}
-	\online{2022-01-28}
-	\rok{2018}
-}
-
-\publW{
-	\autor{Radu, Dan.}
-	\nazev{Medium}
-	\nazevdok{Battle of the iOS Architecture Patterns: A Look at Model-View-ViewModel (MVVM)}
-	\www{https://betterprogramming.pub/battle-of-the-ios-architecture-patterns-a-look-at-model-view-viewmodel-mvvm-bdfd07d9395e}
-	\rok{2021}
-	\online{2022-01-28}
-}
-
-\publW{
-	\autor{Pasquier, Benoit.}
-	\nazev{Benoit Pasquier}
-	\nazevdok{How to implement MVVM pattern in Swift from scratch}
-	\www{https://benoitpasquier.com/ios-swift-mvvm-pattern/}
-	\rok{2018}
-	\online{2022-01-28}
-}
-
-\publW{
 	\autor{Alam, Sayed Mahmudul.}
-	\nazev{Medium}
-	\nazevdok{VIPER Design Pattern in Swift for iOS Application Development.}
+	\nazevdok{Medium}
+	\nazev{VIPER Design Pattern in Swift for iOS Application Development.}
 	\www{https://medium.com/@smalam119/viper-design-pattern-for-ios-application-development-7a9703902af6}
 	\rok{2017}
 	\online{2022-01-29}
 }
 
 \publW{
-	\autor{Katz, Michael.}
-	\nazev{Kodeco}
-	\nazevdok{Getting Started with the VIPER Architecture Pattern}
-	\www{https://www.kodeco.com/8440907-getting-started-with-the-viper-architecture-pattern}
-	\rok{2020}
-	\online{2022-01-29}
-}
-
-\publW{
-	\autor{Apple.}
-	\nazev{Apple Developer Documentation}
-	\nazevdok{Xcode 14 Overview}
-	\www{https://developer.apple.com/xcode/}
-	\online{2022-01-12}
-	\rok{2022}
-}
-
-\publW{
-	\autor{Wikipedia contributors.}
-	\nazev{Wikipedia}
-	\nazevdok{Xcode}
-	\www{https://en.wikipedia.org/wiki/Xcode}
-	\online{2022-01-12}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Wikipedia contributors.}
-	\nazev{Wikipedia}
-	\nazevdok{Swift (programming language)}
-	\www{https://en.wikipedia.org/wiki/Swift_(programming_language)}
-	\online{2022-01-12}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Apple.}
-	\nazev{Apple Developer Documentation}
-	\nazevdok{UIKit}
-	\www{https://developer.apple.com/documentation/uikit}
-	\online{2023-01-20}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Jeroen, L.}
-	\nazev{Stream}
-	\nazevdok{UIKit vs. SwiftUI: How to Choose the Right Framework for Your App}
-	\www{https://getstream.io/blog/uikit-vs-swiftui/}
-	\online{2023-01-20}
-	\rok{2022}
-}
-
-\publW{
-	\autor{Mishali, Shai.}
-	\nazev{Kodeco}
-	\nazevdok{SnapKit for iOS: Constraints in a Snap}
-	\www{https://www.kodeco.com/3225401-snapkit-for-ios-constraints-in-a-snap}
-	\online{2023-01-20}
-	\rok{2019}
-}
-
-\publW{
-	\autor{Alamofire.}
-	\nazev{GitHub}
-	\nazevdok{Alamofire}
+	\autorkorp{Alamofire}
+	\nazevdok{GitHub}
+	\nazev{Alamofire}
 	\www{https://github.com/Alamofire/Alamofire}
 	\online{2023-01-28}
 	\rok{2023}
 }
 
 \publW{
-	\autor{STRV.}
-	\nazev{GitHub}
-	\nazevdok{Endpoint.swift}
-	\www{https://github.com/strvcom/ios-course-mendelu-2022-autumn/blob/develop/SpriteKit2/Final/RickAndMorty/API/Endpoint.swift}
-	\online{2023-01-28}
-	\rok{2022}
-}
-
-\publW{
-	\autor{Apple.}
-	\nazev{Apple Developer Documentation}
-	\nazevdok{SwiftUI}
-	\www{https://developer.apple.com/documentation/swiftui}
-	\online{2023-01-20}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Apple.}
-	\nazev{Apple Developer Documentation}
-	\nazevdok{URL Loading System}
-	\www{https://developer.apple.com/documentation/foundation/url_loading_system}
-	\online{2023-01-27}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Hudson, Paul.}
-	\nazev{Hacking with Swift}
-	\nazevdok{Storing user settings with UserDefaults}
-	\www{https://www.hackingwithswift.com/books/ios-swiftui/storing-user-settings-with-userdefaults}
-	\online{2023-01-28}
-	\rok{2022}
-}
-
-\publW{
-	\autor{iOS App Templates Contributors.}
-	\nazev{iOS App Templates}
-	\nazevdok{iOS Data Persistence in Swift}
-	\www{https://iosapptemplates.com/blog/ios-development/data-persistence-ios-swift}
-	\online{2023-01-28}
-	\rok{2021}
-}
-
-\publW{
-	\autor{Apple.}
-	\nazev{Apple Developer Documentation}
-	\nazevdok{Core Data}
-	\www{https://developer.apple.com/documentation/coredata}
-	\online{2023-01-28}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Apple.}
-	\nazev{Apple Developer Documentation}
-	\nazevdok{CloudKit Quick Start}
-	\www{https://developer.apple.com/library/archive/documentation/DataManagement/Conceptual/CloudKitQuickStart/Introduction/Introduction.html}
-	\online{2023-01-28}
-	\rok{2017}
-}
-
-\publW{
-	\autor{Apple.}
-	\nazev{Apple Developer Documentation}
-	\nazevdok{Build Apps Using CloudKit}
-	\www{https://developer.apple.com/icloud/cloudkit/}
-	\online{2023-01-28}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Rondestvedt, Josh.}
-	\nazev{Medium}
-	\nazevdok{An Intro to Realm for iOS}
-	\www{https://betterprogramming.pub/an-intro-to-realm-for-ios-2633162952f1}
-	\online{2023-01-29}
-	\rok{2020}
-}
-
-\publW{
 	\autor{Allan, Missy.}
-	\nazev{Medium}
-	\nazevdok{Intro to Realm: Getting Started with the Realm Mobile Platform}
+	\nazevdok{Medium}
+	\nazev{Intro to Realm: Getting Started with the Realm Mobile Platform}
 	\www{https://medium.com/@missyalienn/intro-to-realm-getting-started-with-the-realm-mobile-platform-e60ddbc24413}
 	\online{2023-01-29}
 	\rok{2017}
 }
 
 \publW{
-	\autor{Singh, Shubham.}
-	\nazev{Medium}
-	\nazevdok{Simplify Data Store & Operations in Your iOS Projects with Realm}
-	\www{https://medium.com/engineering-dr/simplify-data-store-operations-in-your-ios-projects-with-realm-dfec443f11d}
-	\online{2023-01-29}
-	\rok{2021}
-}
-
-\publW{
-	\autor{Apple.}
-	\nazev{Apple Developer Documentation}
-	\nazevdok{MapKit}
-	\www{https://developer.apple.com/documentation/mapkit/}
-	\online{2023-02-03}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Clark, Jessica.}
-	\nazev{back4app}
-	\nazevdok{Firebase vs. Firestore \| What are the differences?}
-	\www{https://blog.back4app.com/firebase-vs-firestore/}
-	\online{2023-02-01}
-	\rok{2021}
-}
-
-\publW{
-	\autor{ArcGIS.}
-	\nazev{ArcGIS Developers}
-	\nazevdok{ArcGIS Runtime API for iOS}
-	\www{https://developers.arcgis.com/ios/key-features/}
-	\online{2023-02-03}
-	\rok{2023}
-}
-
-\publW{
-	\autor{AppCoda Editorial Team.}
-	\nazev{AppCoda}
-	\nazevdok{How to Integrate Google Street View in iOS Apps}
-	\www{https://www.appcoda.com/google-street-view-ios/}
-	\online{2023-02-03}
-	\rok{2017}
-}
-
-\publW{
-	\autor{Google.}
-	\nazev{Google Maps Platform}
-	\nazevdok{Maps SDK for iOS Overview}
-	\www{https://developers.google.com/maps/documentation/ios-sdk/overview}
-	\online{2023-02-04}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Apple.}
-	\nazev{Apple Developer Documentation}
-	\nazevdok{Explore a location with a highly detailed map and Look Around}
-	\www{https://developer.apple.com/documentation/mapkit/explore_a_location_with_a_highly_detailed_map_and_look_around}
-	\online{2023-02-04}
-	\rok{2023}
-}
-
-\publW{
-	\autor{MapBox.}
-	\nazev{MapBox Docs}
-	\nazevdok{Maps SDK for iOS}
-	\www{https://docs.mapbox.com/ios/maps/guides/}
-	\online{2023-02-04}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Van der Lee, Antoine.}
-	\nazev{SwiftLee}
-	\nazevdok{Getting started with Unit Tests in Swift}
-	\www{https://www.avanderlee.com/swift/unit-tests-best-practices/}
-	\online{2023-02-10}
-	\rok{2022}
-}
-
-\publW{
-	\autor{Rudrank, Riyam.}
-	\nazev{Semaphore}
-	\nazevdok{UI Testing in Swift}
-	\www{https://semaphoreci.com/blog/ui-testing-swift}
-	\online{2023-02-10}
-	\rok{2021}
-}
-
-\publW{
-	\autor{Piper, David.}
-	\nazev{Kodeco}
-	\nazevdok{iOS Unit Testing and UI Testing Tutorial}
-	\www{https://www.kodeco.com/21020457-ios-unit-testing-and-ui-testing-tutorial}
-	\online{2023-02-10}
-	\rok{2021}
-}
-
-\publW{
-	\autor{Code with Chris.}
-	\nazev{Code with Chris}
-	\nazevdok{Xcode UI Testing in Swift – Code Examples}
-	\www{https://codewithchris.com/xcode-ui-testing-swift/}
-	\online{2023-02-10}
-	\rok{2021}
-}
-
-\publW{
 	\autor{Alter-Pesotskiy, Alexey.}
-	\nazev{Testableapple}
-	\nazevdok{Stress testing on iOS with xcmonkey}
+	\nazevdok{Testableapple}
+	\nazev{Stress testing on iOS with xcmonkey}
 	\www{https://testableapple.com/stress-testing-on-ios-with-xcmonkey/}
 	\online{2023-02-10}
 	\rok{2023}
 }
 
 \publW{
-	\autor{Wikipedia contributors.}
-	\nazev{Wikipedia}
-	\nazevdok{Chatbot}
-	\www{https://en.wikipedia.org/wiki/Chatbot}
-	\online{2023-02-20}
-	\rok{2023}
-}
-
-\publW{
-	\autor{MessageKit Contributors.}
-	\nazev{GitHub}
-	\nazevdok{MessageKit}
-	\www{https://github.com/MessageKit/MessageKit}
-	\online{2023-02-20}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Forbes contributor.}
-	\nazev{Forbes}
-	\nazevdok{Microsoft Confirms Its \$10 Billion Investment Into ChatGPT, Changing How Microsoft Competes With Google, Apple And Other Tech Giants}
-	\www{https://www.forbes.com/sites/qai/2023/01/27/microsoft-confirms-its-10-billion-investment-into-chatgpt-changing-how-microsoft-competes-with-google-apple-and-other-tech-giants/}
-	\online{2023-02-20}
-	\rok{2023}
-}
-
-\publW{
-	\autor{Karajgi, Aniruddha.}
-	\nazev{Medium}
-	\nazevdok{Building a Chatbot with Rasa}
-	\www{https://towardsdatascience.com/building-a-chatbot-with-rasa-3f03ecc5b324}
-	\online{2023-02-20}
+	\autor{Alvarez, Pedro.}
+	\nazevdok{Medium}
+	\nazev{iOS Architectures Explained: Which One Best Fits My Project?}
+	\www{https://betterprogramming.pub/ios-architectures-explained-which-one-best-fits-my-project-94b4ffaad16}
+	\online{2022-01-28}
 	\rok{2021}
 }
 
 \publW{
-	\autor{Kadijk, Mathijs.}
-	\nazev{GitHub}
-	\nazevdok{R.swift}
-	\www{https://github.com/mac-cain13/R.swift}
-	\online{2023-02-25}
-	\rok{2023}
+	\autor{AppCoda Editorial Team.}
+	\nazevdok{AppCoda}
+	\nazev{How to Integrate Google Street View in iOS Apps}
+	\www{https://www.appcoda.com/google-street-view-ios/}
+	\online{2023-02-03}
+	\rok{2017}
 }
 
 \publW{
-	\autor{SDWebImage.}
-	\nazev{GitHub}
-	\nazevdok{SDWebImageSwiftUI}
-	\www{https://github.com/SDWebImage/SDWebImageSwiftUI}
-	\online{2023-02-25}
+	\autorkorp{Apple}
+	\nazevdok{Apple Developer Documentation}
+	\nazev{CloudKit Quick Start}
+	\www{https://developer.apple.com/library/archive/documentation/DataManagement/Conceptual/CloudKitQuickStart/Introduction/Introduction.html}
+	\online{2023-01-28}
+	\rok{2017}
+}
+
+\publW{
+	\autorkorp{Apple}
+	\nazevdok{Apple Developer Documentation}
+	\nazev{Model-View-Controller}
+	\www{https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html}
+	\online{2022-01-28}
+	\rok{\crlf 2018}
+}
+
+\publW{
+	\autorkorp{Apple}
+	\nazevdok{Apple Developer Documentation}
+	\nazev{Xcode 14 Overview}
+	\www{https://developer.apple.com/xcode/}
+	\online{2022-01-12}
 	\rok{2022}
 }
 
 \publW{
-	\autor{realm.}
-	\nazev{GitHub}
-	\nazevdok{SwiftLint}
-	\www{https://github.com/realm/SwiftLint}
-	\online{2023-02-25}
+	\autorkorp{Apple}
+	\nazevdok{Apple Developer Documentation}
+	\nazev{Build Apps Using CloudKit}
+	\www{https://developer.apple.com/icloud/cloudkit/}
+	\online{2023-01-28}
 	\rok{2023}
 }
 
 \publW{
-	\autor{Hudson, Paul.}
-	\nazev{Hacking with Swift}
-	\nazevdok{How to use @MainActor to run code on the main queue}
-	\www{https://www.hackingwithswift.com/quick-start/concurrency/how-to-use-mainactor-to-run-code-on-the-main-queue}
-	\online{2023-03-16}
-	\rok{2021}
+	\autorkorp{Apple}
+	\nazevdok{Apple Developer Documentation}
+	\nazev{Core Data}
+	\www{https://developer.apple.com/documentation/coredata}
+	\online{\crlf 2023-01-28}
+	\rok{2023}
 }
 
 \publW{
-	\autor{Hudson, Paul.}
-	\nazev{Hacking with Swift}
-	\nazevdok{Introducing MVVM into your SwiftUI project}
-	\www{https://www.hackingwithswift.com/books/ios-swiftui/introducing-mvvm-into-your-swiftui-project}
-	\online{2023-03-16}
-	\rok{2022}
+	\autorkorp{Apple}
+	\nazevdok{Apple Developer Documentation}
+	\nazev{Explore a location with a highly detailed map and Look Around}
+	\www{https://developer.apple.com/documentation/mapkit/explore_a_location_with_a_highly_detailed_map_and_look_around}
+	\online{2023-02-04}
+	\rok{2023}
 }
 
-\publS{
-	\autorkorp{Integrační centrum Praha o.p.s.}
-	\nazev{Praguer}
-	\verze{2.0}
-	\rok{2021}
-	\www{https://apps.apple.com/cz/app/praguer/id1312865177}
-	\online{}
+\publW{
+	\autorkorp{Apple}
+	\nazevdok{Apple Developer Documentation}
+	\nazev{MapKit}
+	\www{https://developer.apple.com/documentation/mapkit/}
+	\online{\crlf 2023-02-03}
+	\rok{2023}
 }
 
-\publS{
-	\autorkorp{USAHello.}
-	\nazev{FindHello: Immigrant Help}
-	\verze{1.1.8}
-	\rok{2021}
-	\www{https://usahello.org/findhello/}
-	\online{}
+\publW{
+	\autorkorp{Apple}
+	\nazevdok{Apple Developer Documentation}
+	\nazev{SwiftUI}
+	\www{https://developer.apple.com/documentation/swiftui}
+	\online{\crlf 2023-01-20}
+	\rok{2023}
 }
 
-\publS{
-	\autorkorp{trellyz Limited.}
-	\nazev{RefAid - Refugee Aid App}
-	\verze{4.3.0}
-	\rok{2022}
-	\www{https://apps.apple.com/cz/app/refaid-refugee-aid-app/id1080936380}
-	\online{}
+\publW{
+	\autorkorp{Apple}
+	\nazevdok{Apple Developer Documentation}
+	\nazev{UIKit}
+	\www{https://developer.apple.com/documentation/uikit}
+	\online{2023-01-20}
+	\rok{2023}
+}
+
+\publW{
+	\autorkorp{Apple}
+	\nazevdok{Apple Developer Documentation}
+	\nazev{URL Loading System}
+	\www{https://developer.apple.com/documentation/foundation/url_loading_system}
+	\online{2023-01-27}
+	\rok{2023}
+}
+
+\publW{
+	\autorkorp{ArcGIS}
+	\nazevdok{ArcGIS Developers}
+	\nazev{ArcGIS Runtime API for iOS}
+	\www{https://developers.arcgis.com/ios/key-features/}
+	\online{2023-02-03}
+	\rok{2023}
 }
 
 \publS{
@@ -1563,8 +1274,44 @@ Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského r
 	\online{}
 }
 
+\publW{
+	\autor{Ching, Chris.}
+	\nazevdok{Code with Chris}
+	\nazev{Xcode UI Testing in Swift – Code Examples}
+	\www{https://codewithchris.com/xcode-ui-testing-swift/}
+	\online{2023-02-10}
+	\rok{2021}
+}
+
+\publW{
+	\autor{Clark, Jessica.}
+	\nazevdok{back4app}
+	\nazev{Firebase vs. Firestore \| What are the differences?}
+	\www{https://blog.back4app.com/firebase-vs-firestore/}
+	\online{2023-02-01}
+	\rok{2021}
+}
+
+\publW{
+	\autor{Forbes contributor.}
+	\nazevdok{Forbes}
+	\nazev{Microsoft Confirms Its \$10 Billion Investment Into ChatGPT, Changing How Microsoft Competes With Google, Apple And Other Tech Giants}
+	\www{https://www.forbes.com/sites/qai/2023/01/27/microsoft-confirms-its-10-billion-investment-into-chatgpt-changing-how-microsoft-competes-with-google-apple-and-other-tech-giants/}
+	\online{2023-02-20}
+	\rok{2023}
+}
+
+\publW{
+	\autorkorp{Google}
+	\nazevdok{Google Maps Platform}
+	\nazev{Maps SDK for iOS Overview}
+	\www{https://developers.google.com/maps/documentation/ios-sdk/overview}
+	\online{2023-02-04}
+	\rok{2023}
+}
+
 \publS{
-	\autorkorp{Heinrich & Reuter Solutions GmbH.}
+	\autorkorp{Heinrich & Reuter Solutions.}
 	\nazev{Welcome app Germany}
 	\verze{2.1.0}
 	\rok{2020}
@@ -1572,13 +1319,266 @@ Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského r
 	\online{}
 }
 
+\publW{
+	\autor{Hudson, Paul.}
+	\nazevdok{Hacking with Swift}
+	\nazev{How to use @MainActor to run code on the main queue}
+	\www{https://www.hackingwithswift.com/quick-start/concurrency/how-to-use-mainactor-to-run-code-on-the-main-queue}
+	\online{2023-03-16}
+	\rok{2021}
+}
+
+\publW{
+	\autor{Hudson, Paul.}
+	\nazevdok{Hacking with Swift}
+	\nazev{Introducing MVVM into your SwiftUI project}
+	\www{https://www.hackingwithswift.com/books/ios-swiftui/introducing-mvvm-into-your-swiftui-project}
+	\online{2023-03-16}
+	\rok{2022}
+}
+
+\publW{
+	\sethyphenatedurlafter {h}
+	\autor{Hudson, Paul.}
+	\nazevdok{Hacking with Swift}
+	\nazev{Storing user settings with UserDefaults}
+	\www{https://www.hackingwithswift.com/books/ios-swiftui/storing-user-settings-with-userdefaults}
+	\online{2023-01-28}
+	\rok{2022}
+}
+
 \publS{
-	\autorkorp{Lawfully, Inc.}
+	\autorkorp{Integrační centrum Praha}
+	\nazev{Praguer}
+	\verze{2.0}
+	\rok{2021}
+	\www{https://apps.apple.com/cz/app/praguer/id1312865177}
+	\online{}
+}
+
+\publW{
+	\autor{florian [pseud.].}
+	\nazevdok{iOS App Templates}
+	\nazev{iOS Data Persistence in Swift}
+	\www{https://iosapptemplates.com/blog/ios-development/data-persistence-ios-swift}
+	\online{2023-01-28}
+	\rok{2021}
+}
+
+\publW{
+	\autor{Jeroen, L.}
+	\nazevdok{Stream}
+	\nazev{UIKit vs. SwiftUI: How to Choose the Right Framework for Your App}
+	\www{https://getstream.io/blog/uikit-vs-swiftui/}
+	\online{2023-01-20}
+	\rok{2022}
+}
+
+\publW{
+	\autor{Kadijk, Mathijs.}
+	\nazevdok{GitHub}
+	\nazev{R.swift}
+	\www{https://github.com/mac-cain13/R.swift}
+	\online{2023-02-25}
+	\rok{2023}
+}
+
+\publW{
+	\autor{Karajgi, Aniruddha.}
+	\nazevdok{Medium}
+	\nazev{Building a Chatbot with Rasa}
+	\www{https://towardsdatascience.com/building-a-chatbot-with-rasa-3f03ecc5b324}
+	\online{2023-02-20}
+	\rok{2021}
+}
+
+\publW{
+	\autor{Katz, Michael.}
+	\nazevdok{Kodeco}
+	\nazev{Getting Started with the VIPER Architecture Pattern}
+	\www{https://www.kodeco.com/8440907-getting-started-with-the-viper-architecture-pattern}
+	\rok{2020}
+	\online{2022-01-29}
+}
+
+\publS{
+	\autorkorp{Lawfully}
 	\nazev{Lawfully}
 	\verze{4.2.70}
 	\rok{2023}
 	\www{https://apps.apple.com/cz/app/lawfully-uscis-case-tracker/id1435063223}
 	\online{}
+}
+
+\publW{
+	\autorkorp{MapBox}
+	\nazevdok{MapBox Docs}
+	\nazev{Maps SDK for iOS}
+	\www{https://docs.mapbox.com/ios/maps/guides/}
+	\online{2023-02-04}
+	\rok{2023}
+}
+
+\publW{
+	\autor{MessageKit Contributors.}
+	\nazevdok{GitHub}
+	\nazev{MessageKit}
+	\www{https://github.com/MessageKit/MessageKit}
+	\online{\crlf 2023-02-20}
+	\rok{2023}
+}
+
+\publW{
+	\autor{Mishali, Shai.}
+	\nazevdok{Kodeco}
+	\nazev{SnapKit for iOS: Constraints in a Snap}
+	\www{https://www.kodeco.com/3225401-snapkit-for-ios-constraints-in-a-snap}
+	\online{2023-01-20}
+	\rok{2019}
+}
+
+\publW{
+	\autor{Pasquier, Benoit.}
+	\nazevdok{Benoit Pasquier}
+	\nazev{How to implement MVVM pattern in Swift from scratch}
+	\www{https://benoitpasquier.com/ios-swift-mvvm-pattern/}
+	\rok{2018}
+	\online{2022-01-28}
+}
+
+\publW{
+	\autor{Piper, David.}
+	\nazevdok{Kodeco}
+	\nazev{iOS Unit Testing and UI Testing Tutorial}
+	\www{https://www.kodeco.com/21020457-ios-unit-testing-and-ui-testing-tutorial}
+	\online{2023-02-10}
+	\rok{2021}
+}
+
+\publW{
+	\autor{Radu, Dan.}
+	\nazevdok{Medium}
+	\nazev{Battle of the iOS Architecture Patterns: A Look at Model-View-ViewModel (MVVM)}
+	\www{https://betterprogramming.pub/battle-of-the-ios-architecture-patterns-a-look-at-model-view-viewmodel-mvvm-bdfd07d9395e}
+	\rok{2021}
+	\online{2022-01-28}
+}
+
+\publW{
+	\autor{Radu, Dan.}
+	\nazevdok{Medium}
+	\nazev{Battle of the iOS Architecture Patterns: Model View Controller (MVC)}
+	\www{https://betterprogramming.pub/battle-of-the-ios-architecture-patterns-model-view-controller-mvc-442241b447f6}
+	\rok{2021}
+	\online{2022-01-28}
+}
+
+\publW{
+	\autorkorp{realm}
+	\nazevdok{GitHub}
+	\nazev{SwiftLint}
+	\www{https://github.com/realm/SwiftLint}
+	\online{2023-02-25}
+	\rok{2023}
+}
+
+\publW{
+	\autor{Rondestvedt, Josh.}
+	\nazevdok{Medium}
+	\nazev{An Intro to Realm for iOS}
+	\www{https://betterprogramming.pub/an-intro-to-realm-for-ios-2633162952f1}
+	\online{2023-01-29}
+	\rok{2020}
+}
+
+\publW{
+	\autor{Rudrank, Riyam.}
+	\nazevdok{Semaphore}
+	\nazev{UI Testing in Swift}
+	\www{https://semaphoreci.com/blog/ui-testing-swift}
+	\online{\crlf 2023-02-10}
+	\rok{2021}
+}
+
+\publW{
+	\autorkorp{SDWebImage}
+	\nazevdok{GitHub}
+	\nazev{SDWebImageSwiftUI}
+	\www{https://github.com/SDWebImage/SDWebImageSwiftUI}
+	\online{2023-02-25}
+	\rok{2022}
+}
+
+\publW{
+	\autor{Singh, Shubham.}
+	\nazevdok{Medium}
+	\nazev{Simplify Data Store & Operations in Your iOS Projects with Realm}
+	\www{https://medium.com/engineering-dr/simplify-data-store-operations-in-your-ios-projects-with-realm-dfec443f11d}
+	\online{2023-01-29}
+	\rok{2021}
+}
+
+\publW{
+	\autorkorp{STRV}
+	\nazevdok{GitHub}
+	\nazev{Endpoint.swift}
+	\www{https://github.com/strvcom/ios-course-mendelu-2022-autumn/blob/develop/SpriteKit2/Final/RickAndMorty/API/Endpoint.swift}
+	\online{2023-01-28}
+	\rok{2022}
+}
+
+\publS{
+	\autorkorp{trellyz}
+	\nazev{RefAid - Refugee Aid App}
+	\verze{4.3.0}
+	\rok{2022}
+	\www{https://apps.apple.com/cz/app/refaid-refugee-aid-app/id1080936380}
+	\online{}
+}
+
+\publS{
+	\autorkorp{USAHello}
+	\nazev{FindHello: Immigrant Help}
+	\verze{1.1.8}
+	\rok{2021}
+	\www{https://usahello.org/findhello/}
+	\online{}
+}
+
+\publW{
+	\autor{Van der Lee, Antoine.}
+	\nazevdok{SwiftLee}
+	\nazev{Getting started with Unit Tests in Swift}
+	\www{https://www.avanderlee.com/swift/unit-tests-best-practices/}
+	\online{2023-02-10}
+	\rok{2022}
+}
+
+\publW{
+	\autor{Wikipedia contributors.}
+	\nazevdok{Wikipedia}
+	\nazev{Chatbot}
+	\www{https://en.wikipedia.org/wiki/Chatbot}
+	\online{\crlf 2023-02-20}
+	\rok{2023}
+}
+
+\publW{
+	\autor{Wikipedia contributors.}
+	\nazevdok{Wikipedia}
+	\nazev{Swift (programming language)}
+	\www{https://en.wikipedia.org/wiki/Swift_(programming_language)}
+	\online{2022-01-12}
+	\rok{2023}
+}
+
+\publW{
+	\autor{Wikipedia contributors.}
+	\nazevdok{Wikipedia}
+	\nazev{Xcode}
+	\www{https://en.wikipedia.org/wiki/Xcode}
+	\online{2022-01-12}
+	\rok{2023}
 }
 
 %CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚

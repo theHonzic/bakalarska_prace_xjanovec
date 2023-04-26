@@ -1,0 +1,14 @@
+\SYNBOL{}\SYN[Define]{func} \SYN[Function]{getContacts}\SYN[swiftParenthesisRegion]{()} \{\SYNEOL{}
+\SYNBOL{}        \SYN[Statement]{do} \{\SYNEOL{}
+\SYNBOL{}            \SYN[Define]{let} \SYN[Identifier]{request} \SYN[Function]{=} Contact.FetchRequest\SYN[swiftParenthesisRegion]{()}\SYNEOL{}
+\SYNBOL{}            request.sortDescriptors \SYN[Function]{=} [\SYNEOL{}
+\SYNBOL{}                .\SYN[Function]{init}\SYN[swiftParenthesisRegion]{(key}\SYN[Delimiter]{:}\SYN[swiftParenthesisRegion]{ }\SYN[String]{"name"}\SYN[swiftParenthesisRegion]{, ascending}\SYN[Delimiter]{:}\SYN[swiftParenthesisRegion]{ }\SYN[Type]{true}\SYN[swiftParenthesisRegion]{)}\SYNEOL{}
+\SYNBOL{}            ]\SYNEOL{}
+\SYNBOL{}            request.predicate \SYN[Function]{=} NSPredicate\SYN[swiftParenthesisRegion]{(}\SYNEOL{}
+\SYNBOL{}\SYN[swiftParenthesisRegion]{                format}\SYN[Delimiter]{:}\SYN[swiftParenthesisRegion]{ }\SYN[String]{"name == %@"}\SYN[swiftParenthesisRegion]{, }\SYN[String]{"Jan"}\SYNEOL{}
+\SYNBOL{}\SYN[swiftParenthesisRegion]{            )}\SYNEOL{}
+\SYNBOL{}            contacts \SYN[Function]{=} \SYN[Statement]{try} viewContext.fetch\SYN[swiftParenthesisRegion]{(request)}\SYNEOL{}
+\SYNBOL{}        \} \SYN[Statement]{catch} \{\SYNEOL{}
+\SYNBOL{}            Logger.log\SYN[swiftParenthesisRegion]{(error)}\SYNEOL{}
+\SYNBOL{}        \}\SYNEOL{}
+\SYNBOL{}    \}\SYNEOL{}
