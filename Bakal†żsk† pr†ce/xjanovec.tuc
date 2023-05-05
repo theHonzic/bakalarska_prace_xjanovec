@@ -39,7 +39,7 @@ if not utilitydata.job.passes then utilitydata.job.passes = { } end
 
 utilitydata.job.passes.collected={
  ["itemgroup:itemize:1"]={
-  { 9, 0 },
+  { 10, 0 },
  },
 }
 
@@ -53,7 +53,7 @@ if not utilitydata.job then utilitydata.job = { } end
 if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
 
 utilitydata.job.pagestates.collected={
- ["float"]={ 12, 13, 14, 15, 16, 18, 19, 20, 22, 23, 24, 24, 25, 26, 27, 27, 30, 31, 32, 33, 35, 35, 38, 40, 41, 42, 42, 42, 44, 44, 46, 46, 47, 48, 49, 50, 51, 52, 53, 54 },
+ ["float"]={ 12, 13, 14, 15, 16, 18, 19, 20, 22, 23, 24, 24, 25, 26, 27, 27, 30, 31, 32, 33, 35, 35, 38, 41, 40, 42, 43, 44, 44, 45, 46, 47, 48, 49, 50, 50, 51, 53, 53, 54, 55 },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -358,7 +358,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["figure"]={
-  { 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 16, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 17, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
  },
  ["footnote"]={
   { 0 },
@@ -373,7 +373,7 @@ utilitydata.structures.counters.collected={
   { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
  },
  ["itemgroup:itemize:note"]={
   { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -385,10 +385,10 @@ utilitydata.structures.counters.collected={
   { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
  },
  ["realpage"]={
-  { 67 },
+  { 68 },
  },
  ["subpage"]={
-  { 67 },
+  { 68 },
  },
  ["table"]={
   { 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -397,7 +397,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["userpage"]={
-  { 67 },
+  { 68 },
  },
 }
 
@@ -515,7 +515,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Schéma architektury MVC. Zdroj: Autor práce. Podle vzoru (Apple, 2018)}",
+   ["title"]="\\THESISautoreffont {Schéma architektury MVC. Podle Apple (2018), upraveno.}",
   },
  },
  {
@@ -558,7 +558,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Schéma architektury MVVM. Zdroj: Autor práce. Podle vzoru (Benoit Pasquier, 2018). }",
+   ["title"]="\\THESISautoreffont {Schéma architektury MVVM. Podle Benoit Pasquier (2018), upraveno. }",
   },
  },
  {
@@ -587,7 +587,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Schéma architektury VIPER. Zdroj: Autor práce. Podle vzoru (Sayed Mahmudul Alam, 2017)}",
+   ["title"]="\\THESISautoreffont {Schéma architektury VIPER. Podle Sayed Mahmudul Alam (2017), upraveno.}",
   },
  },
  {
@@ -616,7 +616,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Mobilní aplikace Praguer pro iOS. Zdroj: Autor práce.}",
+   ["title"]="\\THESISautoreffont {Mobilní aplikace Praguer pro iOS.}",
   },
  },
  {
@@ -645,7 +645,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Mobilní aplikace FindHello pro iOS. Zdroj: Autor práce.}",
+   ["title"]="\\THESISautoreffont {Mobilní aplikace FindHello pro iOS.}",
   },
  },
  {
@@ -702,7 +702,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Mobilní aplikace Lawfully pro iOS. Autor práce.}",
+   ["title"]="\\THESISautoreffont {Mobilní aplikace Lawfully pro iOS.}",
   },
  },
  {
@@ -731,7 +731,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Mobilní aplikace RefAid (vlevo), Welcome Germany (uprostřed), Ankommen (vpravo). Zdroj: Autor práce.}",
+   ["title"]="\\THESISautoreffont {Mobilní aplikace RefAid (vlevo), Welcome Germany (uprostřed), Ankommen (vpravo).}",
   },
  },
  {
@@ -755,11 +755,12 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=25,
    ["realpage"]=20,
+   ["reference"]="appstable",
    ["section"]=6,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Tabulka srovnání existujících aplikací. Zdroj: Autor práce.",
+   ["title"]="Tabulka srovnání existujících aplikací.",
   },
  },
  {
@@ -815,7 +816,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka práce v UIKit. Zdroj: Autor práce.",
+   ["title"]="Ukázka práce v UIKit.",
   },
  },
  {
@@ -829,7 +830,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka práce ve SwftUI. Zdroj: Autor práce.",
+   ["title"]="Ukázka práce ve SwftUI.",
   },
  },
  {
@@ -871,7 +872,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka dekódovaní JSON do modelu Model pomocí Apple Foundation. Zdroj: Autor práce.",
+   ["title"]="Ukázka dekódovaní JSON do modelu Model pomocí Apple Foundation.",
   },
  },
  {
@@ -899,7 +900,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka dekódovaní JSON do modelu Model pomocí knihovny Alamofire. Zdroj: Autor práce",
+   ["title"]="Ukázka dekódovaní JSON do modelu Model pomocí knihovny Alamofire. Podle vzoru Alamofire (2023)",
   },
  },
  {
@@ -941,7 +942,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka práce s UserDefaults. Zdroj: Autor práce",
+   ["title"]="Ukázka práce s UserDefaults.",
   },
  },
  {
@@ -969,7 +970,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka uložení souboru na disk. Zdroj: Autor práce.",
+   ["title"]="Ukázka uložení souboru na disk.",
   },
  },
  {
@@ -997,7 +998,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka načtení dat s predikátem z Core Data. Zdroj: Autor práce.",
+   ["title"]="Ukázka načtení dat s predikátem z Core Data.",
   },
  },
  {
@@ -1011,7 +1012,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka uložení dat do Core Data. Zdroj: Autor práce.",
+   ["title"]="Ukázka uložení dat do Core Data.",
   },
  },
  {
@@ -1110,7 +1111,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Ukázka mapových frameworků v aplikacích. MapKit (vlevo), Google Maps SDK (uprostřed vlevo), Mapbox Maps SDK (uprostřed vpravo), ArcGIS SDK (vpravo). Zdroj: Autor práce.}",
+   ["title"]="\\THESISautoreffont {Ukázka mapových frameworků v aplikacích. MapKit (vlevo), Google Maps SDK (uprostřed vlevo), Mapbox Maps SDK (uprostřed vpravo), ArcGIS SDK (vpravo).}",
   },
  },
  {
@@ -1352,21 +1353,6 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=44,
-  ["numberdata"]=46,
-  ["prefixdata"]=47,
-  ["references"]={
-   ["internal"]=70,
-   ["realpage"]=38,
-   ["reference"]="scheme_app",
-   ["section"]=12,
-   ["view"]="fit",
-  },
-  ["titledata"]={
-   ["title"]="\\THESISautoreffont {Schéma aplikace. Zdroj: Autor práce.}",
-  },
- },
- {
   ["metadata"]=35,
   ["numberdata"]=103,
   ["references"]={
@@ -1423,7 +1409,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=73,
    ["order"]=3,
-   ["realpage"]=39,
+   ["realpage"]=38,
    ["section"]=12,
   },
   ["titledata"]={
@@ -1435,7 +1421,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=74,
    ["order"]=4,
-   ["realpage"]=39,
+   ["realpage"]=38,
    ["section"]=12,
   },
   ["titledata"]={
@@ -1447,11 +1433,26 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=75,
    ["order"]=5,
-   ["realpage"]=39,
+   ["realpage"]=38,
    ["section"]=12,
   },
   ["titledata"]={
    ["title"]="App",
+  },
+ },
+ {
+  ["metadata"]=44,
+  ["numberdata"]=46,
+  ["prefixdata"]=47,
+  ["references"]={
+   ["internal"]=70,
+   ["realpage"]=38,
+   ["reference"]="scheme_app",
+   ["section"]=12,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="\\THESISautoreffont {Schéma aplikace.}",
   },
  },
  {
@@ -1639,7 +1640,7 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=106,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=91,
+   ["internal"]=92,
    ["realpage"]=40,
    ["section"]=13,
   },
@@ -1650,59 +1651,31 @@ utilitydata.structures.lists.collected={
  },
  {
   ["metadata"]=66,
-  ["numberdata"]=49,
+  ["numberdata"]=52,
   ["prefixdata"]=47,
   ["references"]={
-   ["internal"]=92,
+   ["internal"]=93,
    ["realpage"]=40,
    ["section"]=13,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka přiřazení View Modelu k View. Zdroj: Autor práce.",
+   ["title"]="Ukázka přiřazení View Modelu k View.",
   },
  },
  {
-  ["metadata"]=37,
-  ["numberdata"]=107,
-  ["references"]={
-   ["block"]="bodypart",
-   ["internal"]=93,
-   ["realpage"]=40,
-   ["section"]=14,
-  },
-  ["titledata"]={
-   ["label"]="section",
-   ["title"]="Perzistence dat",
-  },
- },
- {
-  ["metadata"]=44,
-  ["numberdata"]=52,
+  ["metadata"]=107,
+  ["numberdata"]=49,
   ["prefixdata"]=47,
   ["references"]={
-   ["internal"]=94,
+   ["internal"]=91,
    ["realpage"]=41,
-   ["reference"]="scheme_coredata",
-   ["section"]=14,
+   ["reference"]="diagram",
+   ["section"]=12,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Schéma databáze. Zdroj: Autor práce.}",
-  },
- },
- {
-  ["metadata"]=37,
-  ["numberdata"]=108,
-  ["references"]={
-   ["block"]="bodypart",
-   ["internal"]=96,
-   ["realpage"]=41,
-   ["section"]=15,
-  },
-  ["titledata"]={
-   ["label"]="section",
-   ["title"]="Síťová komunikace",
+   ["title"]="Zjednodušený diagram popisující provázání jednotlivých částí aplikace.",
   },
  },
  {
@@ -1712,26 +1685,55 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=95,
    ["realpage"]=42,
+   ["reference"]="scheme_coredata",
+   ["section"]=14,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="\\THESISautoreffont {Schéma databáze.}",
+  },
+ },
+ {
+  ["metadata"]=37,
+  ["numberdata"]=108,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=94,
+   ["realpage"]=42,
+   ["section"]=14,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Perzistence dat",
+  },
+ },
+ {
+  ["metadata"]=44,
+  ["numberdata"]=57,
+  ["prefixdata"]=47,
+  ["references"]={
+   ["internal"]=96,
+   ["realpage"]=43,
    ["reference"]="detail_desc",
    ["section"]=14,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Ukázka použití entit z databáze v detailu tutoriálu. Zdroj: Autor práce.}",
+   ["title"]="\\THESISautoreffont {Ukázka použití entit z databáze v detailu tutoriálu.}",
   },
  },
  {
-  ["metadata"]=66,
-  ["numberdata"]=57,
-  ["prefixdata"]=47,
+  ["metadata"]=37,
+  ["numberdata"]=109,
   ["references"]={
+   ["block"]="bodypart",
    ["internal"]=97,
-   ["realpage"]=42,
+   ["realpage"]=43,
    ["section"]=15,
-   ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka protokolu Endpoint. Zdroj: Repozitář STRV na GitHub.",
+   ["label"]="section",
+   ["title"]="Síťová komunikace",
   },
  },
  {
@@ -1740,21 +1742,35 @@ utilitydata.structures.lists.collected={
   ["prefixdata"]=47,
   ["references"]={
    ["internal"]=98,
-   ["realpage"]=42,
+   ["realpage"]=44,
    ["section"]=15,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka získání seznamu tutoriálů ze serveru. Zdroj: Autor práce.",
+   ["title"]="Ukázka protokolu {\\courierfont Endpoint}. Zdroj: Repozitář STRV na GitHub.",
+  },
+ },
+ {
+  ["metadata"]=66,
+  ["numberdata"]=61,
+  ["prefixdata"]=47,
+  ["references"]={
+   ["internal"]=99,
+   ["realpage"]=44,
+   ["section"]=15,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Ukázka získání seznamu tutoriálů ze serveru.",
   },
  },
  {
   ["metadata"]=37,
-  ["numberdata"]=109,
+  ["numberdata"]=110,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=99,
-   ["realpage"]=43,
+   ["internal"]=100,
+   ["realpage"]=44,
    ["section"]=16,
   },
   ["titledata"]={
@@ -1765,9 +1781,9 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=105,
   ["references"]={
-   ["internal"]=100,
+   ["internal"]=101,
    ["order"]=21,
-   ["realpage"]=43,
+   ["realpage"]=44,
    ["section"]=16,
   },
   ["titledata"]={
@@ -1777,9 +1793,9 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=105,
   ["references"]={
-   ["internal"]=101,
+   ["internal"]=102,
    ["order"]=22,
-   ["realpage"]=43,
+   ["realpage"]=44,
    ["section"]=16,
   },
   ["titledata"]={
@@ -1789,9 +1805,9 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=105,
   ["references"]={
-   ["internal"]=102,
+   ["internal"]=103,
    ["order"]=23,
-   ["realpage"]=43,
+   ["realpage"]=44,
    ["section"]=16,
   },
   ["titledata"]={
@@ -1801,9 +1817,9 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=105,
   ["references"]={
-   ["internal"]=103,
+   ["internal"]=104,
    ["order"]=24,
-   ["realpage"]=43,
+   ["realpage"]=44,
    ["section"]=16,
   },
   ["titledata"]={
@@ -1813,9 +1829,9 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=105,
   ["references"]={
-   ["internal"]=104,
+   ["internal"]=105,
    ["order"]=25,
-   ["realpage"]=43,
+   ["realpage"]=45,
    ["section"]=16,
   },
   ["titledata"]={
@@ -1825,9 +1841,9 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=105,
   ["references"]={
-   ["internal"]=105,
+   ["internal"]=106,
    ["order"]=26,
-   ["realpage"]=43,
+   ["realpage"]=45,
    ["section"]=16,
   },
   ["titledata"]={
@@ -1835,12 +1851,26 @@ utilitydata.structures.lists.collected={
   },
  },
  {
+  ["metadata"]=66,
+  ["numberdata"]=68,
+  ["prefixdata"]=47,
+  ["references"]={
+   ["internal"]=107,
+   ["realpage"]=45,
+   ["section"]=16,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Ukázka odpovědi serveru (kontakt).",
+  },
+ },
+ {
   ["metadata"]=37,
-  ["numberdata"]=110,
+  ["numberdata"]=111,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=107,
-   ["realpage"]=43,
+   ["internal"]=108,
+   ["realpage"]=45,
    ["section"]=17,
   },
   ["titledata"]={
@@ -1850,39 +1880,25 @@ utilitydata.structures.lists.collected={
  },
  {
   ["metadata"]=66,
-  ["numberdata"]=61,
+  ["numberdata"]=70,
   ["prefixdata"]=47,
   ["references"]={
-   ["internal"]=106,
-   ["realpage"]=44,
-   ["section"]=16,
-   ["view"]="fit",
-  },
-  ["titledata"]={
-   ["title"]="Ukázka odpovědi serveru (kontakt). Zdroj: Autor práce.",
-  },
- },
- {
-  ["metadata"]=66,
-  ["numberdata"]=68,
-  ["prefixdata"]=47,
-  ["references"]={
-   ["internal"]=108,
-   ["realpage"]=44,
+   ["internal"]=109,
+   ["realpage"]=46,
    ["section"]=17,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka lokalizace aplikace pro iOS. Zdroj: Autor práce.",
+   ["title"]="Ukázka lokalizace aplikace pro iOS.",
   },
  },
  {
   ["metadata"]=37,
-  ["numberdata"]=111,
+  ["numberdata"]=112,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=109,
-   ["realpage"]=45,
+   ["internal"]=110,
+   ["realpage"]=46,
    ["section"]=18,
   },
   ["titledata"]={
@@ -1891,12 +1907,12 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=112,
-  ["numberdata"]=113,
+  ["metadata"]=113,
+  ["numberdata"]=114,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=110,
-   ["realpage"]=45,
+   ["internal"]=111,
+   ["realpage"]=46,
    ["section"]=19,
   },
   ["titledata"]={
@@ -1905,12 +1921,27 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=112,
-  ["numberdata"]=114,
+  ["metadata"]=87,
+  ["numberdata"]=76,
+  ["prefixdata"]=47,
+  ["references"]={
+   ["internal"]=112,
+   ["realpage"]=47,
+   ["reference"]="tutorialList",
+   ["section"]=19,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="\\THESISautoreffont {Srovnání zobrazení seznamu tutoriálů mezi Android (vlevo) a iOS (vpravo).}",
+  },
+ },
+ {
+  ["metadata"]=113,
+  ["numberdata"]=115,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=112,
-   ["realpage"]=45,
+   ["internal"]=113,
+   ["realpage"]=47,
    ["section"]=20,
   },
   ["titledata"]={
@@ -1919,56 +1950,26 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=87,
-  ["numberdata"]=70,
-  ["prefixdata"]=47,
-  ["references"]={
-   ["internal"]=111,
-   ["realpage"]=46,
-   ["reference"]="tutorialList",
-   ["section"]=19,
-   ["view"]="fit",
-  },
-  ["titledata"]={
-   ["title"]="\\THESISautoreffont {Srovnání zobrazení seznamu tutoriálů mezi Android (vlevo) a iOS (vpravo). Zdroj: Autor práce.}",
-  },
- },
- {
   ["metadata"]=74,
-  ["numberdata"]=76,
-  ["prefixdata"]=47,
-  ["references"]={
-   ["internal"]=113,
-   ["realpage"]=46,
-   ["section"]=20,
-   ["view"]="fit",
-  },
-  ["titledata"]={
-   ["title"]="Ukázka práce s Attributed String. Zdroj: Autor práce.",
-  },
- },
- {
-  ["metadata"]=87,
   ["numberdata"]=78,
   ["prefixdata"]=47,
   ["references"]={
    ["internal"]=114,
-   ["realpage"]=47,
-   ["reference"]="tutorialDetail",
+   ["realpage"]=48,
    ["section"]=20,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Srovnání zobrazení detailu tutoriálů mezi Android (vlevo) a iOS (vpravo). Zdroj: Autor práce.}",
+   ["title"]="Ukázka práce s Attributed String.",
   },
  },
  {
   ["metadata"]=37,
-  ["numberdata"]=115,
+  ["numberdata"]=116,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=115,
-   ["realpage"]=47,
+   ["internal"]=116,
+   ["realpage"]=48,
    ["section"]=21,
   },
   ["titledata"]={
@@ -1977,12 +1978,12 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=112,
-  ["numberdata"]=116,
+  ["metadata"]=113,
+  ["numberdata"]=117,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=116,
-   ["realpage"]=47,
+   ["internal"]=117,
+   ["realpage"]=48,
    ["section"]=22,
   },
   ["titledata"]={
@@ -1995,37 +1996,22 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=80,
   ["prefixdata"]=47,
   ["references"]={
-   ["internal"]=117,
-   ["realpage"]=48,
-   ["reference"]="contactList",
-   ["section"]=22,
-   ["view"]="fit",
-  },
-  ["titledata"]={
-   ["title"]="\\THESISautoreffont {Srovnání zobrazení seznamu kontaktů mezi Android (vlevo) a iOS (vpravo). Zdroj: Autor práce.}",
-  },
- },
- {
-  ["metadata"]=87,
-  ["numberdata"]=82,
-  ["prefixdata"]=47,
-  ["references"]={
-   ["internal"]=119,
+   ["internal"]=115,
    ["realpage"]=49,
-   ["reference"]="contactDetail",
-   ["section"]=23,
+   ["reference"]="tutorialDetail",
+   ["section"]=20,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Srovnání zobrazení detail kontaktu mezi Android (vlevo) a iOS (vpravo). Zdroj: Autor práce.}",
+   ["title"]="\\THESISautoreffont {Srovnání zobrazení detailu tutoriálů mezi Android (vlevo) a iOS (vpravo). }",
   },
  },
  {
-  ["metadata"]=112,
-  ["numberdata"]=117,
+  ["metadata"]=113,
+  ["numberdata"]=118,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=118,
+   ["internal"]=119,
    ["realpage"]=49,
    ["section"]=23,
   },
@@ -2035,12 +2021,57 @@ utilitydata.structures.lists.collected={
   },
  },
  {
+  ["metadata"]=87,
+  ["numberdata"]=82,
+  ["prefixdata"]=47,
+  ["references"]={
+   ["internal"]=118,
+   ["realpage"]=50,
+   ["reference"]="contactList",
+   ["section"]=22,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="\\THESISautoreffont {Srovnání zobrazení seznamu kontaktů mezi Android (vlevo) a iOS (vpravo).}",
+  },
+ },
+ {
+  ["metadata"]=87,
+  ["numberdata"]=84,
+  ["prefixdata"]=47,
+  ["references"]={
+   ["internal"]=120,
+   ["realpage"]=50,
+   ["reference"]="contactDetail",
+   ["section"]=23,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="\\THESISautoreffont {Srovnání zobrazení detail kontaktu mezi Android (vlevo) a iOS (vpravo).}",
+  },
+ },
+ {
+  ["metadata"]=44,
+  ["numberdata"]=86,
+  ["prefixdata"]=47,
+  ["references"]={
+   ["internal"]=122,
+   ["realpage"]=51,
+   ["reference"]="todo",
+   ["section"]=24,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="\\THESISautoreffont {Srovnání zobrazení seznamu úkolů a jejich vytváření mezi Android (vlevo) a iOS (vpravo).}",
+  },
+ },
+ {
   ["metadata"]=37,
-  ["numberdata"]=118,
+  ["numberdata"]=119,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=120,
-   ["realpage"]=49,
+   ["internal"]=121,
+   ["realpage"]=51,
    ["section"]=24,
   },
   ["titledata"]={
@@ -2049,27 +2080,12 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=44,
-  ["numberdata"]=84,
-  ["prefixdata"]=47,
-  ["references"]={
-   ["internal"]=121,
-   ["realpage"]=50,
-   ["reference"]="todo",
-   ["section"]=24,
-   ["view"]="fit",
-  },
-  ["titledata"]={
-   ["title"]="\\THESISautoreffont {Srovnání zobrazení seznamu úkolů a jejich vytváření mezi Android (vlevo) a iOS (vpravo). Zdroj: Autor práce.}",
-  },
- },
- {
   ["metadata"]=37,
-  ["numberdata"]=119,
+  ["numberdata"]=120,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=122,
-   ["realpage"]=50,
+   ["internal"]=123,
+   ["realpage"]=52,
    ["section"]=25,
   },
   ["titledata"]={
@@ -2079,40 +2095,40 @@ utilitydata.structures.lists.collected={
  },
  {
   ["metadata"]=66,
-  ["numberdata"]=86,
-  ["prefixdata"]=47,
-  ["references"]={
-   ["internal"]=123,
-   ["realpage"]=51,
-   ["section"]=25,
-   ["view"]="fit",
-  },
-  ["titledata"]={
-   ["title"]="Ukázka odpovědi chatbota. Zdroj: Autor práce.",
-  },
- },
- {
-  ["metadata"]=44,
   ["numberdata"]=89,
   ["prefixdata"]=47,
   ["references"]={
    ["internal"]=124,
-   ["realpage"]=52,
+   ["realpage"]=53,
+   ["section"]=25,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Ukázka odpovědi chatbota.",
+  },
+ },
+ {
+  ["metadata"]=44,
+  ["numberdata"]=91,
+  ["prefixdata"]=47,
+  ["references"]={
+   ["internal"]=125,
+   ["realpage"]=53,
    ["reference"]="todo",
    ["section"]=25,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="\\THESISautoreffont {Srovnání zobrazení chatu mezi Android (vlevo) a iOS (vpravo). Zdroj: Autor práce.}",
+   ["title"]="\\THESISautoreffont {Srovnání zobrazení chatu mezi Android (vlevo) a iOS (vpravo).}",
   },
  },
  {
   ["metadata"]=35,
-  ["numberdata"]=120,
+  ["numberdata"]=121,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=125,
-   ["realpage"]=53,
+   ["internal"]=126,
+   ["realpage"]=54,
    ["section"]=26,
   },
   ["titledata"]={
@@ -2122,11 +2138,11 @@ utilitydata.structures.lists.collected={
  },
  {
   ["metadata"]=37,
-  ["numberdata"]=121,
+  ["numberdata"]=122,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=126,
-   ["realpage"]=53,
+   ["internal"]=127,
+   ["realpage"]=54,
    ["section"]=27,
   },
   ["titledata"]={
@@ -2139,13 +2155,13 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=46,
   ["prefixdata"]=47,
   ["references"]={
-   ["internal"]=127,
-   ["realpage"]=53,
+   ["internal"]=128,
+   ["realpage"]=54,
    ["section"]=27,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka testu pro filtrování tutoriálů pomocí tagů. Zdroj: Autor práce.",
+   ["title"]="Ukázka testu pro filtrování tutoriálů pomocí tagů.",
   },
  },
  {
@@ -2153,22 +2169,22 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=63,
   ["prefixdata"]=47,
   ["references"]={
-   ["internal"]=128,
-   ["realpage"]=54,
+   ["internal"]=129,
+   ["realpage"]=55,
    ["section"]=27,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Tabulka popisující jednotkové testy a testy uživatelského rozhraní. Zdroj: Autor práce.",
+   ["title"]="Tabulka popisující jednotkové testy a testy uživatelského rozhraní.",
   },
  },
  {
   ["metadata"]=37,
-  ["numberdata"]=122,
+  ["numberdata"]=123,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=129,
-   ["realpage"]=55,
+   ["internal"]=130,
+   ["realpage"]=56,
    ["section"]=28,
   },
   ["titledata"]={
@@ -2177,40 +2193,40 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=42,
-  ["numberdata"]=123,
+  ["metadata"]=71,
+  ["numberdata"]=125,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=130,
-   ["realpage"]=55,
+   ["internal"]=131,
+   ["realpage"]=56,
    ["section"]=28,
   },
   ["titledata"]={
-   ["label"]="section",
+   ["label"]="subsection",
    ["title"]="Úkol č. 1",
   },
  },
  {
-  ["metadata"]=42,
-  ["numberdata"]=123,
+  ["metadata"]=71,
+  ["numberdata"]=125,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=131,
-   ["realpage"]=55,
+   ["internal"]=132,
+   ["realpage"]=56,
    ["section"]=28,
   },
   ["titledata"]={
-   ["label"]="section",
+   ["label"]="subsection",
    ["title"]="Úkol č. 2",
   },
  },
  {
   ["metadata"]=42,
-  ["numberdata"]=123,
+  ["numberdata"]=126,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=132,
-   ["realpage"]=56,
+   ["internal"]=133,
+   ["realpage"]=57,
    ["section"]=28,
   },
   ["titledata"]={
@@ -2220,11 +2236,11 @@ utilitydata.structures.lists.collected={
  },
  {
   ["metadata"]=42,
-  ["numberdata"]=123,
+  ["numberdata"]=126,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=133,
-   ["realpage"]=56,
+   ["internal"]=134,
+   ["realpage"]=57,
    ["section"]=28,
   },
   ["titledata"]={
@@ -2234,11 +2250,11 @@ utilitydata.structures.lists.collected={
  },
  {
   ["metadata"]=42,
-  ["numberdata"]=123,
+  ["numberdata"]=126,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=134,
-   ["realpage"]=57,
+   ["internal"]=135,
+   ["realpage"]=58,
    ["section"]=28,
   },
   ["titledata"]={
@@ -2248,11 +2264,11 @@ utilitydata.structures.lists.collected={
  },
  {
   ["metadata"]=42,
-  ["numberdata"]=123,
+  ["numberdata"]=126,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=135,
-   ["realpage"]=57,
+   ["internal"]=136,
+   ["realpage"]=58,
    ["section"]=28,
   },
   ["titledata"]={
@@ -2262,11 +2278,11 @@ utilitydata.structures.lists.collected={
  },
  {
   ["metadata"]=42,
-  ["numberdata"]=123,
+  ["numberdata"]=126,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=136,
-   ["realpage"]=57,
+   ["internal"]=137,
+   ["realpage"]=58,
    ["section"]=28,
   },
   ["titledata"]={
@@ -2276,25 +2292,25 @@ utilitydata.structures.lists.collected={
  },
  {
   ["metadata"]=35,
-  ["numberdata"]=124,
-  ["references"]={
-   ["block"]="bodypart",
-   ["internal"]=137,
-   ["realpage"]=59,
-   ["section"]=29,
-  },
-  ["titledata"]={
-   ["label"]="chapter",
-   ["title"]="Diskuze",
-  },
- },
- {
-  ["metadata"]=35,
-  ["numberdata"]=125,
+  ["numberdata"]=127,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=138,
    ["realpage"]=60,
+   ["section"]=29,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Diskuse",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=128,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=139,
+   ["realpage"]=61,
    ["section"]=30,
   },
   ["titledata"]={
@@ -2303,12 +2319,12 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=126,
-  ["numberdata"]=127,
+  ["metadata"]=129,
+  ["numberdata"]=130,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=139,
-   ["realpage"]=61,
+   ["internal"]=140,
+   ["realpage"]=62,
    ["section"]=31,
   },
   ["titledata"]={
@@ -2317,10 +2333,10 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=128,
+  ["metadata"]=131,
   ["references"]={
-   ["internal"]=140,
-   ["realpage"]=61,
+   ["internal"]=141,
+   ["realpage"]=62,
    ["section"]=31,
   },
   ["userdata"]={
@@ -2328,10 +2344,10 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=129,
+  ["metadata"]=132,
   ["references"]={
-   ["internal"]=141,
-   ["realpage"]=65,
+   ["internal"]=142,
+   ["realpage"]=66,
    ["section"]=31,
   },
   ["userdata"]={
@@ -2339,20 +2355,20 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=130,
+  ["metadata"]=133,
   ["references"]={
-   ["internal"]=143,
-   ["realpage"]=65,
+   ["internal"]=144,
+   ["realpage"]=66,
    ["section"]=32,
   },
  },
  {
   ["metadata"]=35,
-  ["numberdata"]=131,
+  ["numberdata"]=134,
   ["references"]={
    ["block"]="backpart",
-   ["internal"]=142,
-   ["realpage"]=65,
+   ["internal"]=143,
+   ["realpage"]=66,
    ["section"]=32,
   },
   ["titledata"]={
@@ -2360,20 +2376,20 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=130,
+  ["metadata"]=133,
   ["references"]={
-   ["internal"]=145,
-   ["realpage"]=66,
+   ["internal"]=146,
+   ["realpage"]=67,
    ["section"]=33,
   },
  },
  {
   ["metadata"]=35,
-  ["numberdata"]=132,
+  ["numberdata"]=135,
   ["references"]={
    ["block"]="backpart",
-   ["internal"]=144,
-   ["realpage"]=66,
+   ["internal"]=145,
+   ["realpage"]=67,
    ["section"]=33,
   },
   ["titledata"]={
@@ -2381,20 +2397,20 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=130,
+  ["metadata"]=133,
   ["references"]={
-   ["internal"]=147,
-   ["realpage"]=67,
+   ["internal"]=148,
+   ["realpage"]=68,
    ["section"]=34,
   },
  },
  {
   ["metadata"]=35,
-  ["numberdata"]=133,
+  ["numberdata"]=136,
   ["references"]={
    ["block"]="backpart",
-   ["internal"]=146,
-   ["realpage"]=67,
+   ["internal"]=147,
+   ["realpage"]=68,
    ["section"]=34,
   },
   ["titledata"]={
@@ -2410,470 +2426,477 @@ utilitydata.structures.pages.collected={
  {
   ["block"]="frontpart",
   ["number"]=1,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="frontpart",
   ["number"]=2,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="frontpart",
   ["number"]=3,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="frontpart",
   ["number"]=4,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="frontpart",
   ["number"]=5,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="frontpart",
   ["number"]=6,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="frontpart",
   ["number"]=7,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="frontpart",
   ["number"]=8,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=9,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=10,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=11,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=12,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=13,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=14,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=15,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=16,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=17,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=18,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=19,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=20,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=21,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=22,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=23,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=24,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=25,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=26,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=27,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=28,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=29,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=30,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=31,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=32,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=33,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=34,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=35,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=36,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=37,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=38,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=39,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=40,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=41,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=42,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=43,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=44,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=45,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=46,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=47,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=48,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=49,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=50,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=51,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=52,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=53,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=54,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=55,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=56,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=57,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=58,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=59,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=60,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=61,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=62,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=63,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=64,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
-  ["block"]="backpart",
+  ["block"]="bodypart",
   ["number"]=65,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="backpart",
   ["number"]=66,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
  {
   ["block"]="backpart",
   ["number"]=67,
-  ["numberdata"]=134,
-  ["prefixdata"]=135,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
+  ["state"]="start",
+ },
+ {
+  ["block"]="backpart",
+  ["number"]=68,
+  ["numberdata"]=137,
+  ["prefixdata"]=138,
   ["state"]="start",
  },
 }
@@ -3360,6 +3383,13 @@ utilitydata.job.packed={
    ["set"]="all",
   },
   {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="float",
+   ["level"]=3,
+   ["name"]="figurepage",
+  },
+  {
    ["block"]="bodypart",
    ["conversionset"]="default",
    ["language"]="cs",
@@ -3484,6 +3514,16 @@ utilitydata.job.packed={
    ["conversionset"]="default",
    ["language"]="cs",
    ["numbers"]=28,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 0, 5, 2, 0 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="cs",
+   ["numbers"]=124,
    ["separatorset"]="default",
    ["set"]="all",
   },

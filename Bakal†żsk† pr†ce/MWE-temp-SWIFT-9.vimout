@@ -1,9 +1,0 @@
-\SYNBOL{}\SYN[Define]{func} \SYN[Function]{createEntry}\SYN[swiftParenthesisRegion]{(app}\SYN[Delimiter]{:}\SYN[swiftParenthesisRegion]{ }\SYN[Type]{XCUIApplication}\SYN[swiftParenthesisRegion]{, note}\SYN[Delimiter]{:}\SYN[swiftParenthesisRegion]{ }\SYN[Type]{String}\SYN[swiftParenthesisRegion]{)}\{\SYNEOL{}
-\SYNBOL{}        \SYN[Define]{let} \SYN[Identifier]{textField} \SYN[Function]{=} app.textFields[\SYN[String]{"Enter a title"}]\SYNEOL{}
-\SYNBOL{}        textField.tap\SYN[swiftParenthesisRegion]{()}\SYNEOL{}
-\SYNBOL{}        textField.typeText\SYN[swiftParenthesisRegion]{(note)}\SYNEOL{}
-\SYNBOL{}        \SYN[Define]{let} \SYN[Identifier]{textView} \SYN[Function]{=}  app.textViews[\SYN[String]{"TextView"}]\SYNEOL{}
-\SYNBOL{}        textView.tap\SYN[swiftParenthesisRegion]{()}\SYNEOL{}
-\SYNBOL{}        textView.typeText\SYN[swiftParenthesisRegion]{(note)}\SYNEOL{}
-\SYNBOL{}        app.navigationBars[\SYN[String]{"Add Note"}].buttons[\SYN[String]{"Save"}].tap\SYN[swiftParenthesisRegion]{()}\SYNEOL{}
-\SYNBOL{}    \}\SYNEOL{}

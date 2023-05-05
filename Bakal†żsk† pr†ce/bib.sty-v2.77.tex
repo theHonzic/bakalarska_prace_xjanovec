@@ -635,7 +635,7 @@
 \def\biblCast{\if@vtisku\else\if E\biblTyp\unskip,\bib@space\Cast\else\if C\biblTyp\if*\Cast\else\bib@space\Cast\fi\fi\fi\fi}
 \def\biblThesis{(\Thesis.)}
 \def\biblVedouci{\vedouciprace: \Vedouci.}
-\def\biblVerze{\unskip\bib@space{\fontverze\ifbib@verbreak\unskip\break\textVerze~\Verze\fi}\@Tecka}
+\def\biblVerze{\unskip\bib@space{\fontverze\ifbib@verbreak\unskip\break\fi\textVerze~\Verze}\@Tecka}
 
 \def\condbiblVerze{\if*\Verze\else\biblVerze.\fi}
 

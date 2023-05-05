@@ -1,3 +1,0 @@
-\SYNBOL{}\SYN[Type]{@Injected} \SYN[Type]{private} \SYN[Define]{var} \SYN[Identifier]{apiManager}\SYN[Delimiter]{:} \SYN[Type]{APIManaging}\SYNEOL{}
-\SYNBOL{}\SYNEOL{}
-\SYNBOL{}\SYN[Define]{let} \SYN[Identifier]{apiResponse}\SYN[Delimiter]{:} \SYN[Delimiter]{[}\SYN[Type]{APITutorial}\SYN[Delimiter]{]} \SYN[Function]{=} await apiManager.fetchAPIEntity\SYN[swiftParenthesisRegion]{()}\SYNEOL{}

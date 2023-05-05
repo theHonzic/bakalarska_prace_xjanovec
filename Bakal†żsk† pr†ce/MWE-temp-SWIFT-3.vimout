@@ -1,6 +1,0 @@
-\SYNBOL{}AF.request\SYN[swiftParenthesisRegion]{(url)}.responseData \{ \SYN[swiftParenthesisRegion]{(response)} \SYN[Statement]{in}\SYNEOL{}
-\SYNBOL{}    \SYN[Statement]{if} \SYN[Define]{let} \SYN[Identifier]{response} \SYN[Function]{=} \SYN[Statement]{try}? JSONDecoder\SYN[swiftParenthesisRegion]{()}\SYNEOL{}
-\SYNBOL{}    \tab{4}.decode\SYN[swiftParenthesisRegion]{(Model.}\SYN[Identifier]{self}\SYN[swiftParenthesisRegion]{, from}\SYN[Delimiter]{:}\SYN[swiftParenthesisRegion]{ }\SYN[Type]{response.data!}\SYN[swiftParenthesisRegion]{)} \{\SYNEOL{}
-\SYNBOL{}        \tab{4}\tab{4}result \SYN[Function]{=} response\SYNEOL{}
-\SYNBOL{}    \}\SYNEOL{}
-\SYNBOL{}\}\SYNEOL{}
