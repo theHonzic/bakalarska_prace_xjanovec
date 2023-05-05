@@ -812,6 +812,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=29,
    ["realpage"]=22,
+   ["reference"]="src:uikit",
    ["section"]=7,
    ["view"]="fit",
   },
@@ -826,6 +827,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=30,
    ["realpage"]=23,
+   ["reference"]="src:swiftui",
    ["section"]=7,
    ["view"]="fit",
   },
@@ -900,7 +902,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka dekódovaní JSON do modelu Model pomocí knihovny Alamofire. Podle vzoru Alamofire (2023)",
+   ["title"]="Ukázka dekódovaní JSON do modelu Model pomocí knihovny Alamofire. Upraveno podle \\scl Alamofire (2023).",
   },
  },
  {
@@ -938,6 +940,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=38,
    ["realpage"]=25,
+   ["reference"]="src:userdefaults",
    ["section"]=7,
    ["view"]="fit",
   },
@@ -1149,11 +1152,12 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=53,
    ["realpage"]=31,
+   ["reference"]="src:unittest",
    ["section"]=7,
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka jednotkového testování. Zdroj: Antoine Van der Lee.",
+   ["title"]="Ukázka jednotkového testování. Zdroj: \\scl Antoine Van der Lee (2022).",
   },
  },
  {
@@ -1167,7 +1171,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka testování uživatelského rozhraní. Zdroj: Chris Ching.",
+   ["title"]="Ukázka testování uživatelského rozhraní. Zdroj: \\scl Chris Ching (2021).",
   },
  },
  {
@@ -1209,7 +1213,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka učení chatbota pomocí frameworku Rasa. Zdroj: Aniruddha Karajgi.",
+   ["title"]="Ukázka učení chatbota pomocí frameworku Rasa. Zdroj: \\scl Aniruddha Karajgi (2021).",
   },
  },
  {
@@ -1279,7 +1283,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka použití frameworku R.Swift. Zdroj: Repozitář R.swift na GitHub.",
+   ["title"]="Ukázka použití frameworku R.Swift. Zdroj: Repozitář R.swift na GitHub (2023).",
   },
  },
  {
@@ -1307,7 +1311,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka tvorby SwiftLint pravidla Zdroj: Repozitář SwiftLint na GitHub.",
+   ["title"]="Ukázka tvorby SwiftLint pravidla Zdroj: Repozitář SwiftLint na GitHub (2023).",
   },
  },
  {
@@ -1747,7 +1751,7 @@ utilitydata.structures.lists.collected={
    ["view"]="fit",
   },
   ["titledata"]={
-   ["title"]="Ukázka protokolu {\\courierfont Endpoint}. Zdroj: Repozitář STRV na GitHub.",
+   ["title"]="Ukázka protokolu Endpoint. Zdroj: Repozitář STRV na GitHub (2022).",
   },
  },
  {
@@ -2212,7 +2216,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=132,
-   ["realpage"]=56,
+   ["realpage"]=57,
    ["section"]=28,
   },
   ["titledata"]={
@@ -2221,8 +2225,8 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=42,
-  ["numberdata"]=126,
+  ["metadata"]=71,
+  ["numberdata"]=125,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=133,
@@ -2230,27 +2234,27 @@ utilitydata.structures.lists.collected={
    ["section"]=28,
   },
   ["titledata"]={
-   ["label"]="section",
+   ["label"]="subsection",
    ["title"]="Úkol č. 3",
   },
  },
  {
-  ["metadata"]=42,
-  ["numberdata"]=126,
+  ["metadata"]=71,
+  ["numberdata"]=125,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=134,
-   ["realpage"]=57,
+   ["realpage"]=58,
    ["section"]=28,
   },
   ["titledata"]={
-   ["label"]="section",
+   ["label"]="subsection",
    ["title"]="Úkol č. 4",
   },
  },
  {
-  ["metadata"]=42,
-  ["numberdata"]=126,
+  ["metadata"]=71,
+  ["numberdata"]=125,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=135,
@@ -2258,13 +2262,13 @@ utilitydata.structures.lists.collected={
    ["section"]=28,
   },
   ["titledata"]={
-   ["label"]="section",
+   ["label"]="subsection",
    ["title"]="Úkol č. 5",
   },
  },
  {
-  ["metadata"]=42,
-  ["numberdata"]=126,
+  ["metadata"]=71,
+  ["numberdata"]=125,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=136,
@@ -2272,7 +2276,7 @@ utilitydata.structures.lists.collected={
    ["section"]=28,
   },
   ["titledata"]={
-   ["label"]="section",
+   ["label"]="subsection",
    ["title"]="Úkol č. 6",
   },
  },
@@ -2282,7 +2286,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=137,
-   ["realpage"]=58,
+   ["realpage"]=59,
    ["section"]=28,
   },
   ["titledata"]={

@@ -403,7 +403,7 @@ Cílem této práce je návrh řešení a následná implementace aplikace na po
 \item Seznamy kontaktních míst a tutoriálů budou ukládány do databáze, díky čemuž budou dostupné i bez připojení k internetu.
 \item Dojde-li k aktualizaci dat na serveru, aplikace uložená data nahradí daty novými.
 \item Aplikace bude na mapě zobrazovat kontaktní místa.
-\item Aplikace bude podporovat tři jazyky -- angličtina, ruština, ukrajinština.
+\item Aplikace bude podporovat tři jazyky \ip angličtina, ruština, ukrajinština.
 \item Aplikace bude podporovat tmavý i světlý mód.
 \item V aplikaci bude seznam úkolů, kam si uživatel může přidat vlastní úkoly nebo je importovat z řešených problémů.
 \item Aplikace bude obsahovat chatbota.
@@ -426,12 +426,12 @@ MVC je architekturou, která je přímo doporučována společností \italic{App
 \obrazek{mvc}{Schéma architektury MVC. Podle Apple (2018), upraveno.}{img/architecture/MVC.png}{width=\makeupwidth}%✅
 %🖼️https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html✅
 \pkapx{MVVM}
-MVVM je novější architekturou, než MVC a také se dělí na tři celky: \italic{Model}, \italic{View} a \italic{View Model}. \italic{Model} a \italic{View} reprezentují to samé, co reprezentují v architektuře MVC. Novinkou v této architektuře je záměna \italic{Controlleru} za \italic{View Model}, který je opět prostředníkem mezi \italic{View} a \italic{Modelem}, ale funguje odlišně. \italic{View Model} používá \italic{binding}, což lze vnímat jako provázání mezi \italic{Modelem} a \italic{View}. Jsou-li data v \italic{Modelu} změněny, pak jsou automaticky změněny na obrazovce. Komunikace funguje i opačným směrem a kdykoli je vyvolána změna dat na obrazovce, propíše se změna i do \italic{Modelu}. Tato architektura je vhodnější k tvorbě \italic{SwiftUI} aplikací, kde můžeme velice efektivně oddělit \italic{View} od kódu, který \italic{View} nepotřebuje. (\scc Dan Radu, 2021)
+MVVM je novější architekturou než MVC a také se dělí na tři celky:\break \italic{Model}, \italic{View} a \italic{View Model}. \italic{Model} a \italic{View} reprezentují to samé, co reprezentují v architektuře MVC. Novinkou v této architektuře je záměna \italic{Controlleru} za \italic{View Model}, který je opět prostředníkem mezi \italic{View} a \italic{Modelem}, ale funguje odlišně.\break \italic{View Model} používá \italic{binding}, což lze vnímat jako provázání mezi \italic{Modelem} a \italic{View}. Jsou-li data v \italic{Modelu} změněny, pak jsou automaticky změněny na obrazovce. Komunikace funguje i opačným směrem a kdykoli je vyvolána změna dat na obrazovce, propíše se změna i do \italic{Modelu}. Tato architektura je vhodnější k tvorbě \italic{SwiftUI} aplikací, kde můžeme velice efektivně oddělit \italic{View} od kódu, který \italic{View} nepotřebuje. (\scc Dan Radu, 2021)
 %📚https://betterprogramming.pub/battle-of-the-ios-architecture-patterns-a-look-at-model-view-viewmodel-mvvm-bdfd07d9395e✅
 \obrazek{mvvm}{Schéma architektury MVVM. Podle Benoit Pasquier (2018), upraveno. }{img/architecture/MVVM.png}{width=\makeupwidth}%✅
 %🖼️https://benoitpasquier.com/ios-swift-mvvm-pattern/✅
 \pkapx{VIPER}
-VIPER reprezentuje jednu ze složitějších architektur pro vývoj aplikací. Obsahuje celkově pět tříd a každá z nich je používána právě pro jeden účel. Tento přístup umožňuje vysokou míru škálovatelnosti, kdy je vývojář schopen vyměňovat moduly, aniž by to významně ovlivnilo provázání aplikace. \italic{View} je jednou ze tříd, která již byla zmíněna v předchozích architekturách, stará se o zobrazení elementů uživatelského prostředí uživateli. Po interakci uživatele upozorní \italic{Presenter}, třídu, která komunikuje s \italic{View}, \italic{Interactorem} a \italic{Routerem}. \italic{Presenter} komunikuje s \italic{Routerem}, aby zjistil jaká obrazovka má být zobrazena a \italic{Interactorem} za účelem zisku dat. Poslední třídou je \italic{Entity}, obsahuje datové modely používaných objektů, s kterými komunikuje \italic{Interactor}. (\scc Sayed Mahmudul Alam, 2017) VIPER je architekturou, která díky svému rozdělení do více celků, dokáže usnadnit testování a lokalizaci chyb a problémů v jednotlivých částech aplikace. Je vhodnější pro větší projekty, kde máme více obrazovek, pravidel nebo modulů. (\scc Michael Katz, 2020)
+VIPER reprezentuje jednu ze složitějších architektur pro vývoj aplikací. Obsahuje celkově pět tříd a každá z nich je používána právě pro jeden účel. Tento přístup umožňuje vysokou míru škálovatelnosti, kdy je vývojář schopen vyměňovat moduly, aniž by to významně ovlivnilo provázání aplikace. \italic{View} je jednou ze tříd, která již byla zmíněna v předchozích architekturách, stará se o zobrazení elementů uživatelského prostředí uživateli. Po interakci uživatele upozorní\break \italic{Presenter}, třídu, která komunikuje s \italic{View}, \italic{Interactorem} a \italic{Routerem}. \italic{Presenter} komunikuje s \italic{Routerem}, aby zjistil jaká obrazovka má být zobrazena a \italic{Interactorem} za účelem zisku dat. Poslední třídou je \italic{Entity}, obsahuje datové modely používaných objektů, s kterými komunikuje \italic{Interactor}. (\scc Sayed Mahmudul Alam, 2017) VIPER je architekturou, která díky svému rozdělení do více celků, dokáže usnadnit testování a lokalizaci chyb a problémů v jednotlivých částech aplikace. Je vhodnější pro větší projekty, kde máme více obrazovek, pravidel nebo modulů. (\scc Michael Katz, 2020)
 %📚https://medium.com/@smalam119/viper-design-pattern-for-ios-application-development-7a9703902af6✅
 %📚https://www.kodeco.com/8440907-getting-started-with-the-viper-architecture-pattern - Poslední věta o testování✅
 \obrazek{viper}{Schéma architektury VIPER. Podle Sayed Mahmudul Alam (2017), upraveno.}{img/architecture/VIPER}{width=\makeupwidth}%✅
@@ -439,31 +439,31 @@ VIPER reprezentuje jednu ze složitějších architektur pro vývoj aplikací. O
 
 \pkap{Aplikace pro podporu migrantů}
 
-Před vývojem jakékoli aplikace je důležité prozkoumat trh se zástupci podobných aplikací. Průzkum se provádí především z důvodu vyvarování chyb, které udělali předchozí vývojáři nebo abychom se mohli inspirovat novými funkcionalitami pro námi zamýšlenou aplikaci. Vybral jsem si celkem šest aplikací z~celého světa, mezi nimi i jednu českou a právě průzkumu trhu s aplikacemi pro podporu imigrantů se bude věnovat tato podkapitola.
+Před vývojem jakékoli aplikace je důležité prozkoumat trh se zástupci podobných aplikací. Průzkum se provádí především z důvodu vyvarování se chyb, které udělali předchozí vývojáři nebo abychom se mohli inspirovat novými funkcionalitami pro námi zamýšlenou aplikaci. Vybral jsem celkem šest aplikací z~celého světa, mezi nimi i jednu českou a právě průzkumu trhu s aplikacemi pro podporu imigrantů se bude věnovat tato podkapitola.
 
 
 \pkapx{Praguer}%✅
 
 
-Aplikace \italic{Praguer} (\scc Integrační centrum Praha, 2021) je aplikace vyvinutá \italic{Integračním centrem Praha}, která pomáhá cizincům v Praze. V aplikaci nalezneme důležité informace o životě v Praze, rozdělené do různých kategorií, jako je např. sociální zabezpečení, pobyt, vzdělávání, zdravotnictví anebo informace o tom, jak si najít ve městě práci. K těmto tématům jsou navázány kontakty a jiné důležité informace, které mohou pomoci cizincům zorientovat se po Praze.
+Aplikace \italic{Praguer} (\scc Integrační centrum Praha, 2021) je aplikací, která pomáhá cizincům v Praze. V aplikaci nalezneme důležité informace o životě v Praze, rozdělené do různých kategorií, jako je např. sociální zabezpečení, pobyt, vzdělávání, zdravotnictví anebo informace o tom, jak si najít ve městě práci. K těmto tématům jsou navázány kontakty a jiné důležité informace, které mohou pomoci cizincům zorientovat se po Praze.
 \par
-V aplikaci je možné se pohybovat pomocí seznamu kategorií anebo po mapě, kde jsou označena kontaktní místa. Místa je možno filtrovat podle zmíněných kategorií. Aplikace je dostupná nejen v angličtině, ale podporuje rovnou 7 světových jazyků. Aplikace má pro mě veliký nedostatek a to, že neukládá data přímo v zařízení, ale při každém spuštění aplikace si je musí stáhnout z online databáze. Toto může vést k dlouhému čekání na stažení dat a znemožňuje fungování bez připojení k internetu.
+V aplikaci je možné se pohybovat pomocí seznamu kategorií anebo po mapě, kde jsou označena kontaktní místa. Místa je možno filtrovat podle zmíněných kategorií. Aplikace je dostupná nejen v angličtině, ale podporuje rovnou sedm světových jazyků. Aplikace má veliký nedostatek a to, že neukládá data přímo v zařízení, ale při každém spuštění aplikace si je musí stáhnout z online databáze. Toto může vést k dlouhému čekání na stažení dat a znemožňuje fungování bez připojení k internetu.
 
 \obrazek{praguer}{Mobilní aplikace Praguer pro iOS.}{img/apps/praguer.png}{width=\makeupwidth}%✅
 
 
 \pkapx{FindHello}%✅
 
-Aplikace \italic{FindHello} (\scc USAHello, 2021) cílí na nové, nebo budoucí rezidenty Spojených států amerických. Obsah aplikace se nijak neliší od aplikace \italic{Praguer}, jediným rozdílem je skupina cílových uživatelů. \italic{FindHello} umožňuje uživateli vyhledávat místa, kde mu mohou pomoci vyřešit problém např. se zabydlením v USA. Aplikace nenabízí pouze čtení informací, uživatel může informovat o~místě, které v aplikaci není a může tak pomoci lidem, kteří hledají pomoc v~neprozkoumané oblasti. Návrh pro vložení místa probíhá vyplněním jednoduchého formuláře, který poté putuje ke zpracování a ověření pověřenými lidmi.
+Aplikace \italic{FindHello} (\scc USAHello, 2021) cílí na nové nebo budoucí rezidenty Spojených států amerických. Obsah aplikace se nijak neliší od aplikace \italic{Praguer}, jediným rozdílem je skupina cílových uživatelů. \italic{FindHello} umožňuje uživateli vyhledávat místa, kde mu mohou pomoci vyřešit problém např. se zabydlením v USA. Aplikace nenabízí pouze čtení informací, uživatel může informovat o~místě, které v aplikaci není a může tak pomoci lidem, kteří hledají pomoc v~neprozkoumané oblasti. Návrh pro vložení místa probíhá vyplněním jednoduchého formuláře, který poté putuje ke zpracování a ověření pověřenými lidmi.
 \par
-Hlavní část uživatelského rozhraní zabírá mapa s vyznačenými místy. Místa je možné hledat pomocí vyhledáním textu, nebo pomocí kategorií, jako jsou např. práce, pohotovost, zdravotnictví, přesidlovací služby nebo vzdělávání. Uživatelé si při hledání míst mohou vybrat, zda hledají pomoc online, nebo fyzicky. Aplikace je dostupná ve více světových jazycích, a to konkrétně v šesti. Aplikace bohužel nepodporuje offline funkcionality.
+Hlavní část uživatelského rozhraní zabírá mapa s vyznačenými místy. Místa je možné hledat pomocí textu, nebo pomocí kategorií, jako jsou např. práce, pohotovost, zdravotnictví, přesidlovací služby nebo vzdělávání. Uživatelé si při hledání míst mohou vybrat, zda hledají pomoc online, nebo fyzicky. Aplikace je dostupná ve více světových jazycích, a to konkrétně v šesti. Aplikace bohužel nepodporuje offline funkcionality.
 
 \obrazek{findhello}{Mobilní aplikace FindHello pro iOS.}{img/apps/findhello.png}{width=\makeupwidth}%✅
 
 
 \pkapx{RefAid}%✅
 
-Aplikace \italic{RefAid} (\scc RefAid - Refugee Aid App, 2022) se nezaměřuje pouze na jednu zemi nebo region, ale pomáhá uprchlíkům po celé Evropě a USA. \italic{RefAid} také obsahuje seznam problémových témat, se kterými se uprchlíci mohou potýkat a mapu, kde jsou tato místa vyznačena. Aplikace v offline režimu ukazuje pouze místa, která jsou vzdálená v okruhu 150 km od aktuální pozice. Podle dat dostupných k 3. 12. 2022 to vypadá, že jedinými zeměmi ze střední Evropy, které se do projektu nezapojily jsou Česká republika a Slovenská republika. Ke všem místům jsou k dispozici i data o otevírací době a jiných detailech.
+Aplikace \italic{RefAid} (\scc RefAid \ip Refugee Aid App, 2022) se nezaměřuje pouze na jednu zemi nebo region, ale pomáhá uprchlíkům po celé Evropě a USA. \italic{RefAid} také obsahuje seznam problémových témat, se kterými se uprchlíci mohou potýkat a mapu, kde jsou kontaktní místa vyznačena. Aplikace v offline režimu ukazuje pouze místa, která jsou vzdálená v okruhu 150 km od aktuální pozice. Podle dat dostupných k 3. 12. 2022 to vypadá, že jedinými zeměmi ze střední Evropy, které se do projektu nezapojily jsou Česká republika a Slovenská republika. Ke všem místům jsou k dispozici i data o otevírací době a jiných detailech.
 \par
 Nevýhodou aplikace je nutná registrace, proces je však velice rychlý. Uživatel může opět přispět místem, o kterém provozovatelé aplikace zatím nevědí, pomocí jednoduchého formuláře. Aplikace funguje i v režimu offline, což je obrovskou výhodou oproti předešlým aplikacím. Funkcionalita offline verze je omezená, ale i přesto dokáže posloužit svým účelům.
 
@@ -474,11 +474,11 @@ Aplikace \italic{Ankommen} (\scc Bundesamt fuer Migration und Fluechtlinge, 2022
 Navigace v aplikaci je zpočátku velice nepřehledná. Po prvním spuštění se zdá, že se aplikace načítá velice dlouho, děje se však to, že obrazovka čeká na dotek. I hlavní menu aplikace je poměrně nepřehledné. Menu je složeno ze tří obrázků, každý z nich vede k jiné sekci. Aplikace také bohužel nefunguje bez internetového připojení
 
 \pkapx{Welcome app Germany}%✅
-Tato aplikace je určená pro integraci lidí do Německa. I aplikace \italic{Welcome app Germany} (\scc Heinrich & Reuter Solutions, 2020) obsahuje seznam témat, která se nově příchozím mohou hodit, jako např. nouze, poradenství, práce nebo azyl. Tato aplikace, stejně jako \italic{Ankommen} obsahuje část, která se stará o výuku jazyka. Výuka je však oproti předchozí aplikaci omezená pouze na pár frází. Aplikace se odlišuje seznamem konkrétních měst, u kterých je krátký popis a~seznam kontaktních míst. \italic{Welcome app Germany} také nabízí desítky videí, ve kterých je popsána historie a spousta dalších užitečných věcí o Německu. Ve videích se může uživatel dozvědět o různých tématech, např.: alkohol a drogy, práce, klima, oblečení, daně nebo životní prostředí.
+Tato aplikace je určená pro integraci lidí do Německa. I aplikace \italic{Welcome app Germany} (\scc Heinrich & Reuter Solutions, 2020) obsahuje seznam témat, která se nově příchozím mohou hodit, jako např. nouze, poradenství, práce nebo azyl. Tato aplikace, stejně jako \italic{Ankommen} obsahuje část, která se stará o výuku jazyka. Výuka je však oproti předchozí aplikaci omezená pouze na pár frází. Aplikace se odlišuje seznamem konkrétních měst, u kterých je krátký popis a~seznam kontaktních míst. \italic{Welcome app Germany} také nabízí desítky videí, ve kterých je popsána historie a spousta dalších užitečných věcí o Německu. Ve videích se může uživatel dozvědět o různých tématech, jako jsou např. alkohol a drogy, práce, klima, oblečení, daně nebo životní prostředí.
 \par
-\italic{Welcome app Germany} mě zaujala špatným designem, aplikace vypadá velice staře a neprofesionálně. V aplikaci je na různých místech zobrazeno tlačítko s~výchozím textem „Button“, které však nic nedělá. Dalším nedostatkem, který jsem objevil je, že po stažení informací o městě a jejich zobrazení po restartování aplikace se aplikace nečekaně ukončí.
+\italic{Welcome app Germany} mě zaujala špatným designem, aplikace vypadá velice staře a neprofesionálně. V aplikaci je na různých místech zobrazeno tlačítko s~výchozím textem „Button“, které však nic nedělá. Dalším nedostatkem, který jsem objevil je, že po stažení informací o městě a jejich následném zobrazení po restartování aplikace se aplikace nečekaně ukončí.
 \pkapx{Lawfully}%✅
-Aplikace \italic{Lawfully} (\scc Lawfully, 2023) umožňuje sledování jednoho či více víz a informuje o průběžných krocích a jejího stavu pomocí notifikací. Právě notifikace jsou důležitou součástí aplikace, které předešlé zmíněné aplikace nenabízí. Uživatel si mimo sledování víz může domluvit konzultaci s právníkem přímo v~aplikaci nebo komunikovat s komunitou přímo v aplikaci. Právní pomoc je k~dispozici pomocí chatu nebo videohovoru za sazbu 20-100 \$/h. V komunitě je možné vyhledávat již zodpovězené otázky pomocí kategorií, jako např. finance, zelená karta nebo studentská víza. Již zodpovězené dotazy mohou pomoci migrantům urychlit proces žádosti a schválení víz. Aplikace dále nabízí různé tipy k vyřizování víz anebo denní testy, které jsou vázány na historii a celkové fungování USA. Tyto testy mohou pomoci imigrantům se získáním amerického občanství.
+Aplikace \italic{Lawfully} (\scc Lawfully, 2023) umožňuje sledování jednoho či více víz a informuje o průběžných krocích a jejího stavu pomocí notifikací. Právě notifikace jsou důležitou součástí aplikace, které předešlé zmíněné aplikace nenabízí. Uživatel si mimo sledování víz může domluvit konzultaci s právníkem přímo v~aplikaci nebo komunikovat s komunitou přímo v aplikaci. Právní pomoc je k~dispozici pomocí chatu nebo videohovoru za sazbu 20\az100 USD/h. V komunitě je možné vyhledávat již zodpovězené otázky pomocí kategorií, jako např. finance, zelená karta nebo studentská víza. Již zodpovězené dotazy mohou pomoci migrantům urychlit proces žádosti a schválení víz. Aplikace dále nabízí různé tipy k vyřizování víz anebo denní testy, které jsou vázány na historii a celkové fungování USA. Tyto testy mohou pomoci imigrantům se získáním amerického občanství.
 \par
 Aplikace mě zaujala pěkným designem i zajímavými funkcionalitami. Oproti předešlým aplikacím upozorňuje uživatele o stavu jejich požadavku a má zabudované videohovory.
 
@@ -488,7 +488,7 @@ Aplikace mě zaujala pěkným designem i zajímavými funkcionalitami. Oproti p�
 
 \pagebreak
 \pkapx{Srovnání aplikací}
-Díky srovnání aplikací jsme se mohli inspirovat s funkcionalitami aplikace. Objevili jsme i pár chyb a nedostatků, kterým se při vývoji naší aplikace vyvarujeme. V \in{tabulce}[appstable] je dostupné srovnání různých aspektů jednotlivých aplikací.
+Díky srovnání aplikací jsme se mohli inspirovat funkcionalitami aplikace. Objevili jsme i pár chyb a nedostatků, kterých se při vývoji naší aplikace vyvarujeme. V \in{tabulce}[appstable] je dostupné srovnání různých aspektů jednotlivých aplikací.
 \par
 \TABULKA[][appstable]{Tabulka srovnání existujících aplikací.}
 \setupTABLE
@@ -578,7 +578,7 @@ Díky srovnání aplikací jsme se mohli inspirovat s funkcionalitami aplikace. 
 
 V této podkapitole se podíváme na srovnání technologií využívaných ve vývoji \italic{iOS} aplikací. Dále na konkrétní technologie, které budou vhodné pro implementaci tohoto projektu, např. technologie pro práci s HTTP požadavky přes API, práci s mapou, persistenci dat nebo chatbota.
 \pkapx{Xcode a Swift}
-\italic{Xcode} je integrované vývojové prostředí vyvinuté společností \italic{Apple} pro tvorbu softwaru pro platformy \italic{macOS}, \italic{iOS}, \italic{iPadOS} a \italic{watchOS}. \italic{Xcode} poskytuje editor zdrojového kódu, nástroje pro tvorbu uživatelského rozhraní, ladicí nástroje a řadu dalších základních funkcí, které zjednodušují proces vývoje. Poskytuje také podporu jazyků jako je např. \italic{Swift}, \italic{C++}, \italic{Java} nebo \italic{Objective-C}, což vývojářům usnadňuje přepínání mezi těmito jazyky. \italic{Xcode} je navržen tak, aby byl vysoce efektivní a uživatelsky přívětivý a poskytoval zjednodušený vývoj, který pomáhá vývojářům soustředit se na psaní kódu. \italic{Xcode} navíc obsahuje řadu vestavěných šablon a nástrojů, které usnadňují začátek práce na nových projektech, a bezproblémově se integruje s dalšími nástroji společnosti \italic{Apple}. (\scc Apple, 2023; \scc Wikipedia, 2023)
+\italic{Xcode} je integrované vývojové prostředí vyvinuté společností \italic{Apple} pro tvorbu softwaru pro platformy \italic{macOS}, \italic{iOS}, \italic{iPadOS} a \italic{watchOS}. \italic{Xcode} poskytuje editor zdrojového kódu, nástroje pro tvorbu uživatelského rozhraní, ladicí nástroje a řadu dalších základních funkcí, které zjednodušují proces vývoje. Poskytuje také podporu jazyků jako je např. \italic{Swift}, \italic{C++}, \italic{Java} nebo \italic{Objective-C}, což vývojářům usnadňuje přepínání mezi těmito jazyky. \italic{Xcode} je navržen tak, aby byl vysoce efektivní, uživatelsky přívětivý a poskytoval zjednodušený vývoj, který pomáhá vývojářům soustředit se na psaní kódu. \italic{Xcode} navíc obsahuje řadu vestavěných šablon a nástrojů, které usnadňují začátek práce na nových projektech, a bezproblémově se integruje s dalšími nástroji společnosti \italic{Apple}. (\scc Apple, 2023; \scc Wikipedia, 2023)
 \par
 %📚https://developer.apple.com/xcode/ℹ️✅
 %📚https://en.wikipedia.org/wiki/Xcodeℹ️✅
@@ -592,13 +592,13 @@ V této podkapitole se podíváme na srovnání technologií využívaných ve v
 
 Každý z frameworků pro tvorbu uživatelského prostředí přichází s výhodami a jistými nedostatky. Právě tímto se bude zabývat tato část textu, kde si představíme jednotlivé frameworky a jejich srovnání. Ve vývoji nativních aplikací se v~dnešní době používají dva: \italic{UIKit} a \italic{SwiftUI}.
 \par
-\italic{UIKit} je framework, který byl představen společností \italic{Apple} v roce 2008. Framework je určen na tvorbu aplikací pro platformy \italic{iOS}, \italic{iPadOS}, a \italic{tvOS}. Základ \italic{UIKitu} byl postaven na programovacím jazyce \italic{Objective-C} a postupně byl přepsán na \italic{Swift}. Vývojáři však stále mohou narazit na kód v \italic{Objective-C}. Na tomto frameworku je založena většina existujících aplikací a \italic{UIKit} stále nepřichází o~oblibu, proto \italic{Apple} stále \italic{UIKit} inovuje. (\scc Apple, 2023; \scc L. Jeroen, 2022)
+\italic{UIKit} je framework, který byl představen společností \italic{Apple} v roce 2008. Framework je určen na tvorbu aplikací pro platformy \italic{iOS}, \italic{iPadOS}, a \italic{tvOS}. Základ \italic{UIKitu} byl postaven na programovacím jazyce \italic{Objective-C} a postupně byl přepsán na \italic{Swift}. Vývojáři však stále mohou narazit na kód v \italic{Objective-C}. Na tomto frameworku je založena většina existujících aplikací a \italic{UIKit} stále nepřichází o~oblibu a právě proto \italic{Apple} stále \italic{UIKit} inovuje. (\scc Apple, 2023; \scc L. Jeroen, 2022)
 
 %📚https://developer.apple.com/documentation/uikitℹ️✅
 %📚https://getstream.io/blog/uikit-vs-swiftui/ℹ️✅
 \par
 
-\italic{SnapKit} je populární framework třetí strany, který je používán k zjednodušení tvorby uživatelského rozhraní. Hlavním důvodem používání tohoto frameworku je \italic{Auto Layout}, výkonný nástroj, který popisuje vztahy mezi různými \italic{Views} aplikace. K tomuto frameworku přešli především vývojáři, kteří nedoceňovali tvorbu UI pomocí tzv. \italic{Storyboardů}. \italic{Storyboardy} byly např. složité na verzování a přehlednost při návrhu UI. (\scc Shai Mishali, 2019)
+\italic{SnapKit} je populární framework třetí strany, který je používán k zjednodušení tvorby uživatelského rozhraní. Hlavním důvodem používání tohoto frameworku je \italic{Auto Layout}, výkonný nástroj, který popisuje vztahy mezi různými \italic{Views} aplikace. K tomuto frameworku přešli především vývojáři, kteří nedoceňovali tvorbu uživatelského rozhraní pomocí tzv. \italic{Storyboardů}. \italic{Storyboardy} byly složité například na verzování a přehlednost při návrhu UI. (\scc Shai Mishali, 2019)
 
 %📚https://www.kodeco.com/3225401-snapkit-for-ios-constraints-in-a-snap✅
 \par
@@ -607,10 +607,10 @@ Každý z frameworků pro tvorbu uživatelského prostředí přichází s výho
 
 \par
 
-Přestože je většina starších aplikací stále napsána a udržována v \italic{UIKitu}, \italic{Apple} doporučuje vývojářům přejít na novější \italic{SwiftUI}. Pro tento projekt použijeme vývoj pomocí \italic{SwiftUI}, nejen kvůli jeho jednoduchosti a doporučení, ale i kvůli problémům se kterými se \italic{UIKit} potýká. Pro lepší představu je v následujících útržcích ukázka rozdílu mezi \italic{UIKitem} a \italic{SwiftUI}, které ukazují tvorbu tlačítka.
+Přestože je většina starších aplikací stále napsána a udržována v \italic{UIKitu}, \italic{Apple} doporučuje vývojářům přejít na novější \italic{SwiftUI}. Pro tento projekt použijeme vývoj pomocí \italic{SwiftUI}, nejen kvůli jeho jednoduchosti a doporučení, ale i kvůli problémům se kterými se \italic{UIKit} potýká. Pro lepší představu je v útržcích \in{zdrojového kódu}[src:uikit] \in{a}[src:swiftui] ukázka rozdílu mezi \italic{UIKitem} a \italic{SwiftUI}, které ukazují tvorbu tlačítka.
 
-\sourcecode{Ukázka práce v UIKit.}{}{src:uikit}{}
-\sourcecode{Ukázka práce ve SwftUI.}{}{src:swiftui}{}
+\sourcecode[][src:uikit]{Ukázka práce v UIKit.}{}{src:uikit}{}
+\sourcecode[][src:swiftui]{Ukázka práce ve SwftUI.}{}{src:swiftui}{}
 
 \pkapx{Síťová komunikace}
 
@@ -629,14 +629,14 @@ V sadě nástrojů \italic{Apple Foundation} můžeme nalézt sadu \italic{URL L
 
 %📚https://github.com/Alamofire/Alamofire ✅
 
-\sourcecode{Ukázka dekódovaní JSON do modelu Model pomocí knihovny Alamofire. Podle vzoru Alamofire (2023), upraveno.}{}{src:alamofire}{}
+\sourcecode{Ukázka dekódovaní JSON do modelu Model pomocí knihovny Alamofire. Upraveno podle \scl Alamofire (2023).}{}{src:alamofire}{}
 \pkapx{Perzistence dat}
 
 Aby uživatel neztratil při každém ukončení aplikace data, musíme data ukládat v nějakém uložišti. Může se jednat o bitové soubory, nebo databáze. V této podkapitole se podíváme na vybrané technologie, přístupy a jejich vzájemné srovnání.
 
 \ppkapx{UserDefaults}
 
-Tato technologie patří mezi jednodušší, co se týče uchovávání dat. Technologie není stavěná na uchovávání velikého množství dat, jako např. databáze. {\courierfont UserDefaults}, jak již název napovídá slouží spíše k ukládání uživatelských preferencí, např. nastavení aplikace, vzhled aplikace nebo informace o uživateli. Principem této technologie je ukládání dat v páru, který tvoří klíč a specifikovaná hodnota. (\scc Paul Hudson, 2022)
+Tato technologie patří mezi jednodušší, co se týče uchovávání dat. Technologie není stavěná na uchovávání velikého množství dat, jako např. databáze. {\courierfont UserDefaults}, jak již název napovídá, slouží spíše k ukládání uživatelských preferencí, např. nastavení aplikace, vzhled aplikace nebo informace o uživateli. Principem této technologie je ukládání dat v páru, který tvoří klíč a specifikovaná hodnota. (\scc Paul Hudson, 2022)
 %📚https://www.hackingwithswift.com/books/ios-swiftui/storing-user-settings-with-userdefaults✅
 \par
 
@@ -644,10 +644,10 @@ Tato technologie patří mezi jednodušší, co se týče uchovávání dat. Tec
 
 %📚https://iosapptemplates.com/blog/ios-development/data-persistence-ios-swift✅
 
-V následující ukázce je zobrazena ukázka práce s {\courierfont UserDefaults}. V prvním řádku přiřadíme proměnné {\courierfont firstRun} počáteční hodnotu {\courierfont false}. Funkce {\courierfont run()} poté nastaví hodnotu na {\courierfont true}.
+V ukázce \in{zdrojového kódu}[src:userdefaults] je zobrazena ukázka práce s {\courierfont UserDefaults}. V prvním řádku přiřadíme proměnné {\courierfont firstRun} počáteční hodnotu {\courierfont false}. Funkce {\courierfont run()} poté nastaví hodnotu na {\courierfont true}.
 
 
-\sourcecode{Ukázka práce s UserDefaults.}{}{src:userdefaults}{}✅
+\sourcecode[][src:userdefaults]{Ukázka práce s UserDefaults.}{}{src:userdefaults}{}✅
 
 \ppkapx{Ukládání souborů na disk}
 
@@ -655,18 +655,18 @@ Některé technologie nepodporují ukládání souborů v různých formátech n
 
 \par
 
-S tímto přístupem přichází jisté výhody jako možnost ukládání objemných souborů, jednoduchost používání nebo možnost sdílení souborů mezi aplikacemi. Jednou z nevýhod ukládání souborů přímo na disk je rychlost čtení a~zápisů. Adresa, na které je aplikace uložená se může kdykoli změnit a absolutní cesta k souboru již nebude použitelná. (\scc florian 2021)
+S tímto přístupem přichází jisté výhody jako možnost ukládání objemných souborů, jednoduchost používání nebo možnost sdílení souborů mezi aplikacemi. Jednou z nevýhod ukládání souborů přímo na disk je rychlost čtení a~zápisu. Adresa, na které je aplikace uložená se může kdykoli změnit a absolutní cesta k souboru již nebude použitelná. (\scc florian, 2021)
 %📚https://iosapptemplates.com/blog/ios-development/data-persistence-ios-swift✅
 
 \sourcecode{Ukázka uložení souboru na disk.}{}{src:savefile}{}✅
 
 \ppkapx{Core Data a CloudKit}
 
-\italic{Core Data} je framework od firmy \italic{Apple}, který je pro perzistenci dat při vývoji \italic{iOS} doporučován. Framework umožňuje pomocí sad nástrojů jednoduše spravovat data v \italic{SQLite} databázi bez nutnosti znalostí o \italic{SQL} dotazech. Vývojové prostředí \italic{Xcode} umožňuje uživatelsky přívětivou tvorbu modelu databáze ve vestavěném nástroji pro tvorbu entit. (\scc Apple, 2023)
+\italic{Core Data} je framework od firmy \italic{Apple}, který je pro perzistenci dat při vývoji \italic{iOS} doporučován. Framework umožňuje pomocí sad nástrojů jednoduše spravovat data v \italic{SQLite} databázi bez nutnosti znalostí o dotazovacím jazyku \italic{SQL}. Vývojové prostředí \italic{Xcode} umožňuje uživatelsky přívětivou tvorbu modelu databáze ve vestavěném nástroji pro tvorbu entit. (\scc Apple, 2023)
 %📚https://developer.apple.com/documentation/coredata✅
 \par
 
-\italic{CloudKit} je cloudová backendová služba společnosti \italic{Apple} pro ukládání a~načítání dat z cloudu. Nabízí jednoduché rozhraní API pro ukládání a načítání dat a~funkce pro autentizaci nebo oznámení. \italic{CloudKit} umožňuje vývojářům vytvářet cloudové aplikace a snadno spravovat data v cloudu pomocí ovládacího panelu poskytovaného společností \italic{Apple}. (\scc Apple, 2023; \scc Apple, 2017)
+\italic{CloudKit} je cloudová backendová služba společnosti \italic{Apple} pro ukládání a~načítání dat z cloudu. Nabízí jednoduché rozhraní API pro ukládání a načítání dat a~funkce pro autentizaci nebo oznámení. \italic{CloudKit} umožňuje vývojářům vytvářet cloudové aplikace a snadno spravovat data v cloudu pomocí ovládacího panelu poskytovaného společností \italic{Apple}. (\scc Apple 2017, 2023)
 
 %📚https://developer.apple.com/library/archive/documentation/DataManagement/Conceptual/CloudKitQuickStart/Introduction/Introduction.htmlℹ️✅
 %📚https://developer.apple.com/icloud/cloudkit/ℹ️✅
@@ -697,7 +697,7 @@ Mezi výhody této technologie patří rychlost komunikace s databází, synchro
 
 \ppkapx{Firestore}
 
-\italic{Firestore} je databáze, která je jedním z nástrojů dostupných v rámci \italic{Google Firebase}. Jedná se o \italic{NoSQL} databázi, která je vhodná jak pro mobilní aplikace, tak i pro webové aplikace. Data jsou ukládána v cloudovém uložišti, mohou však být používána i pokud je zařízení v offline stavu. Tato služba umožňuje sdílení a modifikaci dat v reálném čase, což je vhodné pro komunikaci mezi uživateli nebo mezi více zařízeními.
+\italic{Firestore} je databáze, která je jedním z nástrojů dostupných v rámci \italic{Google Firebase}. Jedná se o \italic{NoSQL} databázi, která je vhodná, jak pro mobilní aplikace, tak i pro webové aplikace. Data jsou ukládána v cloudovém uložišti, mohou však být používána i pokud je zařízení v offline stavu. Tato služba umožňuje sdílení a modifikaci dat v reálném čase, což je vhodné pro komunikaci mezi uživateli nebo mezi více zařízeními.
 
 \par
 
@@ -708,7 +708,7 @@ Jednou z hlavních výhod \italic{Firestore} je synchronizace dat. Data mohou b�
 
 \pkapx{Práce s mapou}
 
-Aby se uživatelé aplikace \italic{Smart Migration} mohli v České republice zorientovat, chceme vytvořit mapu, která je provede mezi kontaktními místy. Proto je nutné vybrat vhodnou technologii, která bude nejlépe splňovat naše požadavky a právě tomuto se bude věnovat následující kapitola.
+Aby se uživatelé aplikace \italic{Smart Migration} mohli v České republice zorientovat, chceme vytvořit mapu, která je provede mezi kontaktními místy. Proto je nutné vybrat vhodnou technologii, která bude nejlépe splňovat naše požadavky a právě tomu se bude věnovat následující kapitola.
 
 \ppkapx{MapKit}
 
@@ -720,7 +720,7 @@ Výhodou \italic{MapKitu} je především to, že je spravován firmou \italic{A
 
 \ppkapx{ArcGIS SDK}
 
-Společnost \italic{Esri} poskytuje sadu nástrojů pro práci s mapou \italic{ArcGIS SDK}. \italic{ArcGIS} se liší od ostatních technologií pro práci s mapou především v offline používání. Uživatel si může stáhnout část mapy a vrstvy pro práci v offline stavu. \italic{ArcGIS} je nástrojem pro lidi, kteří se zajímají o GIS a proto \italic{ArcGIS SDK} obsahuje pokročilé nástroje pro práci s geografickými daty a vrstvami.(\scc ArcGIS, 2023)
+Společnost \italic{Esri} poskytuje sadu nástrojů pro práci s mapou \italic{ArcGIS SDK}. \italic{ArcGIS} se liší od ostatních technologií pro práci s mapou především v offline používání. Uživatel si může stáhnout část mapy a vrstvy pro práci v offline stavu. \italic{ArcGIS} je nástrojem pro lidi, kteří se zajímají o GIS a proto \italic{ArcGIS SDK} obsahuje pokročilé nástroje pro práci s geografickými daty a vrstvami. (\scc ArcGIS, 2023)
 
 %📚https://developers.arcgis.com/ios/key-features/✅
 
@@ -740,31 +740,31 @@ Tato sada nástrojů od společnosti \italic{Mapbox} nabízí nástroje pro prá
 
 \pkapx{Testování}
 
-Mnoho vývojářů věří svému kódu natolik, že neprovádí testování, což může vést v mnoho případech k nepřesnostem v aplikace. Psaní testů může být časově náročné, ale je důležitou součástí vývoje, kde se dozvíme, zda aplikace funguje podle našich představ a požadavků. Při vývoji a následnému zveřejnění je pak nutné, aby aplikace prošla více testy. K testování zdrojového kódu může vývojář využít nástrojů pro jednotkové testování a testování uživatelské přívětivosti, které jsou součástí vývojového prostředí \italic{Xcode}. Po kontrole kódu následuje testování aplikace uživateli, kteří zkoumají aplikaci na základě zadání a pomocí zpětné vazby dávají vývojářům najevo, zda jsou schopni s aplikací pracovat. Na základě zpětné vazby jsou vývojáři schopni provést změny v aplikaci, které zajistí vyšší míru uživatelské přívětivosti. Zmíněné testy jsou součástí zadání této práce a testování se bude věnovat samotná část textu v kapitole Metodika. Před samotným zveřejněním aplikace do \italic{App Store} je nutné aby aplikace prošla řadou testů, které můžou zkoumat aplikaci z vnějšího pohledu a dojít k závěrům jaký bude mít aplikace dopad např. na telefon uživatele nebo na servery, se kterými komunikuje. Je vhodné aby aplikace nevyužívala příliš mnoho výkonu mobilního zařízení. Pokud má aplikace vyšší počet uživatelů, pak je vhodné zjistit zda servery budou schopny s jednotlivými instancemi aplikace rychle, bezpečně a~korektně komunikovat.
+Mnoho vývojářů věří svému kódu natolik, že neprovádí testování, což může vést v mnoho případech k nepřesnostem v aplikaci. Psaní testů může být časově náročné, ale je důležitou součástí vývoje, kde se dozvíme, zda aplikace funguje podle našich představ a požadavků. Při vývoji a následnému zveřejnění je pak nutné, aby aplikace prošla více testy. K testování zdrojového kódu může vývojář využít nástrojů pro jednotkové testování a testování uživatelské přívětivosti, které jsou součástí vývojového prostředí \italic{Xcode}. Po kontrole kódu následuje testování aplikace uživateli, kteří zkoumají aplikaci na základě zadání a pomocí zpětné vazby dávají vývojářům najevo, zda jsou schopni s aplikací pracovat. Na základě zpětné vazby jsou vývojáři schopni provést změny v aplikaci, které zajistí vyšší míru uživatelské přívětivosti. Zmíněné testy jsou součástí zadání této práce a testování se bude věnovat samotná část textu v kapitole Metodika. Před samotným zveřejněním aplikace do \italic{App Store} je nutné aby aplikace prošla řadou testů, které můžou zkoumat aplikaci z vnějšího pohledu a dojít k závěrům jaký bude mít aplikace dopad např. na telefon uživatele nebo na servery, se kterými komunikuje. Je vhodné aby aplikace nevyužívala příliš mnoho výkonu mobilního zařízení. Pokud má aplikace vyšší počet uživatelů, pak je vhodné zjistit zda servery budou schopny s jednotlivými instancemi aplikace rychle, bezpečně a~korektně komunikovat.
 \par
-Jednotkové testy jsou způsob testování, při kterém testujeme konkrétní „jednotku“ kódu. V následující ukázce si ukážeme testování metody {\courierfont uppercasedFirst()}, která jako vstup přijme textový řetězec a jako výstup by měla vrátit stejný textový řetězec s velkým písmenem na začátku. Ověření funkcionality ověří testovací metoda {\courierfont testUppercaseFirst()}. (\scc Antoine Van der Lee, 2022)
-\sourcecode{Ukázka jednotkového testování. Zdroj: Antoine Van der Lee.}{}{src:unittest}{} 
+Jednotkové testy jsou způsobem testování, při kterém testujeme konkrétní „jednotku“ kódu. V ukázce \in{zdrojového kódu}[src:unittest] si ukážeme testování metody {\courierfont uppercasedFirst()}, která jako vstup přijme textový řetězec a jako výstup by měla vrátit stejný textový řetězec s velkým písmenem na začátku. Ověření funkcionality pak ověří testovací metoda {\courierfont testUppercaseFirst()}. (\scc Antoine Van der Lee, 2022)
+\sourcecode[][src:unittest]{Ukázka jednotkového testování. Zdroj: \scl Antoine Van der Lee (2022).}{}{src:unittest}{} 
 %📚https://www.avanderlee.com/swift/unit-tests-best-practices/✅
 \par
 K testování uživatelského rozhraní se používají tzv. UI testy. Testy uživatelského rozhraní slouží k testování jednotlivých elementů uživatelského rozhraní a jejich vzájemnou interakci s uživatelem. V tomto přístupu lokalizujeme konkrétní element uživatelského rozhraní a na tomto prvku simulujeme řadu interakcí. Je-li výsledek interakce stejný jako očekávaný, pak je test splněn. (\scc Riyam Rudrank, 2021; \scc David Piper, 2021)
 %📚https://semaphoreci.com/blog/ui-testing-swiftℹ️✅
 %📚https://www.kodeco.com/21020457-ios-unit-testing-and-ui-testing-tutorialℹ️✅
-\sourcecode{Ukázka testování uživatelského rozhraní. Zdroj: Chris Ching.}{}{src:uitest}{}
-Zajímavým přístupem k testování je tzv. \italic{Monkey testing}. \italic{Monkey testing} spočívá v náhodných dotecích, dlouhých stiscích nebo posouvání po obrazovce. K~testování je možné vymezit část obrazovky, ve které budou náhodné interakce prováděny nebo vymezit čas, v kterém budou testy prováděny. Tímto přístupem může vývojář simulovat naprosto náhodné chování uživatele a zkoumat reakce aplikace na tyto akce. (\scc Alexey Alter-Pesotskiy, 2023)
+\sourcecode{Ukázka testování uživatelského rozhraní. Zdroj: \scl Chris Ching (2021).}{}{src:uitest}{}
+Zajímavým přístupem k testování je tzv. \italic{Monkey testing}. Tento přístup spočívá v náhodných dotecích, dlouhých stiscích nebo posouvání po obrazovce. K~testování je možné vymezit část obrazovky, ve které budou náhodné interakce prováděny nebo vymezit čas, ve kterém budou testy prováděny. Tímto přístupem může vývojář simulovat naprosto náhodné chování uživatele a zkoumat reakce aplikace na tyto akce. (\scc Alexey Alter-Pesotskiy, 2023)
 %📚https://testableapple.com/stress-testing-on-ios-with-xcmonkey/✅
 
 \pkapx{Chatbot}
 
-Chatbot je technologie určená k automatizované komunikaci s lidmi. První koncept chatbota přišel už v 50. letech 20. století, kdy Alan Turing navrhl tzv. Turingův test, který má za úkol prověřit, zda je technologie dostatečně inteligentní. S chatboty se v dnešní době můžeme setkat na různých místech, např. v zákaznické podpoře, při nákupu online nebo při \italic{onboardingu} nových zaměstnanců. Na podzim roku 2022 zaznamenalo odvětví s chatboty významný pokrok, kdy společnost \italic{OpenAI} představila \italic{ChatGPT}. Tento produkt donutil veliké technologické společnosti jako je např. \italic{Google} reagovat na vzrůstající poptávku po umělé inteligenci, oznámením vlastního výzkumu umělé inteligence a představením asistenta \italic{Bard}. (\scc Wikipedia, 2023)
+Chatbot je technologie určená k automatizované komunikaci s lidmi. První koncept chatbota přišel už v 50. letech 20. století, kdy Alan Turing navrhl tzv. Turingův test, který má za úkol prověřit, zda je technologie dostatečně inteligentní. S chatboty se v dnešní době můžeme setkat na různých místech, např. v zákaznické podpoře, při nákupu online nebo při \italic{onboardingu} nových zaměstnanců. Na podzim roku 2022 zaznamenalo odvětví s chatboty významný pokrok, když společnost \italic{OpenAI} představila \italic{ChatGPT}. Tento produkt donutil veliké technologické společnosti, jako je např. \italic{Google} reagovat na vzrůstající poptávku po umělé inteligenci, oznámením vlastního výzkumu umělé inteligence a představením asistenta \italic{Bard}. (\scc Wikipedia, 2023)
 %📚https://en.wikipedia.org/wiki/Chatbot✅
 \par
-\italic{ChatGPT} je nástroj, který se těší veliké popularitě mezi širokou veřejností. Využití v něm najde téměř každý člověk. \italic{ChatGPT} je schopný reagovat na různé požadavky uživatele a je schopen vytvořit např. skripty, aplikace, básně nebo novinové články. Společnost \italic{Microsoft} do vývoje investovala 10 mld. \$, aby podpořila své nástroje jako je vyhledávač \italic{Bing}, který nedosahuje takového počtu uživatelů jako např. \italic{Google}. Pomocí integrace \italic{ChatGPT} do vyhledávače \italic{Bing} však může \italic{Google} o místo nejoblíbenějšího vyhledávače přijít. (\scc Forbes, 2023)
+\italic{ChatGPT} je nástroj, který se těší veliké popularitě mezi širokou veřejností. Využití v něm najde téměř každý člověk. \italic{ChatGPT} je schopný reagovat na různé požadavky uživatele a je schopen vytvořit např. skripty, aplikace, básně nebo novinové články. Společnost \italic{Microsoft} do vývoje investovala 10 mld. USD, aby podpořila své produkty, jako je vyhledávač \italic{Bing}, který nedosahuje takového počtu uživatelů jako např. \italic{Google}. Pomocí integrace \italic{ChatGPT} do vyhledávače \italic{Bing} však může \italic{Google} o místo nejoblíbenějšího vyhledávače přijít. (\scc Forbes, 2023)
 \par
 V následujícím citátu se nachází, jednoveršová báseň o Provozně-ekonomické fakultě Mendelovy univerzity v Brně, kterou vygeneroval ChatGPT na základě instrukce: „\italic{Write a one verse poem about Mendelu faculty of business and economics}“. \citat{\samplefile{chatgpt.txt}} (\scc ChatGPT, OpenAI).
 %📚https://www.forbes.com/sites/qai/2023/01/27/microsoft-confirms-its-10-billion-investment-into-chatgpt-changing-how-microsoft-competes-with-google-apple-and-other-tech-giants/?sh=3d3b61f03624✅
 \ppkapx{Backend}
-K implementaci chatu v aplikaci použijeme již existujícího chatbota, který je založen na frameworku \italic{Rasa}. \italic{Rasa} je jedním z nejpoužívanějších nástrojů pro tvorbu chatbotů, kteří jsou schopni reagovat na text i hlas. V tomto odstavci se budeme soustředit na fungování tohoto nástroje. Mezi hlavní komponenty chatbota patří: \italic{intenty}, entity, paměť chatbota a jeho odpovědi. \italic{Intenty} můžeme chápat jako úmysl uživatele, to, čeho chce docílit. Entity chápeme, jako extrahovatelné kousky dat ze zprávy uživatele. Ze zprávy „Ahoj, jmenuji se Jan.“ může chatbot pochopit, že mým úmyslem je chatbota pozdravit a zároveň mu sdělit jméno, kterým mě může oslovovat. Kvůli návaznosti na předchozí zprávy musí mít chatbot paměť, do které může ukládat jak entity, tak i \italic{intenty}. Chatbot bohužel sám, nerozumí jazyku, který používáme ke komunikaci, lze ho však naučit některé fráze, nebo formáty různých entit. Např. můžeme chatbotovi poskytnout informaci o formátu emailové adresy jako: „<some_text>@<some_text>.com“, kterou poté může použít např. pro rozesílání emailů, které jsou součástí marketingové kampaně. V následující ukázce si ukážeme, jak naučit chatbota rozeznat pozdrav a jaké kontaktní informace mu poskytujeme. (\scc Aniruddha Karajgi, 2021)
-\sourcecode{Ukázka učení chatbota pomocí frameworku Rasa. Zdroj: Aniruddha Karajgi.}{}{src:nlu}{}✅
+K implementaci chatu v aplikaci použijeme již existujícího chatbota, který je založen na frameworku \italic{Rasa}. \italic{Rasa} je jedním z nejpoužívanějších nástrojů pro tvorbu chatbotů, kteří jsou schopni reagovat na text i hlas. V tomto odstavci se budeme soustředit na fungování tohoto nástroje. Mezi hlavní komponenty chatbota patří: \italic{intenty}, entity, paměť chatbota a jeho odpovědi. \italic{Intenty} můžeme chápat jako úmysly uživatele, to, čeho chce docílit. Entity chápeme, jako extrahovatelné kousky dat ze zprávy uživatele. Ze zprávy „Ahoj, jmenuji se Jan.“ může chatbot pochopit, že mým úmyslem je chatbota pozdravit a zároveň mu sdělit jméno, kterým mě může oslovovat. Kvůli návaznosti na předchozí zprávy musí mít chatbot paměť, do které může ukládat jak entity, tak i \italic{intenty}. Chatbot bohužel sám nerozumí jazyku, který používáme ke komunikaci, lze ho však naučit některé fráze, nebo formáty různých entit. Například můžeme chatbotovi poskytnout informaci o formátu emailové adresy jako: „<some_text>@<some_text>.com“, kterou poté může použít např. pro rozesílání emailů, které jsou součástí marketingové kampaně. V následující ukázce si ukážeme, jak naučit chatbota rozeznat pozdrav a jaké kontaktní informace mu poskytujeme. (\scc Aniruddha Karajgi, 2021)
+\sourcecode{Ukázka učení chatbota pomocí frameworku Rasa. Zdroj: \scl Aniruddha Karajgi (2021).}{}{src:nlu}{}✅
 %📚https://towardsdatascience.com/building-a-chatbot-with-rasa-3f03ecc5b324✅
 \ppkapx{Frontend}
 Co se týče frontendu chatbota, musíme zobrazit komunikaci ve vhodné formě. \italic{Apple} bohužel neposkytuje nativní framework pro zobrazování chatu. Z tohoto důvodu můžeme zobrazení zpráv navrhnout sami nebo se spolehnout na frameworky třetích stran, jako je např. \italic{MessageKit}.
@@ -783,12 +783,12 @@ V naší aplikaci budeme chtít zobrazovat obrázky stahované ze serveru a~prá
 %📚https://github.com/SDWebImage/SDWebImageSwiftUI✅
 \ppkapx{R.Swift}
 Práci při používání barev, obrázků, fontů z katalogu \italic{assetů} nám může ulehčit framework \italic{R.Swift}. Při použití některé ze zmíněných věcí může dojít k chybě v~podobě překlepu. V následující ukázce je vidět rozdíl při použití obrázku standardním způsobem a pomocí \italic{R.Swift}. \italic{R.Swift} automaticky vygeneruje výčet \italic{assetů}, díky němuž se vyhneme právě daným překlepům a aplikace nebude hlásit chybu, např. při nenalezení obrázku. (\scc Mathijs Kadijk, 2023)
-\sourcecode{Ukázka použití frameworku R.Swift. Zdroj: Repozitář R.swift na GitHub.}{}{src:r.swift}{}
+\sourcecode{Ukázka použití frameworku R.Swift. Zdroj: Repozitář R.swift na GitHub (2023).}{}{src:r.swift}{}
 %📚https://github.com/mac-cain13/R.swift/blob/master/README.md✅
 \ppkapx{SwiftLint}
 Znakem dobrého vývojáře je mimo jeho schopnosti tvorby aplikací i dodržování pravidel a konvencí při psaní kódu. Právě tomuto se věnuje \italic{SwiftLint} od \italic{Realm}. \italic{SwiftLint} hlídá, zda je kód v souladu s doporučeními \italic{Apple} pro psaní kódu a komunitou iOS vývojářů. Při každém spuštění aplikace ve vývojovém prostředí \italic{Xcode} se spustí skript, který kód zkontroluje. Po vyhodnocení kódu se v \italic{Xcode} mohou zobrazit varování nebo errory. Pravidla si může vývojář upravit podle svých preferencí nebo přidat vlastní v souboru ve formátu \italic{.yml}. V následující ukázce je zobrazena tvorba vlastního pravidla, které zobrazí chybu, pokud komentář v kódu nebude odsazen alespoň jednou mezerou od „//“. (\scc realm, 2023)
 %📚https://github.com/realm/SwiftLint✅
-\sourcecode{Ukázka tvorby SwiftLint pravidla Zdroj: Repozitář SwiftLint na GitHub.}{}{src:swiftlint}{}
+\sourcecode{Ukázka tvorby SwiftLint pravidla Zdroj: Repozitář SwiftLint na GitHub (2023).}{}{src:swiftlint}{}
 
 \kap{Metodika}
 
@@ -807,7 +807,7 @@ Pro vývoj aplikace použiji programovací jazyk \italic{Swift} a jako technolog
 \par
 Jako architekturu jsem zvolil MVVM, kvůli vhodnému rozdělení uživatelského rozhraní a kódu. MVVM je také robustním standardem ve vývoji nejen mobilních aplikací. Díky dobré škálovatelnosti, kterou architektura poskytuje, zajistíme opět jednodušší údržbu aplikace do budoucna.
 \par
-Významná část dat je obsažena na serverech, se kterými bude aplikace komunikovat skrze \italic{REST API}. Jelikož je ke komunikaci využíváno pouze jednoduchých HTTP požadavků a zpracovávání JSON odpovědí, rozhodl jsem se pro nepoužití knihoven třetí strany a nástroje ke komunikaci si navrhnu sám. Konkrétně budu využívat nativní nástroje, které poskytuje \italic{Swift} a \italic{Xcode}.
+Významná část dat je obsažena na serverech, se kterými bude aplikace komunikovat skrze \italic{REST API}. Jelikož je ke komunikaci využíváno pouze jednoduchých HTTP požadavků a zpracovávání odpovědí ve formátu JSON, rozhodl jsem se pro nepoužití knihoven třetí strany a nástroje ke komunikaci si navrhnu sám. Konkrétně budu využívat nativní nástroje, které poskytuje \italic{Swift} a \italic{Xcode}.
 \par
 Jedním z požadavků na aplikaci je také ukládání dat přímo v zařízení uživatele a jejich použitelnost bez připojení k internetu. Technologie pro perzistenci dat jsem zvolil dvě: \italic{Core Data} a \italic{UserDefaults}. \italic{Core Data} bude aplikace používat k~ukládání dat z \italic{REST API}, tj. k ukládání kontaktů, tutoriálů a k nim navázaných dat, jako jsou např. tagy. \italic{UserDefaults} jsem zvolil pro ukládání uživatelských preferencí a informacích o aplikaci. Do \italic{UserDefaults} se bude ukládat např. uživatelem preferovaný jazyk, zda již uživatel prošel seznámením s aplikací nebo informace o oblíbených kontaktech.
 \par
@@ -867,7 +867,7 @@ Složková struktura však nedokáže popsat samotnou strukturu aplikace ve smys
 Názory, jestli je nutno mít ke každému \italic{View} i \italic{View Model} se rozcházejí. Z~tohoto důvodu budu vytvářet \italic{View Modely} pouze k \italic{Views}, kde to má smysl. V~následující ukázce je znázorněna tvorba \italic{View Modelu} k \italic{View}. \italic{View Model} je anotován \italic{property wrapperem} {\courierfont @MainActor}, díky čemuž se zajistí, aby \italic{View Model}, pomocí něhož aktualizujeme \italic{View} běžel na hlavním vlákně. (\scc Paul Hudson, 2021) \italic{View Model} je delegátem protokolu {\courierfont ObservableObject}, díky čemuž jsou změny ve \italic{View Modelu} ihned propsány do \italic{View}, který \italic{View Modelu} naslouchají pomocí anotace {\courierfont @StateObject}. (\scc Paul Hudson, 2022) Ve \italic{View Modelu} je následně možno vidět {\courierfont apiManager}, který je zpřístupněn pomocí vlastního \italic{property wrapperu} {\courierfont @Injected}. Díky \italic{Dependency Injection} dosáhneme v aplikaci lepší udržitelnosti nebo lepší možnosti testování.
 \sourcecode{Ukázka přiřazení View Modelu k View.}{}{src:viewModel}{}
 \pkap{Perzistence dat}
-V této podkapitole popíšu postup vytváření databáze \italic{Core Data}. Vývojové prostředí \italic{Xcode} má vestavěný editor právě pro tvorbu databáze \italic{Core Data}. Pro vytvoření je nutno vytvořit speciální soubor, v tomto případě {\courierfont Model.xcdatamodel}. V tomto souboru vytvořím jednotlivé entity, které budou obsahovat data k následnému offline použití. Mezi entitami je možné vytvořit vazby typů 1:1, 1:M nebo N:M. V tomto případě použijeme vazbu např. mezi entitou {\courierfont CDTutorial} a {\courierfont CDWarning}. Jedná se o vazbu 1:1, kdy objekt {\courierfont CDTutorialu} může obsahovat pouze jeden objekt {\courierfont CDWarning} a naopak. Celé schéma databáze je vyobrazeno v \in{obrázku}[scheme_coredata]. \in{Obrázek}[detail_desc] pak znázorňuje detail tutoriálu , kde je vidět využití a provázanost jednotlivých entit.
+V této podkapitole popíšu postup vytváření databáze \italic{Core Data}. Vývojové prostředí \italic{Xcode} má vestavěný editor právě pro tvorbu databáze \italic{Core Data}. Pro vytvoření je nutno vytvořit speciální soubor, v tomto případě {\courierfont Model.xcdatamodel}. V tomto souboru vytvořím jednotlivé entity, které budou obsahovat data k následnému offline použití. Mezi entitami je možné vytvořit vazby typů 1\,:\,1, 1\,:\,M nebo N\,:\,M. V tomto případě použijeme vazbu např. mezi entitou {\courierfont CDTutorial} a {\courierfont CDWarning}. Jedná se o vazbu 1\,:\,1, kdy objekt {\courierfont CDTutorialu} může obsahovat pouze jeden objekt {\courierfont CDWarning} a naopak. Celé schéma databáze je vyobrazeno v \in{obrázku}[scheme_coredata]. \in{Obrázek}[detail_desc] pak znázorňuje detail tutoriálu , kde je vidět využití a provázanost jednotlivých entit.
 \par
 Další technologií pro perzistenci dat jsou \italic{UserDefaults}. V \italic{UserDefaults} budeme ukládat např. informaci o dokončení \italic{onboardingu} nebo o nastaveném jazyku aplikace. Po dokončení \italic{onboardingu} se do \italic{UserDefaults} pod klíčem {\courierfont onboarding_done} uloží hodnota {\courierfont true}, díky níž se při dalším startu aplikace \italic{onboarding} nespustí a uživatel ho nemusí znovu absolvovat.
 
@@ -883,7 +883,7 @@ Jak již bylo zmíněno v úvodu do metodiky, ke komunikaci aplikace se serverem
 
 Základem komunikace je dotazování se jednotlivých endpointů, proto si navrhnu protokol {\courierfont Endpoint}. Protokol určuje povinné vlastnosti a funkce tříd, kterým se říká delegát. Každý delegát musí obsahovat tyto vlastnosti a funkce. V následujícím útržku kódu se nachází definice protokolu {\courierfont Endpoint}. Delegáty tvoří jednotlivé \italic{routery}, z nichž je každý určen pro zpracovávání jednotlivých endpointů.
 
-\sourcecode{Ukázka protokolu {\courierfont Endpoint}. Zdroj: Repozitář STRV na GitHub.}{}{src:endpoint}{}
+\sourcecode{Ukázka protokolu Endpoint. Zdroj: Repozitář STRV na GitHub (2022).}{}{src:endpoint}{}
 
 \par
 Samotnou komunikaci pak zprostředkovává třída {\courierfont APIManager}, díky které můžeme ze serveru získávat data pro naší aplikaci, zjistit jejich aktuálnost nebo komunikovat s chatbotem a to vše pomocí jednoduchých metod. Díky generickému programování jsme schopni použít univerzální metodu pro každou entitu, kterou ze serveru můžeme získat. V následující ukázce je zobrazeno získání dat pomocí jedné z univerzálních metod.
@@ -900,7 +900,7 @@ Aplikace využívá pro stahování dat \italic{REST API}. Po odeslání požada
 
 \desc{.../faq/tags/} -- Tento endpoint vrací tagy, na které jsou následně napárovány tutoriály.
 
-\desc{.../faq/items/?nested=0&withHtml=true} -- Zde aplikace získává tutoriály. V~našem případě chceme, aby odpověď vracela plochou formu dat, proto specifikujeme parametr {\courierfont nested} s nastavením {\courierfont false}. Dalším parametrem, který musí být nastaven je {\courierfont withHtml}, díky němuž budou data ze serveru chodit v HTML formátu.
+\desc{.../faq/items/?nested=0&withHtml=true} -- Zde aplikace získává tutoriály.\break V~našem případě chceme, aby odpověď vracela plochou formu dat, proto specifikujeme parametr {\courierfont nested} s nastavením {\courierfont false}. Dalším parametrem, který musí být nastaven je {\courierfont withHtml}, díky němuž budou data ze serveru chodit v HTML formátu.
 
 \desc{.../faq/reports/} -- Endpoint, na který odesíláme požadavek metody POST, kde specifikujeme tělo požadavku. Tento endpoint používáme pro nahlášení chyb v jednotlivých tutoriálech. Tělo požadavku tvoří především popis chyby a~identifikátor daného tutoriálu.
 
@@ -913,13 +913,13 @@ Aby bylo možné poskytovat služby skrze naší aplikaci širšímu spektru už
 \par
 Lokalizování aplikace pro platformu \italic{iOS} lze zajistit velice jednoduše. V první řadě je nutné si navolit podporované jazyky přímo ve vývojovém prostředí \italic{Xcode}. V následujícím kroku je nutno vytvořit soubor, který obsahuje veškeré textové řetězce, které jsou v aplikaci použity a nejsou stahovány. Soubor se v~\italic{Xcode} zobrazí ve více variantách, pro každý jazyk jinak. Textové řetězce jsou v souboru uloženy ve formě, která je ukázána v následujícím výstřižku kódu, kde můžeme vidět i jeho následné použití v uživatelském rozhraní, kde k němu přistoupíme pomocí {\courierfont LocalizedStringKey}.
 \par
-V aplikaci je nutno zajistit i systémové hlášky, které budou odpovídat jazyku zařízení. Systémové hlášky aplikace zobrazuje, žádá-li např. o přístup k datům uživatele. Z tohoto důvodu jsem musel vytvořit nový soubor s textovými řetězci, kde jsem napároval odpovídající hlášky ke klíči oprávnění.
+V aplikaci je nutno zajistit i systémové hlášky, které budou odpovídat jazyku zařízení. Systémové hlášky aplikace zobrazuje, žádá-li například o přístup k datům uživatele. Z tohoto důvodu jsem musel vytvořit nový soubor s textovými řetězci, kde jsem napároval odpovídající hlášky ke klíči oprávnění.
 \sourcecode{Ukázka lokalizace aplikace pro iOS.}{}{src:localization}{}
 
 \pkap{Tutoriály}
 V této podkapitole se zaměříme na část, která je pro naší aplikaci esenciální, tj. část, která se zabývá tutoriály. Hlavním důvodem, proč si naší aplikaci přistěhovalci budou stahovat, bude především zájem o správné řešení různých problémů, se kterými se mohou potýkat. Tuto část aplikace budou tvořit dvě obrazovky: seznam a detail tutoriálu.
 \ppkap{Seznam tutoriálů}
-Obrazovku tutoriálů tvoří dvě hlavní části. První částí je část pro filtrování tutoriálů. Uživatel může filtrovat tutoriály dle svých potřeb pomocí tagů, nebo vyhledávacího textového políčka. Po definici filtrů se uživateli zobrazí v seznamu pouze tutoriály, o které má zájem.
+Obrazovku tutoriálů tvoří dvě hlavní části. První částí je část pro filtrování tutoriálů. Uživatel může filtrovat tutoriály dle svých potřeb pomocí tagů nebo vyhledávacího textového políčka. Po definici filtrů se uživateli zobrazí v seznamu pouze tutoriály, o které má zájem.
 \par
 Další část této obrazovky tvoří samotný seznam. Seznam je navrhnut v jednoduchém uspořádání prvků pod sebou, aby byla aplikace přehlednější a korespondovala s designem aplikace pro platformu \italic{Android}. Obsah jednotlivých položek seznamu tvoří nadpis tutoriálu, k němu přiřazené tagy a text, který je pro přehlednost omezen na tři řádky. Celé toto políčko je obaleno do {\courierfont NavigationLink()}, díky čemuž se uživatel může prokliknout na detail daného tutoriálu.
 \par
@@ -929,9 +929,9 @@ V \in{obrázku}[tutorialList] je možno vidět porovnání seznamu tutoriálů n
 \ppkap{Detail tutoriálu}
 V detailu tutoriálu může uživatel vidět informace k danému tutoriálu. Informace mohou být např. obecný popis, varování, pomoc, zdroj, kontakty nebo navazující tutoriály.
 \par
-Uživatele uvítá hlavička, kterou skládá \italic{.svg} obrázek, který je navázán na první napojený tag, nadpis, seznam tagů a informaci o aktuálnosti dat tohoto problému.
+Uživatele uvítá hlavička, kterou skládá obrázek ve formátu \italic{svg}, který je navázán na první napojený tag, nadpis, seznam tagů a informaci o aktuálnosti dat tohoto problému.
 \par
-Po hlavičce následuje hlavní text, který ze serveru přichází jako HTML kód. Pro zobrazení, které zadavatel dat zamýšlel, musíme tento text převést pomocí vhodných regexů na tzv. {\courierfont AttributedString}. {\courierfont AttributedString} umožňuje modifikované zobrazení textu. V následující ukázce je možno vidět tvorbu tučného textu a odkazů za pomoci {\courierfont AttributedString}.
+Po hlavičce následuje hlavní text, který ze serveru přichází jako kód ve formátu HTML. Pro zobrazení, které zadavatel dat zamýšlel, musíme tento text převést pomocí vhodných regexů na tzv. {\courierfont AttributedString}. {\courierfont AttributedString} umožňuje modifikované zobrazení textu. V následující ukázce je možno vidět tvorbu tučného textu a odkazů za pomoci {\courierfont AttributedString}.
 \sourcecode{Ukázka práce s Attributed String.}{}{src:attrString}{}
 \par
 Jednou z dalších zobrazovaných informací je seznam kontaktů. Jedná se o~hlavičku se jménem kontaktu a k němu napárované informace. Tyto informace jsou zobrazovány ve formě odkazů. Po kliknutí na telefonní číslo se zobrazí dialogové okénko, které si žádá potvrzení volání na dané telefonní číslo. Odkaz s~adresou otevře aplikaci \italic{Apple Maps} s předdefinovaným cílem, který tvoří právě adresa. Další odkazy tvoří webová stránka a Facebook adresa kontaktu, které po prokliknutí otevřou webový prohlížeč.
@@ -953,7 +953,7 @@ Zobrazení na mapě zajišťuje nativní mapový framework {\courierfont MapKit}
 \obrazek{contactList}{Srovnání zobrazení seznamu kontaktů mezi Android (vlevo) a iOS (vpravo).}{img/implementace/contact_list.png}{width=\makeupwidth}%✅
 
 \ppkap{Detail kontaktu}
-Samotný detail kontaktu je opět tvořen úvodním \italic{.svg} obrázkem, který je v tomto případě pro všechny kontakty stejný. Hlavičku doplňuje název kontaktu a jeho případný popis. Následují ke kontaktu přiřazená tlačítka, splňující stejné funkce jako v modulárním \italic{sheetu} u mapy kontaktů. Design je oproti Android aplikaci doplněn výstřižkem mapy, díky čemuž uživatel tuší, kde se místo nachází. Detail zakončuje výpis jednotlivých kontaktních informací. Uživatel může každý kontakt označit jako oblíbený pomocí tlačítka, které je umístěno na pravé straně navigační lišty.
+Samotný detail kontaktu je opět tvořen úvodním \italic{.svg} obrázkem, který je v tomto případě pro všechny kontakty stejný. Hlavičku doplňuje název kontaktu a jeho případný popis. Následují ke kontaktu přiřazená tlačítka, splňující stejné funkce jako v modulárním \italic{sheetu} u mapy kontaktů. Design je oproti \italic{Android} aplikaci doplněn výstřižkem mapy, díky čemuž uživatel tuší, kde se místo nachází. Detail zakončuje výpis jednotlivých kontaktních informací. Uživatel může každý kontakt označit jako oblíbený pomocí tlačítka, které je umístěno na pravé straně navigační lišty.
 \obrazek{contactDetail}{Srovnání zobrazení detail kontaktu mezi Android (vlevo) a iOS (vpravo).}{img/implementace/contact_detail.png}{width=\makeupwidth}%✅
 \pkap{Úkolníček}
 Aby uživatel na nic nezapomněl obsahuje aplikace také část, která se věnuje ukládání úkolů. Úkoly si může uživatel vytvořit vlastní anebo je přímo importovat z jednotlivých tutoriálů. Pro zobrazení jednotlivých úkolů využije uživatel {\courierfont TabView}, které nese název „To-Do“. Po přepnutí na tuto kartu se uživateli zobrazí seznam úkolů, které je možno filtrovat, podle jejich dokončení. Pro vytvoření vlastních úkolů využije uživatel tlačítko, které se nachází na horní liště karty, jenž vysune \italic{sheet}, ve kterém může uživatel zadávat jednotlivé podrobnosti úkolu. Uživatel může přidat základní podrobnosti jako např. název úkolu, popis, lokaci nebo čas, dokdy má být úkol dokončen. K úkolu je možné taky navázat kontakty, které stahujeme ze serveru nebo si uživatel může přidat kontakty vlastní. Pro lepší přehled úkolů jsou zobrazovány podle skupin, které nesou název po tutoriálu, z něhož byly importovány.
@@ -1061,36 +1061,43 @@ Pro uživatelské testování jsem vybral skupinu 8 testovacích subjektů u nic
 \ppkapx{Úkol č. 1}
 \bold{Představte si, že se přestěhujete do České republiky, bydlení v hotelech vás již neuspokojuje a chcete si najít pronájem. Nalezněte informace o pronájmech bytů.}
 \par
+\blank
+
 Očekávaným výsledkem tohoto úkolu byla navigace do konkrétního tutoriálu, který informuje uživatele, jak si v České republice najít ubytování. Možností, jak tento tutoriál najít je více, uživatel má na výběr z filtrování pomocí tagů nebo pomocí vyhledávacího políčka. Po nalezení tutoriálu jsou informace o nájmech zobrazeny v doplňujících otázkách.
 \par
 Většina uživatelů zvolila filtrování pomocí tagu „Accomodation“, který shrnuje témata související s ubytováním. Jeden ze subjektů zvolil vyhledávání pomocí textu, kde vybral intuitivně slovíčko „Lease“, které ho dovedlo ke správnému tutoriálu. Odtud již neměl žádný ze subjektů testování problém najít informace o pronájmu bytu.
+\page
 \ppkapx{Úkol č. 2}
 \bold{Angličtina není vaším primárním jazykem a zjistili jste, že instrukcím v aplikaci naprosto nerozumíte. Rozhodnete se zjistit, zda aplikace podporuje více jazyků a jeden z nich si vyberete.}
 \par
+\blank
 Očekávaným výstupem tohoto úkolu je schopnost zorientovat se v aplikaci a změnit její jazyk. Tester se musí dostat do části aplikace, která obsahuje informace o ní a také nabízí možnost změny jazyka. Po výběru jazyka musí být uživatel schopen aplikaci restartovat, aby viděl změnu textů v aplikaci do vybraného jazyka.
 \par
 Všichni z testujících se bez problému v aplikaci zorientovali a byli schopni změnit jazyk aplikace. Ve dvou případech došlo k nedorozumění při restartování aplikace, kde testeři nerestartovali aplikaci, ale pouze přešli na domovskou obrazovku a běžící aplikaci opět otevřeli. Tento postup do aplikace nepromítl žádné změny v jazyce.
-\pkapx{Úkol č. 3}
+\ppkapx{Úkol č. 3}
 \bold{Vraťte se na téma, které se týká hledání ubytování. Rozhodli jste se, že chcete postupovat podle bodů, které jsou v tutoriálu uvedeny. Tyto body si uložte, abyste se k nim mohli vrátit později.}
 \blank
 \par
 Od testera bylo očekáváno, opětovné nalezení konkrétního problému a uložení jednotlivých kroků řešení do databáze pomocí tlačítka, které se nachází za posledním krokem.
 \par
 Zde jsem si všiml, že všichni z testerů preferovali filtrování pomocí tagů, které je podle nich přívětivější a rychlejší než vyhledávání pomocí textu. Při ukládání kroků řešení všichni až na jednoho testera použili tlačítko pro uložení. Jeden z testerů použil namísto tlačítka snímek obrazovky. Podle testovacího subjektu je pro něj jednodušší najít kroky řešení v galerii, kam je zvyklý odkládat si podobné věci.
-\pkapx{Úkol č. 4}
+\ppkapx{Úkol č. 4}
 \bold{Potřebujete zjistit informace o zdravotním pojištění a o jeho případném zřízení. K vyhledání informací nepoužívejte seznam tutoriálů, ale zkuste informace zjistit pomocí chatbota.}
 \par
+\blank
 Výstupem tohoto úkolu je navigace do chatbota a následné vyřešení úkolu pomocí chatbota.
 \par
 Žádný ze subjektů neměl problém s nalezením informací, jak získat zdravotní pojištění. Všem uživatelům se líbila možnost komunikace pomocí tlačítek, nimiž úkol vyřešili. Připomínkou k tomuto úkolu byla nutnost posouvání chatu k zobrazení nejnovějších zpráv.
-\pkapx{Úkol č. 5}
+\ppkapx{Úkol č. 5}
 \bold{V příštím týdnu máte schůzku s jistou organizací, kterou nemůžete zapomenout. Rozhodnete si vytvořit v aplikaci úkol. K úkolu zkuste přiřadit kontakt ze seznamu nebo si vlastní kontakt vytvořit.}
+\blank
 \par
 Od uživatele se očekává vytvoření nového úkolu, na který bude navázán kontakt.
 \par
 Žádný ze subjektů neměl s tímto úkolem problém a všem se podařilo úkol dokončit. Jedinou připomínkou uživatelů byla nemožnost importovat kontakt přímo ze seznamu kontaktů, který mají uložený přímo v kontaktu. 
-\pkapx{Úkol č. 6}
+\ppkapx{Úkol č. 6}
 \bold{Přestěhovali jste se z Ukrajiny do Letohradu. Hledáte nejbližší místo, kde by vám mohli pomoci. Nalezněte kontakt, který by vám mohl pomoci vyřešit tento problém. Zařízení simuluje aktuální lokaci uživatele právě na toto město.}
+\blank
 \par
 Výstupem úkolu bylo nalezení nejbližšího místa, které se stará o přistěhovalce z Ukrajiny v okolí Letohradu.
 \par
@@ -1100,7 +1107,7 @@ Všem kontaktům chybělo tlačítko na mapě, které by zobrazilo jejich polohu
 \pkapx{Shrnutí výsledků}
 Při uživatelském testování jsem si všiml, že lidé mají tendenci používat filtry, než aby výsledky filtrovali pomocí psaného textu. Při druhém úkolu jsem došel k závěru, že všichni testeři souhlasí s umístěním nabídky pro změnu jazyka a je přesně tam, kde čekali. Jako nevýhodu uvedli nutnost restartovat aplikaci, aby viděli změnu v jazyku aplikace. U třetího úkolu mě překvapilo uložení snímku obrazovky do galerie, namísto uložení přímo v aplikaci. Po vysvětlení jsme došli k závěru, že by bylo přívětivé, kdyby aplikace měla možnost exportu úkolu do aplikace Připomínky, která je nativní aplikací zařízení \italic{Apple} pro správu úkolů. U úkolníčku to nebyla jediná připomínka, dalším problémem, který uživatelé zmínili je importování kontaktů ze zařízení.
 \par
-Testeři těmito úkoly s testováním neskončili a poskytli mi další zpětnou vazbu. Jako velice pozitivní hodnotí zvolené barevné schéma aplikace, které je přizpůsobeno schématu Jihomoravského kraje. V aplikaci však našli další nedostatky, všimli si např. že stahování dat aplikace trvá při prvním spuštění déle, než jim je příjemné čekat. Dále objevili poměrně vysoké množství chyb v anglickém jazyce při pročítání textů.
+Testeři těmito úkoly s testováním neskončili a poskytli mi další zpětnou vazbu. Jako velice pozitivní hodnotí zvolené barevné schéma aplikace, které je přizpůsobeno schématu Jihomoravského kraje. V aplikaci však našli další nedostatky, všimli si např. že stahování dat aplikace trvá při prvním spuštění déle než jim je příjemné čekat. Dále objevili poměrně vysoké množství chyb v anglickém jazyce při pročítání textů.
 \kap{Diskuse}
 Kdybych začínal s aplikací od začátku, rozhodně bych si nejdříve připravil grafický návrh aplikace např. v nástroji \italic{Figma}. Pomocí tohoto nástroje bych přesně věděl, jaká komponenta má mít jaký design a nemusel to optimalizovat ke konci vývoje.
 \par
@@ -1110,17 +1117,17 @@ Dalším vylepšením aplikace by dle mého uvážení mohlo být přiřazení t
 \par
 Vzhledem k vážnosti a charakteru této aplikace nelze navrhnout např. získávání odznaků za splněné úkoly nebo hravé uživatelské prostředí. Z průzkumu trhu s podobnými aplikacemi se mi však velice zalíbila část aplikace, která se věnuje výuce jazyku. Aplikace \italic{Smart Migration} by mohla např. disponovat malým slovníkem s pár základními frázemi, se kterými se člověk setkává na každodenní bázi. Dále mě zaujala aplikace \italic{Lawfully}, konkrétně dvě věci. Velice se mi líbí možnost sdílet své problémy s komunitou. Díky tomuto se může uživatel dočkat často rychlejší odpovědi přímo od jiného uživatele, který má s daným problémem již osobní zkušenost. Sledování procesu vydávání víz a jiných právních procesů by mohlo uživatelům ušetřit čas s komunikací s úřady. Z tohoto důvodu by nebylo špatné se nad přidáním této funkce také zamyslet.
 \par
-Na výsledky uživatelského testování jsem zareagoval změnami v aplikaci. V~aplikaci jsem umožnil uživatelům importování kontaktů, které mají v zařízení nebo exportování úkolů z úkolníčku do aplikace Připomínky. Dalším vylepšením aplikace, které jsem provedl je zobrazení polohy zařízení na mapě s^kontakty, díky čemuž jsou uživatelé schopni rychleji vyhledat blízká místa.
+Na výsledky uživatelského testování jsem zareagoval změnami v aplikaci. V~aplikaci jsem umožnil uživatelům importování kontaktů, které mají v zařízení nebo exportování úkolů z úkolníčku do aplikace Připomínky. Dalším vylepšením aplikace, které jsem provedl je zobrazení polohy zařízení na mapě s kontakty, díky čemuž jsou uživatelé schopni rychleji vyhledat blízká místa.
 \kap{Závěr}
 Tato práce obsahuje literární rešerši, která se zaměřuje především na dvě věci: průzkum existujících aplikací podobného typu jako je \italic{Smart Migration} a~technologie, které jsou ve vývoji aplikací pro \italic{iOS} esenciální.
 \par
 Hlavním cílem této práce bylo navrhnout a následně implementovat aplikaci \italic{Smart Migration} pro platformu \italic{iOS}, podle funkcionalit stejnojmenné aplikace pro \italic{Android}. Aplikaci pro \italic{Android} jsem podrobně prozkoumal a mohu říct, že se mi povedlo udělat aplikaci, která tyto funkcionality splňuje.
 \par
-Aplikace \italic{Smart Migration} při prvním spuštění zobrazí uživateli \italic{onboardingové} obrazovky, kde uživateli představí své základní funkcionality. Tyto obrazovky se za celý chod aplikace zobrazí pouze jednou. Aplikace má lokalizované texty a obrázky ve třech světových jazycích, a to: angličtina, ruština, ukrajinština. Veškerá data aplikace, kromě statických textů, jsou stahována ze serveru Jihomoravského kraje, lze však jednoduchým přepsáním konstanty docílit, aby aplikace stahovala data z Ministerstva práce a sociálních věcí, pro které je aplikace v současnosti také uvažována. Tato data jsou po stažení uložena v databázi \italic{Core Data}, díky čemuž může aplikace bezproblémově fungovat i bez připojení k internetu. Aplikace kontroluje verzi těchto dat, pokud se data změnila, dojde k aktualizaci a stará data jsou nahrazena za nové. Uživatel si může do aplikace také ukládat úkoly, které mohou být importovány z data dostupných na serveru, nebo si vytvořit vlastní. Aplikace dále umožňuje komunikaci s chatbotem, se kterým může uživatel komunikovat pomocí předdefinovaných odpovědí nebo pomocí textu.
+Aplikace \italic{Smart Migration} při prvním spuštění zobrazí uživateli \italic{onboardingové} obrazovky, kde uživateli představí své základní funkcionality. Tyto obrazovky se za celý chod aplikace zobrazí pouze jednou. Aplikace má lokalizované texty a obrázky ve třech světových jazycích, a to: angličtina, ruština, ukrajinština. Veškerá data aplikace, kromě statických textů, jsou stahována ze serveru Jihomoravského kraje, lze však jednoduchým přepsáním konstanty docílit, aby aplikace stahovala data z Ministerstva práce a sociálních věcí, pro které je aplikace v současnosti také uvažována. Tato data jsou po stažení uložena v databázi \italic{Core Data}, díky čemuž může aplikace bezproblémově fungovat i bez připojení k internetu. Aplikace kontroluje verzi těchto dat, pokud se data změnila, dojde k aktualizaci a stará data jsou nahrazena za nová. Uživatel si může do aplikace také ukládat úkoly, které mohou být importovány z data dostupných na serveru, nebo si vytvořit vlastní. Aplikace dále umožňuje komunikaci s chatbotem, se kterým může uživatel komunikovat pomocí předdefinovaných odpovědí nebo pomocí textu.
 \par
 Graficky jsem se snažil \italic{Android} aplikaci neduplikovat, ale navrhl jsem designové změny, které aplikaci přizpůsobí konvencím pro \italic{iOS}. Aplikace je také navrhnuta, aby více kopírovala barevné schéma Jihomoravského kraje, které tvoří tmavě modrá a růžová barva.
 \par
-Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského rozhraní.  Výsledky testů jsem zhodnotil a do aplikace nedostatky zapracoval. Následovalo také uživatelské testování, kde jsem vybral 8 testovacích subjektů. Výsledky uživatelského testování jsem zhodnotil a pro aplikaci navrhl změny. Z~rešerše aplikací podobného typu jsem navrhl změny pro tento projekt a zahrnul je v diskusní části této práce.
+Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského rozhraní.  Výsledky testů jsem zhodnotil a do aplikace nedostatky zapracoval. Následovalo také uživatelské testování, kde jsem vybral osm testovacích subjektů. Výsledky uživatelského testování jsem zhodnotil a pro aplikaci navrhl změny. Z~rešerše aplikací podobného typu jsem navrhl změny pro tento projekt a zahrnul je v diskusní části této práce.
 %CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚CITATION📚
 \bbib
 \publW{
@@ -1254,7 +1261,7 @@ Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského r
 	\nazevdok{Apple Developer Documentation}
 	\nazev{UIKit}
 	\www{https://developer.apple.com/documentation/uikit}
-	\online{2023-01-20}
+	\online{\crlf 2023-01-20}
 	\rok{2023}
 }
 
@@ -1284,7 +1291,7 @@ Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského r
 	\verze{1.7.5}
 	\rok{2022}
 	\www{https://apps.apple.com/cz/app/ankommen/id1066804488}
-	\online{} % doplnit
+	\online{2023-01-07}
 }
 }
 
@@ -1330,7 +1337,7 @@ Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského r
 	\verze{2.1.0}
 	\rok{2020}
 	\www{https://apps.apple.com/cz/app/welcome-app-germany/id1047174574}
-	\online{}
+	\online{2023-01-07}
 }
 
 \publW{
@@ -1369,7 +1376,7 @@ Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského r
 	\verze{2.0}
 	\rok{2021}
 	\www{https://apps.apple.com/cz/app/praguer/id1312865177}
-	\online{}
+	\online{2023-01-08}
 }
 
 \publW{
@@ -1423,7 +1430,7 @@ Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského r
 	\verze{4.2.70}
 	\rok{2023}
 	\www{https://apps.apple.com/cz/app/lawfully-uscis-case-tracker/id1435063223}
-	\online{}
+	\online{2023-01-09}
 }
 
 \publW{
@@ -1549,7 +1556,7 @@ Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského r
 	\verze{4.3.0}
 	\rok{2022}
 	\www{https://apps.apple.com/cz/app/refaid-refugee-aid-app/id1080936380}
-	\online{}
+	\online{2023-01-08}
 }
 
 \publS{
@@ -1558,7 +1565,7 @@ Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského r
 	\verze{1.1.8}
 	\rok{2021}
 	\www{https://usahello.org/findhello/}
-	\online{}
+	\online{\crlf 2023-01-09}
 }
 
 \publW{
@@ -1593,7 +1600,7 @@ Po implementaci aplikace jsem navrhl jednotkové testy a testy uživatelského r
 	\nazevdok{Wikipedia}
 	\nazev{Xcode}
 	\www{https://en.wikipedia.org/wiki/Xcode}
-	\online{2022-01-12}
+	\online{\crlf 2022-01-12}
 	\rok{2023}
 }
 
