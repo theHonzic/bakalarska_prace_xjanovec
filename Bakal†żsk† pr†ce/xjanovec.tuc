@@ -53,7 +53,7 @@ if not utilitydata.job then utilitydata.job = { } end
 if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
 
 utilitydata.job.pagestates.collected={
- ["float"]={ 12, 13, 14, 15, 16, 18, 19, 20, 22, 23, 24, 24, 25, 26, 27, 27, 30, 31, 32, 33, 35, 35, 38, 41, 40, 42, 43, 44, 44, 45, 46, 47, 48, 49, 50, 50, 51, 53, 53, 54, 55 },
+ ["float"]={ 12, 13, 14, 15, 16, 18, 19, 20, 22, 23, 24, 24, 25, 26, 27, 27, 30, 31, 32, 33, 35, 35, 38, 41, 40, 42, 43, 44, 44, 45, 46, 47, 47, 48, 50, 50, 51, 53, 53, 54, 55 },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -1209,6 +1209,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=57,
    ["realpage"]=33,
+   ["reference"]="src:nlu",
    ["section"]=7,
    ["view"]="fit",
   },
@@ -1279,6 +1280,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=62,
    ["realpage"]=35,
+   ["reference"]="src:r.swift",
    ["section"]=7,
    ["view"]="fit",
   },
@@ -1307,6 +1309,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=64,
    ["realpage"]=35,
+   ["reference"]="src:swiftlint",
    ["section"]=7,
    ["view"]="fit",
   },
@@ -1660,6 +1663,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=93,
    ["realpage"]=40,
+   ["reference"]="src:viewModel",
    ["section"]=13,
    ["view"]="fit",
   },
@@ -1747,6 +1751,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=98,
    ["realpage"]=44,
+   ["reference"]="src:endpoint",
    ["section"]=15,
    ["view"]="fit",
   },
@@ -1761,6 +1766,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=99,
    ["realpage"]=44,
+   ["reference"]="src:apimanager",
    ["section"]=15,
    ["view"]="fit",
   },
@@ -1861,6 +1867,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=107,
    ["realpage"]=45,
+   ["reference"]="src:get",
    ["section"]=16,
    ["view"]="fit",
   },
@@ -1889,6 +1896,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=109,
    ["realpage"]=46,
+   ["reference"]="src:localization",
    ["section"]=17,
    ["view"]="fit",
   },
@@ -1959,7 +1967,8 @@ utilitydata.structures.lists.collected={
   ["prefixdata"]=47,
   ["references"]={
    ["internal"]=114,
-   ["realpage"]=48,
+   ["realpage"]=47,
+   ["reference"]="src:attrString",
    ["section"]=20,
    ["view"]="fit",
   },
@@ -1968,12 +1977,27 @@ utilitydata.structures.lists.collected={
   },
  },
  {
+  ["metadata"]=87,
+  ["numberdata"]=80,
+  ["prefixdata"]=47,
+  ["references"]={
+   ["internal"]=115,
+   ["realpage"]=48,
+   ["reference"]="tutorialDetail",
+   ["section"]=20,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="\\THESISautoreffont {Srovnání zobrazení detailu tutoriálů mezi Android (vlevo) a iOS (vpravo). }",
+  },
+ },
+ {
   ["metadata"]=37,
   ["numberdata"]=116,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=116,
-   ["realpage"]=48,
+   ["realpage"]=49,
    ["section"]=21,
   },
   ["titledata"]={
@@ -1987,27 +2011,12 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=117,
-   ["realpage"]=48,
+   ["realpage"]=49,
    ["section"]=22,
   },
   ["titledata"]={
    ["label"]="subsection",
    ["title"]="Seznam kontaktů",
-  },
- },
- {
-  ["metadata"]=87,
-  ["numberdata"]=80,
-  ["prefixdata"]=47,
-  ["references"]={
-   ["internal"]=115,
-   ["realpage"]=49,
-   ["reference"]="tutorialDetail",
-   ["section"]=20,
-   ["view"]="fit",
-  },
-  ["titledata"]={
-   ["title"]="\\THESISautoreffont {Srovnání zobrazení detailu tutoriálů mezi Android (vlevo) a iOS (vpravo). }",
   },
  },
  {
@@ -2104,6 +2113,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["internal"]=124,
    ["realpage"]=53,
+   ["reference"]="src:chat",
    ["section"]=25,
    ["view"]="fit",
   },

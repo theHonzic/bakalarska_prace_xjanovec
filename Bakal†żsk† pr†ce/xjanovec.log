@@ -113,23 +113,11 @@ structures      > end of sectionblock 'frontpart'
 structures      > begin of sectionblock 'bodypart'
 structure       > sectioning > kap @ level 2 : 0.1 -> Úvod
 structure       > sectioning > pkap @ level 3 : 0.1.1 -> Úvod do problematiky
-
-Overfull \hbox (2.0027pt too wide) in paragraph at lines 385--386
-<5: libertinusserif-regular @ 12.84pt> pla-nety mi-gro-vali, ať už kvůli ne-vhod-nému pod-nebí, jídlu anebo ne-bez-pečí styku|
-
-\hbox(8.95718+3.05417)x410.88332, glue set - 1.0, direction TLT
-.<5: libertinusserif-regular @ 12.84pt> p
-.<5: libertinusserif-regular @ 12.84pt> l
-.<5: libertinusserif-regular @ 12.84pt> a
-.\discretionary (penalty 50) []
-.<5: libertinusserif-regular @ 12.84pt> n
-.etc.
-
 pages           > flushing realpage 9, userpage 9, subpage 9
 structure       > sectioning > pkap @ level 3 : 0.1.2 -> Cíl práce
 
 Overfull \hbox (0.24911pt too wide) in paragraph at lines 403--404
- [][] <5: libertinusserif-regular @ 12.84pt> Seznamy kon-takt-ních míst a tu-to-ri-álů bu-dou uklá-dány do da-ta-báze, díky|
+ [][] <5: libertinusserif-regular @ 12.84pt> Se-znamy kon-takt-ních míst a tu-to-ri-álů bu-dou uklá-dány do da-ta-báze, díky
 
 \hbox(11.09851+4.31607)x410.88332, glue set - 1.0, direction TLT
 .\glue(\leftskip) 41.70609
@@ -168,6 +156,18 @@ Underfull \hbox (badness 1038) in paragraph at lines 429--431
 .\kern0.30798 (font)
 .etc.
 
+
+Overfull \hbox (0.1377pt too wide) in paragraph at lines 429--431
+<18: libertinusserif-italic @ 12.84pt> View Mo-del <5: libertinusserif-regular @ 12.84pt> po-u-žívá <18: libertinusserif-italic @ 12.84pt> bin-ding<5: libertinusserif-regular @ 12.84pt> , což lze vní-mat jako pro-vá-zání mezi <18: libertinusserif-italic @ 12.84pt> Mo-de-lem <5: libertinusserif-regular @ 12.84pt> a <18: libertinusserif-italic @ 12.84pt> View<5: libertinusserif-regular @ 12.84pt> .
+
+\hbox(8.95718+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\kern-0.38498 (left margin)
+.<18: libertinusserif-italic @ 12.84pt> V
+.<18: libertinusserif-italic @ 12.84pt> i
+.<18: libertinusserif-italic @ 12.84pt> e
+.\kern-0.08983 (font)
+.etc.
+
 pages           > flushing realpage 11, userpage 11, subpage 11
 floatblocks     > 1 moved
 floatblocks     > '1' moved
@@ -184,6 +184,18 @@ floatblocks     > 3 moved
 floatblocks     > '3' moved
 floatblocks     > 4 saved
 structure       > sectioning > pkapx @ level 3 : 0.2.2 -> FindHello
+
+Underfull \hbox (badness 2205) in paragraph at lines 457--458
+<5: libertinusserif-regular @ 12.84pt> Spo-je-ných států ame-ric-kých. Ob-sah apli-kace se ni-jak ne-liší od apli-kace
+
+\hbox(8.95718+3.00284)x410.88332, glue set 2.80588, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> S
+.<5: libertinusserif-regular @ 12.84pt> p
+.\kern0.08983 (font)
+.<5: libertinusserif-regular @ 12.84pt> o
+.\discretionary (penalty 50) []
+.etc.
+
 pages           > flushing realpage 14, userpage 14, subpage 14
 floatblocks     > 4 moved
 floatblocks     > '4' moved
@@ -193,22 +205,6 @@ pages           > flushing realpage 15, userpage 15, subpage 15
 floatblocks     > 5 moved
 floatblocks     > '5' moved
 structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Ankommen
-
-Overfull \hbox (7.93137pt too wide) in paragraph at lines 472--473
-[]<5: libertinusserif-regular @ 12.84pt> Apli-kace <18: libertinusserif-italic @ 12.84pt> An-ko-m-men <5: libertinusserif-regular @ 12.84pt> (<20: libertinusserif-regular @ 12.84pt> B󰁇󰁀󰁯󰀷󰀸󰁯󰁅󰀴󰀿󰁆 󰀹󰁇󰀸󰁄 M󰀼󰁯󰀺󰁄󰀴󰁆󰀼󰁁󰁀 󰁇󰁀󰀷 F󰀾󰁇󰁯󰀸󰀶󰀻󰁆󰁯󰀾󰀼󰁀󰀺󰀸<5: libertinusserif-regular @ 12.84pt> , 2022)|
-
-\hbox(9.08551+3.00284)x410.88332, glue set - 1.0, direction TLT
-.\localpar
-..\localinterlinepenalty=0
-..\localbrokenpenalty=0
-..\localleftbox=null
-..\localrightbox=null
-.\hbox(0.0+0.0)x16.0408, direction TLT
-.<5: libertinusserif-regular @ 12.84pt> A
-.<5: libertinusserif-regular @ 12.84pt> p
-.<5: libertinusserif-regular @ 12.84pt> l
-.etc.
-
 pages           > flushing realpage 16, userpage 16, subpage 16
 structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Welcome app Germany
 structure       > sectioning > pkapx @ level 3 : 0.2.2 -> Lawfully
@@ -224,26 +220,10 @@ floatblocks     > '8' placed (here)
 structure       > sectioning > pkap @ level 3 : 0.2.3 -> Technologie pro vývoj iOS
 structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Xcode a Swift
 pages           > flushing realpage 20, userpage 20, subpage 20
-
-Overfull \hbox (8.84677pt too wide) in paragraph at lines 581--582
-[]<18: libertinusserif-italic @ 12.84pt> Xcode <5: libertinusserif-regular @ 12.84pt> je in-te-gro-vané vý-vo-jové pro-středí vy-vi-nuté spo-leč-ností <18: libertinusserif-italic @ 12.84pt> Ap-ple <5: libertinusserif-regular @ 12.84pt> pro tvorbu|
-
-\hbox(8.95718+3.05417)x410.88332, glue set - 1.0, direction TLT
-.\localpar
-..\localinterlinepenalty=0
-..\localbrokenpenalty=0
-..\localleftbox=null
-..\localrightbox=null
-.\hbox(0.0+0.0)x16.0408, direction TLT
-.<18: libertinusserif-italic @ 12.84pt> X
-.\kern-0.25665 (font)
-.<18: libertinusserif-italic @ 12.84pt> c
-.etc.
-
 structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Frameworky pro tvorbu uživatelského prostředí
 
 Overfull \hbox (5.00127pt too wide) in paragraph at lines 595--596
-[]<18: libertinusserif-italic @ 12.84pt> UI-Kit <5: libertinusserif-regular @ 12.84pt> je frame-work, který byl před-sta-ven spo-leč-ností <18: libertinusserif-italic @ 12.84pt> Ap-ple <5: libertinusserif-regular @ 12.84pt> v roce 2008. Frame-|
+[]<18: libertinusserif-italic @ 12.84pt> UI-Kit <5: libertinusserif-regular @ 12.84pt> je frame-work, který byl před-sta-ven spo-leč-ností <18: libertinusserif-italic @ 12.84pt> Ap-ple <5: libertinusserif-regular @ 12.84pt> v roce 2008. Frame-
 
 \hbox(8.95718+3.05417)x410.88332, glue set - 1.0, direction TLT
 .\localpar
@@ -275,15 +255,15 @@ close source    > level 3, order 16, name '/usr/local/texlive/2022/texmf-dist/te
 fonts           > bodyfont '12.73pt' is defined (can better be done global)
 fonts           > bodyfont '10.18pt' is defined (can better be done global)
 
-Overfull \hbox (5.45116pt too wide) in paragraph at lines 621--623
-<5: libertinusserif-regular @ 12.84pt> ini-ci-a-li-zo-vat ko-mu-ni-kaci se ser-ve-rem, <30: texgyrecursor-regular @ 12.73pt> UR-LSes-sion <5: libertinusserif-regular @ 12.84pt> může ob-sa-ho-vat je-den nebo|
+Overfull \hbox (1.15224pt too wide) in paragraph at lines 621--623
+<5: libertinusserif-regular @ 12.84pt> data na vzdá-lený ser-ver, který se poté po-stará o je-jich zpra-co-vání. <30: texgyrecursor-regular @ 12.73pt> URL-Session
 
-\hbox(8.95718+2.86168)x410.88332, glue set - 1.0, direction TLT
-.<5: libertinusserif-regular @ 12.84pt> i
-.<5: libertinusserif-regular @ 12.84pt> n
-.<5: libertinusserif-regular @ 12.84pt> i
-.\discretionary (penalty 50) []
-.<5: libertinusserif-regular @ 12.84pt> c
+\hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> d
+.<5: libertinusserif-regular @ 12.84pt> a
+.<5: libertinusserif-regular @ 12.84pt> t
+.<5: libertinusserif-regular @ 12.84pt> a
+.\glue(\spaceskip) 3.20816 plus 1.60408 minus 1.06938
 .etc.
 
 open source     > level 3, order 17, name 'xjanovec-temp-SWIFT-2.vimout'
@@ -300,47 +280,15 @@ floatblocks     > '12' placed (here)
 structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Perzistence dat
 structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> UserDefaults
 pages           > flushing realpage 24, userpage 24, subpage 24
-
-Overfull \hbox (1.64323pt too wide) in paragraph at lines 647--648
-[]<5: libertinusserif-regular @ 12.84pt> V ukázce zdro-jo-vého kódu 2.12 je zob-ra-zena ukázka práce s <30: texgyrecursor-regular @ 12.73pt> User-De-faults<5: libertinusserif-regular @ 12.84pt> .|
-
-\hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
-.\localpar
-..\localinterlinepenalty=0
-..\localbrokenpenalty=0
-..\localleftbox=null
-..\localrightbox=null
-.\hbox(0.0+0.0)x16.0408, direction TLT
-.<5: libertinusserif-regular @ 12.84pt> V
-.\glue(\spaceskip) 3.20816 plus 1.60246 minus 1.07045
-.<5: libertinusserif-regular @ 12.84pt> u
-.etc.
-
 open source     > level 3, order 19, name 'xjanovec-temp-SWIFT-4.vimout'
 close source    > level 3, order 19, name 'xjanovec-temp-SWIFT-4.vimout'
 floatblocks     > '13' placed (here)
 structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Ukládání souborů na disk
-
-Overfull \hbox (5.89954pt too wide) in paragraph at lines 654--655
-[]<5: libertinusserif-regular @ 12.84pt> Ně-které tech-no-lo-gie ne-pod-po-rují uklá-dání sou-borů v růz-ných for-má-tech nebo|
-
-\hbox(8.95718+3.05417)x410.88332, glue set - 1.0, direction TLT
-.\localpar
-..\localinterlinepenalty=0
-..\localbrokenpenalty=0
-..\localleftbox=null
-..\localrightbox=null
-.\hbox(0.0+0.0)x16.0408, direction TLT
-.<5: libertinusserif-regular @ 12.84pt> N
-.<5: libertinusserif-regular @ 12.84pt> ě
-.\discretionary (penalty 50) []
-.etc.
-
 pages           > flushing realpage 25, userpage 25, subpage 25
 open source     > level 3, order 20, name 'xjanovec-temp-SWIFT-5.vimout'
 
 Overfull \hbox (0.38542pt too wide) in paragraph at lines 3--3
-[]<27: libertinusmono-regular @ 9.03764pt>         if let path = FileManager.default.urls(for: .documentDirectory,[]  |
+[]<27: libertinusmono-regular @ 9.03764pt>         if let path = FileManager.default.urls(for: .documentDirectory,[]  
 
 \hbox(9.01442+3.5056)x410.08333, direction TLT
 .\localpar
@@ -377,6 +325,18 @@ pages           > flushing realpage 29, userpage 29, subpage 29
 floatblocks     > '17' placed (top)
 structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Testování
 pages           > flushing realpage 30, userpage 30, subpage 30
+
+Underfull \hbox (badness 10000) in paragraph at lines 745--746
+<5: libertinusserif-regular @ 12.84pt> funk-ci-o-na-lity pak ověří tes-to-vací me-toda <30: texgyrecursor-regular @ 12.73pt> testUp-per-ca-se-First()<5: libertinusserif-regular @ 12.84pt> .
+
+\hbox(8.95718+3.00284)x410.88332, glue set 4.99438, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> f
+.<5: libertinusserif-regular @ 12.84pt> u
+.<5: libertinusserif-regular @ 12.84pt> n
+.<5: libertinusserif-regular @ 12.84pt> k
+.\discretionary (penalty 50) []
+.etc.
+
 open source     > level 3, order 23, name 'xjanovec-temp-SWIFT-8.vimout'
 close source    > level 3, order 23, name 'xjanovec-temp-SWIFT-8.vimout'
 floatblocks     > '18' placed (here)
@@ -388,19 +348,15 @@ pages           > flushing realpage 31, userpage 31, subpage 31
 floatblocks     > 8 moved
 floatblocks     > '19' moved
 
-Overfull \hbox (3.10095pt too wide) in paragraph at lines 763--765
-[]<5: libertinusserif-regular @ 12.84pt> V ná-sle-du-jí-cím ci-tátu se na-chází, jed-no-ver-šová bá-seň o Pro-vozně--eko-no-mické|
+Overfull \hbox (4.91891pt too wide) in paragraph at lines 763--765
+<5: libertinusserif-regular @ 12.84pt> Mendelovy uni-ver-zity v Brně, kte-rou vy-ge-ne-ro-val Chat-GPT na zá-kladě in-strukce:
 
-\hbox(8.95718+2.86168)x410.88332, glue set - 1.0, direction TLT
-.\localpar
-..\localinterlinepenalty=0
-..\localbrokenpenalty=0
-..\localleftbox=null
-..\localrightbox=null
-.\hbox(0.0+0.0)x16.0408, direction TLT
-.<5: libertinusserif-regular @ 12.84pt> V
-.\glue(\spaceskip) 3.20816 plus 1.60246 minus 1.07045
+\hbox(8.95718+3.05417)x410.88332, glue set - 1.0, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> M
+.<5: libertinusserif-regular @ 12.84pt> e
 .<5: libertinusserif-regular @ 12.84pt> n
+.<5: libertinusserif-regular @ 12.84pt> d
+.<5: libertinusserif-regular @ 12.84pt> e
 .etc.
 
 structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Backend
@@ -411,7 +367,7 @@ floatblocks     > '20' placed (here)
 structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> Frontend
 
 Overfull \hbox (2.0027pt too wide) in paragraph at lines 770--771
-[]<5: libertinusserif-regular @ 12.84pt> Co se týče fron-tendu chat-bota, mu-síme zob-ra-zit ko-mu-ni-kaci ve vhodné formě.|
+[]<5: libertinusserif-regular @ 12.84pt> Co se týče fron-tendu chat-bota, mu-síme zob-ra-zit ko-mu-ni-kaci ve vhodné formě.
 
 \hbox(8.95718+2.97717)x410.88332, glue set - 1.0, direction TLT
 .\localpar
@@ -430,7 +386,7 @@ structure       > sectioning > pkapx @ level 3 : 0.2.3 -> Ostatní nástroje
 structure       > sectioning > ppkapx @ level 4 : 0.2.3.0 -> SDWebImageSwiftUI a SDWebImageSVGCoder
 
 Overfull \hbox (3.38756pt too wide) in paragraph at lines 782--784
-[]<5: libertinusserif-regular @ 12.84pt> V naší apli-kaci bu-deme chtít zob-ra-zo-vat ob-rázky sta-ho-vané ze ser-veru a právě|
+[]<5: libertinusserif-regular @ 12.84pt> V naší apli-kaci bu-deme chtít zob-ra-zo-vat ob-rázky sta-ho-vané ze ser-veru a právě
 
 \hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
 .\localpar
@@ -463,18 +419,6 @@ structure       > sectioning > kap @ level 2 : 0.4 -> Implementace
 structure       > sectioning > pkap @ level 3 : 0.4.1 -> Struktura aplikace
 floatblocks     > '23' placed (bottom)
 pages           > flushing realpage 38, userpage 38, subpage 38
-
-Overfull \hbox (29.05634pt too wide) in paragraph at lines 846--846
- <5: libertinusserif-regular @ 12.84pt> složky ob-sa-huje také <30: texgyrecursor-regular @ 12.73pt> Con-tent-View.swift <5: libertinusserif-regular @ 12.84pt> a jeho hlavní <30: texgyrecursor-regular @ 12.73pt> ViewMo-del.swift<5: libertinusserif-regular @ 12.84pt> . |
-
-\hbox(8.95718+2.97717)x410.88332, glue set - 1.0, direction TLT
-.\glue(\leftskip) 16.0408
-.<5: libertinusserif-regular @ 12.84pt> s
-.<5: libertinusserif-regular @ 12.84pt> l
-.<5: libertinusserif-regular @ 12.84pt> o
-.<5: libertinusserif-regular @ 12.84pt> ž
-.etc.
-
 pages           > flushing realpage 39, userpage 39, subpage 39
 floatblocks     > 9 saved
 structure       > sectioning > pkap @ level 3 : 0.4.2 -> Architektura
@@ -485,6 +429,18 @@ structure       > sectioning > pkap @ level 3 : 0.4.3 -> Perzistence dat
 pages           > flushing realpage 40, userpage 40, subpage 40
 floatblocks     > 9 moved
 pages           > flushing realpage 41, userpage 41, subpage 41
+
+Underfull \hbox (badness 10000) in paragraph at lines 872--873
+<5: libertinusserif-regular @ 12.84pt> apli-kace. Po do-kon-čení <18: libertinusserif-italic @ 12.84pt> on-bo-ar-dingu <5: libertinusserif-regular @ 12.84pt> se do <18: libertinusserif-italic @ 12.84pt> User-De-faults <5: libertinusserif-regular @ 12.84pt> pod klí-čem
+
+\hbox(8.95718+3.05417)x410.88332, glue set 4.97461, direction TLT
+.<5: libertinusserif-regular @ 12.84pt> a
+.<5: libertinusserif-regular @ 12.84pt> p
+.<5: libertinusserif-regular @ 12.84pt> l
+.<5: libertinusserif-regular @ 12.84pt> i
+.\discretionary (penalty 50) []
+.etc.
+
 floatblocks     > '26' placed (top)
 floatblocks     > 10 saved
 structure       > sectioning > pkap @ level 3 : 0.4.4 -> Síťová komunikace
@@ -505,7 +461,7 @@ floatblocks     > 12 moved
 floatblocks     > '29' moved
 
 Overfull \hbox (0.90764pt too wide) in paragraph at lines 906--906
- <5: libertinusserif-regular @ 12.84pt> spe-ci-fi-ku-jeme tělo po-ža-davku. Tento en-d-point po-u-ží-váme pro na-hlá-šení chyb|
+ <5: libertinusserif-regular @ 12.84pt> spe-ci-fi-ku-jeme tělo po-ža-davku. Tento en-d-point po-u-ží-váme pro na-hlá-šení chyb
 
 \hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
 .\glue(\leftskip) 16.0408
@@ -513,18 +469,6 @@ Overfull \hbox (0.90764pt too wide) in paragraph at lines 906--906
 .<5: libertinusserif-regular @ 12.84pt> p
 .\kern0.08983 (font)
 .<5: libertinusserif-regular @ 12.84pt> e
-.etc.
-
-
-Overfull \hbox (8.60295pt too wide) in paragraph at lines 906--906
- <5: libertinusserif-regular @ 12.84pt> v jed-not-li-vých tu-to-ri-á-lech. Tělo po-ža-davku tvoří pře-de-vším po-pis chyby a iden-|
-
-\hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
-.\glue(\leftskip) 16.0408
-.\kern-0.32082 (left margin)
-.<5: libertinusserif-regular @ 12.84pt> v
-.\glue(\spaceskip) 3.20816 plus 1.60408 minus 1.06938
-.<5: libertinusserif-regular @ 12.84pt> j
 .etc.
 
 pages           > flushing realpage 44, userpage 44, subpage 44
@@ -539,15 +483,17 @@ close source    > level 3, order 32, name 'xjanovec-temp-SWIFT-14.vimout'
 floatblocks     > '31' placed (here)
 structure       > sectioning > pkap @ level 3 : 0.4.7 -> Tutoriály
 structure       > sectioning > ppkap @ level 4 : 0.4.7.1 -> Seznam tutoriálů
-pages           > flushing realpage 46, userpage 46, subpage 46
-floatblocks     > '32' placed (top)
+floatblocks     > 13 saved
 structure       > sectioning > ppkap @ level 4 : 0.4.7.2 -> Detail tutoriálu
+pages           > flushing realpage 46, userpage 46, subpage 46
+floatblocks     > 13 moved
+floatblocks     > '32' moved
 open source     > level 3, order 33, name 'xjanovec-temp-SWIFT-15.vimout'
 close source    > level 3, order 33, name 'xjanovec-temp-SWIFT-15.vimout'
-floatblocks     > 13 saved
+floatblocks     > '33' placed (here)
 
-Overfull \hbox (0.39862pt too wide) in paragraph at lines 937--938
-[]<5: libertinusserif-regular @ 12.84pt> Jed-nou z dal-ších zob-ra-zo-va-ných in-for-mací je se-znam kon-taktů. Jedná se o hla-|
+Overfull \hbox (0.39862pt too wide) in paragraph at lines 939--940
+[]<5: libertinusserif-regular @ 12.84pt> Jed-nou z dal-ších zob-ra-zo-va-ných in-for-mací je se-znam kon-taktů. Jedná se o hla-
 
 \hbox(8.95718+2.97717)x410.88332, glue set - 1.0, direction TLT
 .\localpar
@@ -562,19 +508,15 @@ Overfull \hbox (0.39862pt too wide) in paragraph at lines 937--938
 .etc.
 
 pages           > flushing realpage 47, userpage 47, subpage 47
-floatblocks     > 13 moved
-floatblocks     > '33' moved
-floatblocks     > 14 saved
+floatblocks     > '34' placed (top)
 structure       > sectioning > pkap @ level 3 : 0.4.8 -> Kontakty
 structure       > sectioning > ppkap @ level 4 : 0.4.8.1 -> Seznam kontaktů
 pages           > flushing realpage 48, userpage 48, subpage 48
-floatblocks     > 14 moved
-floatblocks     > '34' moved
-floatblocks     > 15 saved
+floatblocks     > 14 saved
 structure       > sectioning > ppkap @ level 4 : 0.4.8.2 -> Detail kontaktu
 pages           > flushing realpage 49, userpage 49, subpage 49
-floatblocks     > 15 moved
-floatblocks     > '35' moved
+floatblocks     > 14 moved
+floatblocks     > '36' moved
 floatblocks     > '36' placed (top)
 structure       > sectioning > pkap @ level 3 : 0.4.9 -> Úkolníček
 pages           > flushing realpage 50, userpage 50, subpage 50
@@ -583,25 +525,13 @@ structure       > sectioning > pkap @ level 3 : 0.4.10 -> Chatbot
 pages           > flushing realpage 51, userpage 51, subpage 51
 open source     > level 3, order 34, name 'xjanovec-temp-YAMLNUM-3.vimout'
 close source    > level 3, order 34, name 'xjanovec-temp-YAMLNUM-3.vimout'
+floatblocks     > 15 saved
 floatblocks     > 16 saved
-floatblocks     > 17 saved
+floatblocks     > 15 moved
 floatblocks     > 16 moved
-floatblocks     > 17 moved
 pages           > flushing realpage 52, userpage 52, subpage 52
 pages           > flushing realpage 53, userpage 53, subpage 53
 structure       > sectioning > kap @ level 2 : 0.5 -> Testování
-
-Overfull \hbox (1.81877pt too wide) in paragraph at lines 973--974
-<5: libertinusserif-regular @ 12.84pt> nosti a také z hle-diska uži-va-tel-ské pří-vě-ti-vosti. Dále zhod-no-tíme vý-stup ve formě|
-
-\hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
-.<5: libertinusserif-regular @ 12.84pt> n
-.<5: libertinusserif-regular @ 12.84pt> o
-.<5: libertinusserif-regular @ 12.84pt> s
-.<5: libertinusserif-regular @ 12.84pt> t
-.<5: libertinusserif-regular @ 12.84pt> i
-.etc.
-
 structure       > sectioning > pkap @ level 3 : 0.5.1 -> Jednotkové testy a testy uživatelského rozhraní
 open source     > level 3, order 35, name 'xjanovec-temp-SWIFT-16.vimout'
 close source    > level 3, order 35, name 'xjanovec-temp-SWIFT-16.vimout'
@@ -625,8 +555,8 @@ structure       > sectioning > kap @ level 2 : 0.6 -> Diskuse
 pages           > flushing realpage 60, userpage 60, subpage 60
 structure       > sectioning > kap @ level 2 : 0.7 -> Závěr
 
-Overfull \hbox (30.88527pt too wide) in paragraph at lines 1130--1132
-<5: libertinusserif-regular @ 12.84pt> a za-hr-nul je v dis-kusní části této práce.                                                                                                                    |
+Overfull \hbox (30.88527pt too wide) in paragraph at lines 1134--1136
+<5: libertinusserif-regular @ 12.84pt> a za-hr-nul je v dis-kusní části této práce.                                                                                                                    
 
 \hbox(8.95718+3.00284)x410.88332, glue set - 1.0, direction TLT
 .<5: libertinusserif-regular @ 12.84pt> a
@@ -639,8 +569,8 @@ Overfull \hbox (30.88527pt too wide) in paragraph at lines 1130--1132
 pages           > flushing realpage 61, userpage 61, subpage 61
 structure       > sectioning > BIBSTYchapter @ level 2 : 0.8 -> \refname 
 
-Overfull \hbox (3.43568pt too wide) in paragraph at lines 1239--1240
- []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ex-plore a lo-cation with a highly de-tai-led map and Look Around [].|
+Overfull \hbox (3.43568pt too wide) in paragraph at lines 1243--1244
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> Ex-plore a lo-cation with a highly de-tai-led map and Look Around [].
 
 \hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
 .\glue(\leftskip) 44.91425
@@ -656,7 +586,23 @@ Overfull \hbox (3.43568pt too wide) in paragraph at lines 1239--1240
 
 pages           > flushing realpage 62, userpage 62, subpage 62
 
-Underfull \hbox (badness 5741) in paragraph at lines 1295--1297
+Overfull \hbox (0.72691pt too wide) in paragraph at lines 1279--1280
+ []<20: libertinusserif-regular @ 12.84pt> A󰁂󰁯󰁂󰀾󰀸. <5: libertinusserif-regular @ 12.84pt> URL Lo-a-ding Sys-tem []. In <18: libertinusserif-italic @ 12.84pt> Ap-ple De-ve-lo-per Do-cu-men-tation. <5: libertinusserif-regular @ 12.84pt> 2023g
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 44.91425
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x-44.91425, direction TLT
+.<20: libertinusserif-regular @ 12.84pt> A
+.<20: libertinusserif-regular @ 12.84pt> 󰁂
+.etc.
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 1299--1301
  []<20: libertinusserif-regular @ 12.84pt> B󰁇󰁀󰁯󰀷󰀸󰁯󰁅󰀴󰀿󰁆 󰀹󰁇󰀸󰁄 M󰀼󰁯󰀺󰁄󰀴󰁆󰀼󰁁󰁀 󰁇󰁀󰀷 F󰀾󰁇󰁯󰀸󰀶󰀻󰁆󰁯󰀾󰀼󰁀󰀺󰀸. <18: libertinusserif-italic @ 12.84pt> An-ko-m-men []<5: libertinusserif-regular @ 12.84pt> .
 
 \hbox(9.03418+2.4767)x410.88332, glue set 3.86177, direction TLT
@@ -672,8 +618,8 @@ Underfull \hbox (badness 5741) in paragraph at lines 1295--1297
 .etc.
 
 
-Overfull \hbox (6.34442pt too wide) in paragraph at lines 1350--1351
- []<20: libertinusserif-regular @ 12.84pt> H󰁇󰀷󰁯󰁅󰁁󰁀, P󰀴󰁇󰀾. <5: libertinusserif-regular @ 12.84pt> How to use @Ma-i-nAc-tor to run code on the main queue [].|
+Overfull \hbox (6.34442pt too wide) in paragraph at lines 1354--1355
+ []<20: libertinusserif-regular @ 12.84pt> H󰁇󰀷󰁯󰁅󰁁󰁀, P󰀴󰁇󰀾. <5: libertinusserif-regular @ 12.84pt> How to use @Ma-i-nAc-tor to run code on the main queue [].
 
 \hbox(9.03418+3.00284)x410.88332, glue set - 1.0, direction TLT
 .\glue(\leftskip) 44.91425
@@ -685,6 +631,18 @@ Overfull \hbox (6.34442pt too wide) in paragraph at lines 1350--1351
 .\hbox(0.0+0.0)x-44.91425, direction TLT
 .<20: libertinusserif-regular @ 12.84pt> H
 .<20: libertinusserif-regular @ 12.84pt> 󰁇
+.etc.
+
+
+Overfull \hbox (3.56815pt too wide) in paragraph at lines 1374--1376
+ <18: libertinusserif-italic @ 12.84pt> with Swift. <5: libertinusserif-regular @ 12.84pt> 2022b [cit. 2023-01-28]. Do-stupné na:  h t t p s : / / w w w . h a c k i n g w i t h 
+
+\hbox(9.03418+3.05417)x410.88332, glue set - 1.0, direction TLT
+.\glue(\leftskip) 44.91425
+.\kern-0.43631 (left margin)
+.<18: libertinusserif-italic @ 12.84pt> w
+.<18: libertinusserif-italic @ 12.84pt> i
+.<18: libertinusserif-italic @ 12.84pt> t
 .etc.
 
 pages           > flushing realpage 63, userpage 63, subpage 63
@@ -844,34 +802,34 @@ fonts           > stop missing characters
 
 mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable+writable: '/var/folders/2n/jy6t5__d7j38sn65frm74jlw0000gn/T/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9'
-mkiv lua stats  > resource resolver: loadtime 0.051 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 76 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 454 modules (0.126 sec), 96 tables (0.005 sec), 550 chunks (0.132 sec)
+mkiv lua stats  > resource resolver: loadtime 0.049 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 76 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 454 modules (0.128 sec), 96 tables (0.005 sec), 550 chunks (0.133 sec)
 mkiv lua stats  > traced context: maxstack: 1424, freed: 0, unreachable: 1424
 mkiv lua stats  > cleaned up reserved nodes: 82 nodes, 10 lists of 444
-mkiv lua stats  > node memory usage: 303 attribute, 55 attribute_list, 25 dir, 22 glue, 55 glue_spec, 3 kern, 3 penalty, 2 shape, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 61 instances (re)created, 11469 calls
-mkiv lua stats  > h-node processing time: 0.218 seconds including kernel
-mkiv lua stats  > inserted spaces in output: 7881
-mkiv lua stats  > synctex tracing: 25 referenced files, 17 files ignored, 4184 objects flushed, logfile: xjanovec.synctex
+mkiv lua stats  > node memory usage: 298 attribute, 54 attribute_list, 25 dir, 21 glue, 55 glue_spec, 3 kern, 3 penalty, 2 shape, 2 temp, 2 user_defined
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 61 instances (re)created, 11484 calls
+mkiv lua stats  > h-node processing time: 0.217 seconds including kernel
+mkiv lua stats  > inserted spaces in output: 7849
+mkiv lua stats  > synctex tracing: 25 referenced files, 17 files ignored, 4225 objects flushed, logfile: xjanovec.synctex
 mkiv lua stats  > attribute processing time: 0.027 seconds front- and backend
-mkiv lua stats  > driver time: 0.936 seconds 
+mkiv lua stats  > driver time: 0.948 seconds 
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.010 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: internal: 22077, file: 6981, direct: 249, late: 4252, function 10230, total: 43789 (644 per page)
+mkiv lua stats  > jobdata time: 0.005 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: internal: 22098, file: 6985, direct: 249, late: 4293, function 10245, total: 43870 (645 per page)
 mkiv lua stats  > randomizer: resumed with value 0.36685180664062
-mkiv lua stats  > v-node processing time: 0.014 seconds 
+mkiv lua stats  > v-node processing time: 0.013 seconds 
 mkiv lua stats  > loaded tex modules: 8 requested, all found (*-bib.sty-v2.77 *-ctx-thesis-v0.971 *-database *-filter *-module-catcodes *-syntax-groups *-syntax-highlight *-vim)
 mkiv lua stats  > result saved in file: xjanovec.pdf, compresslevel 3, objectcompresslevel 1
 mkiv lua stats  > loaded patterns: cs::16 en::1 en-gb:en:13 sk::17, load time: 0.000
 mkiv lua stats  > structure elements: 418 element chains identified
 mkiv lua stats  > interactive elements: 0 references, 27 destinations
 mkiv lua stats  > loaded fonts: 7 files: libertinusmath-regular.otf, libertinusmono-regular.otf, libertinusserif-bold.otf, libertinusserif-italic.otf, libertinusserif-regular.otf, latinmodern-math.otf, texgyrecursor-regular.otf
-mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 36 instances, 26 shared in backend, 5 common vectors, 21 common hashes, load time 0.172 seconds 
+mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 36 instances, 26 shared in backend, 5 common vectors, 21 common hashes, load time 0.181 seconds 
 mkiv lua stats  > body font sizes: defined: 10pt 11pt 12pt 14.4pt 17.3pt 18.19pt 20.7pt 4pt 5pt 6pt 7pt 8pt 9pt, undefined: 10.18pt 10.19pt 10.27pt 11.9dd 12.73pt 12.84pt 12dd 15.28pt 15.41pt 20.54pt 25.68pt 2cc 30.82pt
 mkiv lua stats  > graphics processing time: 0.013 seconds including tex, 19 processed images, 19 unique asked, 4 bad names
 mkiv lua stats  > used platform: osx-ppc, type: unix, binary subtree: bin
 mkiv lua stats  > used engine: luatex version: 1.15, functionality level: 7509, banner: this is luatex, version 1.15.0 (tex live 2022)
 mkiv lua stats  > used hash slots: 53852 of 65536 + 200000
-mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 168 MB, ctx: 167 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 2.677 seconds, 68 processed pages, 68 shipped pages, 25.402 pages/second
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 214 MB, ctx: 215 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 2.707 seconds, 68 processed pages, 68 shipped pages, 25.120 pages/second
 
