@@ -1,0 +1,6 @@
+\SYNBOL{}\SYN[Define]{func} \SYN[Function]{testFilteringByTags}\SYN[swiftParenthesisRegion]{()} \{\SYNEOL{}
+\SYNBOL{}        app.buttons[\SYN[String]{"#Job"}].firstMatch.tap\SYN[swiftParenthesisRegion]{()}\SYNEOL{}
+\SYNBOL{}        XCTAssert\SYN[swiftParenthesisRegion]{(}\SYN[Function]{!}\SYN[swiftParenthesisRegion]{app.staticTexts[}\SYNEOL{}
+\SYNBOL{}\SYN[swiftParenthesisRegion]{            }\SYN[String]{"Postponement of Compulsory School Attendance"}\SYNEOL{}
+\SYNBOL{}\SYN[swiftParenthesisRegion]{        ].firstMatch.exists)}\SYNEOL{}
+\SYNBOL{}    \}\SYNEOL{}

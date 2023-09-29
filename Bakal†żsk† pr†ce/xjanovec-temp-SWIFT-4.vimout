@@ -1,0 +1,5 @@
+\SYNBOL{} \SYN[Type]{@AppStorage}\SYN[Delimiter]{(}\SYN[Type]{"firstRun"}\SYN[Delimiter]{)} \SYN[Operator]{private} \SYN[Define]{var} \SYN[Identifier]{firstRun} \SYN[Function]{=} \SYN[Boolean]{true}\SYNEOL{}
+\SYNBOL{} \SYNEOL{}
+\SYNBOL{}\SYN[Define]{func} \SYN[Function]{run}\SYN[swiftParenthesisRegion]{()} \{\SYNEOL{}
+\SYNBOL{}    firstRun \SYN[Function]{=} \SYN[Boolean]{false}\SYNEOL{}
+\SYNBOL{}\}\SYNEOL{}

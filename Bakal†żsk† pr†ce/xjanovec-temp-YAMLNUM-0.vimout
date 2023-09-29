@@ -1,0 +1,12 @@
+\SYNBOL{}\SYN[Identifier]{nlu}\SYN[Special]{:}\SYNEOL{}
+\SYNBOL{}\SYN[Label]{- }\SYN[Identifier]{intent}\SYN[Special]{:} \SYN[yamlPlainScalar]{greet}\SYNEOL{}
+\SYNBOL{}  \SYN[Identifier]{examples}\SYN[Special]{:} |\SYNEOL{}
+\SYNBOL{}    \SYN[Label]{- }\SYN[yamlPlainScalar]{hi}\SYNEOL{}
+\SYNBOL{}    \SYN[Label]{- }\SYN[yamlPlainScalar]{hello}\SYNEOL{}
+\SYNBOL{}\SYN[Label]{- }\SYN[Identifier]{intent}\SYN[Special]{:} \SYN[yamlPlainScalar]{supply_contact_info}\SYNEOL{}
+\SYNBOL{}  \SYN[Identifier]{examples}\SYN[Special]{:} |\SYNEOL{}
+\SYNBOL{}    \SYN[Label]{- }\SYN[yamlPlainScalar]{My} \SYN[yamlPlainScalar]{name} \SYN[yamlPlainScalar]{is} \SYN[Special]{[}\SYN[yamlPlainScalar]{John}\SYN[Special]{]}\SYN[yamlPlainScalar]{(name).} \SYN[yamlPlainScalar]{email's} \SYN[Special]{[}\SYN[yamlPlainScalar]{john@email.com}\SYN[Special]{]}\SYN[yamlPlainScalar]{(email)}\SYNEOL{}
+\SYNBOL{}    \SYN[Label]{- }\SYN[Identifier]{name}\SYN[Special]{:} \SYN[Special]{[}\SYN[yamlPlainScalar]{David}\SYN[Special]{]}\SYN[yamlPlainScalar]{(name)} \SYN[yamlPlainScalar]{email}: \SYN[Special]{[}\SYN[yamlPlainScalar]{david@email.com}\SYN[Special]{]}\SYN[yamlPlainScalar]{(email)}\SYNEOL{}
+\SYNBOL{}    \SYN[Label]{- }\SYN[yamlPlainScalar]{I'm} \SYN[Special]{[}\SYN[yamlPlainScalar]{Barbara}\SYN[Special]{]}\SYN[yamlPlainScalar]{(name).} \SYN[yamlPlainScalar]{My} \SYN[yamlPlainScalar]{email} \SYN[yamlPlainScalar]{is} \SYN[Special]{[}\SYN[yamlPlainScalar]{barbara@email.com}\SYN[Special]{]}\SYN[yamlPlainScalar]{(email)}\SYNEOL{}
+\SYNBOL{}    \SYN[Label]{- }\SYN[Special]{[}\SYN[yamlPlainScalar]{Susan}\SYN[Special]{]}\SYN[yamlPlainScalar]{(name),} \SYN[Special]{[}\SYN[yamlPlainScalar]{susan@email.com}\SYN[Special]{]}\SYN[yamlPlainScalar]{(email)}\SYNEOL{}
+\SYNBOL{}    \SYN[Label]{- }\SYN[yamlPlainScalar]{Sure.} \SYN[yamlPlainScalar]{It's} \SYN[Special]{[}\SYN[yamlPlainScalar]{Fred}\SYN[Special]{]}\SYN[yamlPlainScalar]{(name).} \SYN[yamlPlainScalar]{My} \SYN[yamlPlainScalar]{email} \SYN[yamlPlainScalar]{is} \SYN[Special]{[}\SYN[yamlPlainScalar]{fred@email.com}\SYN[Special]{]}\SYN[yamlPlainScalar]{(email).}\SYNEOL{}

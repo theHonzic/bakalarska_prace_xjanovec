@@ -1,0 +1,4 @@
+\SYNBOL{}\SYN[Comment]{// Standardní přístup}\SYNEOL{}
+\SYNBOL{}\SYN[Define]{let} \SYN[Identifier]{image} \SYN[Function]{=} Image\SYN[swiftParenthesisRegion]{(}\SYN[String]{"SMLogoTransparent"}\SYN[swiftParenthesisRegion]{)}\SYNEOL{}
+\SYNBOL{}\SYN[Comment]{// Přístup pomocí R.Swift}\SYNEOL{}
+\SYNBOL{}\SYN[Define]{let} \SYN[Identifier]{image} \SYN[Function]{=} R.image.SMLogoTransparent\SYN[swiftParenthesisRegion]{()}\SYNEOL{}
