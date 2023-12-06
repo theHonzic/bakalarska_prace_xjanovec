@@ -1,4 +1,0 @@
-\SYNBOL{}\SYN[String]{"add_time_and_date"} \SYN[Function]{=} \SYN[String]{"Add time and date"};\SYNEOL{}
-\SYNBOL{}\SYN[String]{"remove_time_and_date"} \SYN[Function]{=} \SYN[String]{"Remove time and date"};\SYNEOL{}
-\SYNBOL{}\SYN[Function]{...}\SYNEOL{}
-\SYNBOL{}Text\SYN[swiftParenthesisRegion]{(LocalizedStringKey(}\SYN[String]{"add_time_and_date"}\SYN[swiftParenthesisRegion]{))}\SYNEOL{}

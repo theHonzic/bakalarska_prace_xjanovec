@@ -1,4 +1,0 @@
-\SYNBOL{}Text\SYN[swiftParenthesisRegion]{(}\SYN[String]{"""}\SYNEOL{}
-\SYNBOL{}\SYN[String]{     **Bold text**}\SYNEOL{}
-\SYNBOL{}\SYN[String]{     [Google link](https://google.com)}\SYNEOL{}
-\SYNBOL{}\SYN[String]{     """}\SYN[swiftParenthesisRegion]{)}\SYNEOL{}
